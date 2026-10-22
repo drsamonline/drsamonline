@@ -66,8 +66,8 @@ Away from medicine and code: poet and social worker.
 <div align="center">
 
 <img src="https://img.shields.io/github/followers/drsamonline?style=flat-square&label=Followers" alt="GitHub followers" onerror="this.style.display='none'" />
-<img src="https://img.shields.io/badge/Public%20repos-42-blue?style=flat-square" alt="42 public repositories" onerror="this.style.display='none'" />
-<img src="https://img.shields.io/badge/Projects-40-blueviolet?style=flat-square" alt="40 projects" onerror="this.style.display='none'" />
+<img src="https://img.shields.io/badge/Public%20repos-43-blue?style=flat-square" alt="43 public repositories" onerror="this.style.display='none'" />
+<img src="https://img.shields.io/badge/Projects-41-blueviolet?style=flat-square" alt="41 projects" onerror="this.style.display='none'" />
 
 </div>
 
@@ -142,6 +142,9 @@ Away from medicine and code: poet and social worker.
 ### Meta & Infrastructure
 - [app-builder](https://drsamonline.github.io/app-builder/) — A shared build kit that compiles a static web app into a single-file portable Windows EXE and an Android WebView APK.
 - [skills](https://drsamonline.github.io/skills/) — Reusable, machine-consumable skills extracted from every drsamonline project — a categorised, self-updating catalogue.
+
+### Other / New
+- [profile-kit](https://drsamonline.github.io/profile-kit/) — A small, reusable kit for a theme-aware, self-updating GitHub profile — hero banner, metrics card and README generator.
 
 <!-- PROJECTS:END -->
 
