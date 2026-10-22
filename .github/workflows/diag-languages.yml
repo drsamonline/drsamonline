@@ -1,0 +1,19 @@
+name: diag-languages
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  diag:
+    runs-on: ubuntu-latest
+    steps:
+      - name: GraphQL + REST languages probe
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          echo "=== viewer ==="
+          gh api graphql -f query='{ viewer { login } }' || echo "viewer FAILED"
+          echo "=== user repositories + languages ==="
+          gh api graphql -f query='{ user(login:"drsamonline"){ repositories(first:6, isFork:false, orderBy:{field:UPDATED_AT,direction:DESC}){ nodes { name languages(first:8){ edges { size node { name } } } } } } }' || echo "user-repos FAILED"
+          echo "=== REST languages (neon-runner) ==="
+          gh api /repos/drsamonline/neon-runner/languages || echo "rest FAILED"
