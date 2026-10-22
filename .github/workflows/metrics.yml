@@ -1,14 +1,24 @@
 name: Metrics
 
 # Renders the two SVG metric cards embedded in README.md and commits them to
-# assets/.  Deliberately decluttered: base content + exactly two plugins
-# (a languages breakdown and a half-year isometric commit calendar).
+# assets/.
+#
+# The card is deliberately minimal. It carries only the sections that render
+# real, non-zero data for this account:
+#   * base.header    -> name, "Joined GitHub", followers, repositories
+#   * base.activity  -> commits, PRs reviewed/opened, issues
+# plus ONE strong visual: a full-year contribution calendar (plugin_calendar).
+#
+# Zero-only sections are intentionally omitted. base.community is dropped
+# because it prints "Member of 0 organizations", "Watching 0 repositories" and
+# "Sponsoring 0 repositories". The languages breakdown is disabled for the
+# reason documented at the foot of this file.
 #
 # Two variants are produced so the README can serve the right card per GitHub
-# theme via <picture> + media="(prefers-color-scheme: dark)".  Metrics has no
-# built-in light/dark switch (there is no config_theme option), so each variant
-# pins its own palette through extras_css, which is injected into the SVG
-# <style> block.
+# theme via <picture> + media="(prefers-color-scheme: dark)". Metrics has no
+# built-in light/dark switch -- config_theme is NOT a real option and does
+# nothing -- so each variant pins its own palette through extras_css, which is
+# injected into the SVG <style> block.
 
 on:
   schedule:
@@ -36,19 +46,25 @@ jobs:
           user: drsamonline
           filename: assets/metrics-light.svg
           template: classic
-          base: header, activity, community
+          base: header, activity
           config_timezone: Asia/Kolkata
           config_display: regular
           config_animations: no
-          config_order: base.header, base.activity+community, languages, isocalendar
-          plugin_languages: yes
-          plugin_languages_limit: 6
-          plugin_languages_sections: most-used
-          plugin_languages_details: percentage
-          plugin_languages_other: yes
-          plugin_languages_colors: "0:#3E6C9E, 1:#5B84AE, 2:#7E9CBE, 3:#9FB3C8, 4:#7E93A6, 5:#B3C0CB"
-          plugin_isocalendar: yes
-          plugin_isocalendar_duration: half-year
+          config_order: base.header, base.activity, calendar
+          plugin_calendar: yes
+          plugin_calendar_limit: 1
+          # ------------------------------------------------------------------
+          # Languages breakdown is DISABLED under GITHUB_TOKEN -- see the note
+          # at the foot of this file. To re-enable it, switch the token to a
+          # classic PAT (secret METRICS_TOKEN), then uncomment this block and
+          # add "languages" back to config_order above.
+          # ------------------------------------------------------------------
+          # plugin_languages: yes
+          # plugin_languages_limit: 6
+          # plugin_languages_sections: most-used
+          # plugin_languages_details: percentage
+          # plugin_languages_other: yes
+          # plugin_languages_colors: "0:#3E6C9E, 1:#5B84AE, 2:#7E9CBE, 3:#9FB3C8, 4:#7E93A6, 5:#B3C0CB"
           extras_css: |
             svg { color: #4A5262; }
             h1, h2 { color: #171A21; }
@@ -64,19 +80,25 @@ jobs:
           user: drsamonline
           filename: assets/metrics-dark.svg
           template: classic
-          base: header, activity, community
+          base: header, activity
           config_timezone: Asia/Kolkata
           config_display: regular
           config_animations: no
-          config_order: base.header, base.activity+community, languages, isocalendar
-          plugin_languages: yes
-          plugin_languages_limit: 6
-          plugin_languages_sections: most-used
-          plugin_languages_details: percentage
-          plugin_languages_other: yes
-          plugin_languages_colors: "0:#86A9D6, 1:#6E93C4, 2:#5C7FB0, 3:#4E6E9B, 4:#7F8FA6, 5:#9AA6B6"
-          plugin_isocalendar: yes
-          plugin_isocalendar_duration: half-year
+          config_order: base.header, base.activity, calendar
+          plugin_calendar: yes
+          plugin_calendar_limit: 1
+          # ------------------------------------------------------------------
+          # Languages breakdown is DISABLED under GITHUB_TOKEN -- see the note
+          # at the foot of this file. To re-enable it, switch the token to a
+          # classic PAT (secret METRICS_TOKEN), then uncomment this block and
+          # add "languages" back to config_order above.
+          # ------------------------------------------------------------------
+          # plugin_languages: yes
+          # plugin_languages_limit: 6
+          # plugin_languages_sections: most-used
+          # plugin_languages_details: percentage
+          # plugin_languages_other: yes
+          # plugin_languages_colors: "0:#86A9D6, 1:#6E93C4, 2:#5C7FB0, 3:#4E6E9B, 4:#7F8FA6, 5:#9AA6B6"
           extras_css: |
             svg { color: #AEB6C2; }
             h1, h2 { color: #E9ECF2; }
@@ -86,22 +108,31 @@ jobs:
           committer_message: "chore(metrics): refresh dark card"
 
 # ---------------------------------------------------------------------------
-# Token note
+# Why the languages breakdown is disabled, and how to turn it back on
 # ---------------------------------------------------------------------------
-# The two steps above read the account's public data. If a run fails with
-# authentication or plugin errors under the repository-scoped GITHUB_TOKEN,
-# switch the `token:` input in BOTH steps to a Personal Access Token:
+# lowlighter/metrics' base repositories query requests `stargazers { totalCount }`.
+# The repository-scoped `${{ secrets.GITHUB_TOKEN }}` is NOT permitted to read
+# that field -- the GraphQL call comes back:
 #
-#   token: ${{ secrets.METRICS_TOKEN }}
+#     FORBIDDEN: Resource not accessible by integration
 #
-# The repo owner then has to do exactly three things, once:
-#   1. github.com -> Settings -> Developer settings -> Personal access tokens
-#      -> Tokens (classic) -> Generate new token (classic). Give it NO scopes
-#      (a scopeless classic token is enough) and any expiry you like.
-#   2. In the drsamonline/drsamonline repo: Settings -> Secrets and variables
-#      -> Actions -> New repository secret. Name it exactly METRICS_TOKEN and
+# That leaves the repositories data unusable, so the languages plugin renders
+# "0 Languages" with a bare, unstyled "Most used languages" link and no chart.
+# plugin_languages is therefore switched off above and the card ships without
+# it -- correct and complete, if smaller -- rather than shipping broken.
+#
+# A classic personal access token IS allowed to read `stargazers`, so to restore
+# the languages breakdown, do exactly this:
+#   1. Create a classic PAT: github.com -> Settings -> Developer settings ->
+#      Personal access tokens -> Tokens (classic) -> Generate new token
+#      (classic). NO scopes are required (a scopeless classic token is enough
+#      for public data); pick any expiry you like.
+#   2. In the drsamonline/drsamonline repo: Settings -> Secrets and variables ->
+#      Actions -> New repository secret. Name it exactly METRICS_TOKEN and
 #      paste the token.
-#   3. Actions -> "Metrics" -> Run workflow (re-run the job).
-#
-# Until then the committed placeholder panels at assets/metrics-light.svg and
-# assets/metrics-dark.svg keep both README slots rendering.
+#   3. Switch the `token:` input in BOTH steps above to:
+#         token: ${{ secrets.METRICS_TOKEN }}
+#   4. Uncomment the `plugin_languages*` lines in BOTH steps and add `languages`
+#      back to `config_order` (i.e. "base.header, base.activity, languages,
+#      calendar").
+#   5. Actions -> "Metrics" -> Run workflow (or wait for the daily schedule).
