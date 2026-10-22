@@ -7,13 +7,32 @@ jobs:
   diag:
     runs-on: ubuntu-latest
     steps:
-      - name: GraphQL + REST languages probe
+      - name: metrics repositories query probe
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          echo "=== viewer ==="
-          gh api graphql -f query='{ viewer { login } }' || echo "viewer FAILED"
-          echo "=== user repositories + languages ==="
-          gh api graphql -f query='{ user(login:"drsamonline"){ repositories(first:6, isFork:false, orderBy:{field:UPDATED_AT,direction:DESC}){ nodes { name languages(first:8){ edges { size node { name } } } } } } }' || echo "user-repos FAILED"
-          echo "=== REST languages (neon-runner) ==="
-          gh api /repos/drsamonline/neon-runner/languages || echo "rest FAILED"
+          cat > q.graphql <<'GQL'
+          query {
+            user(login:"drsamonline") {
+              repositories(first: 100, isFork: false, orderBy: {field: UPDATED_AT, direction: DESC}) {
+                edges { cursor }
+                nodes {
+                  updatedAt name owner { login } isFork forkCount watchers { totalCount } stargazers { totalCount } releases { totalCount } deployments { totalCount } environments { totalCount }
+                  languages(first: 8) { edges { size node { color name } } }
+                  licenseInfo { name spdxId }
+                  issues_open: issues(states: OPEN) { totalCount }
+                  issues_closed: issues(states: CLOSED) { totalCount }
+                  pr_open: pullRequests(states: OPEN) { totalCount }
+                  pr_closed: pullRequests(states: CLOSED) { totalCount }
+                  pr_merged: pullRequests(states: MERGED) { totalCount }
+                }
+              }
+            }
+          }
+          GQL
+          echo "=== running ==="
+          gh api graphql -F query=@q.graphql > out.json 2>err.txt; echo "exit=$?"
+          echo "--- errors ---"; python3 -c "import json;d=json.load(open('out.json'));print('ERRORS:',json.dumps(d.get('errors')))" 2>/dev/null || head -c 800 out.json
+          echo "--- nodes ---"
+          python3 -c "import json;d=json.load(open('out.json'));ns=d['data']['user']['repositories']['nodes'];print('nodes:',len(ns));[print(n['name'],[(e['node']['name'],e['size']) for e in n['languages']['edges']]) for n in ns[:8]];print('nonzero-lang repos:',sum(1 for n in ns if n['languages']['edges']))" 2>&1 | head -30
+          echo "--- raw err ---"; head -c 500 err.txt
