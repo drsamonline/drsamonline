@@ -104,6 +104,13 @@ jobs:
             h1, h2 { color: #E9ECF2; }
             footer { color: #8A93A1; }
             .field svg { fill: #8A93A1; }
+            /* Empty contribution-calendar cells. metrics hard-codes the light
+               GitHub default (#ebedf0) as an inline presentation attribute on
+               <rect class="day">, which leaves a bright block on the dark card.
+               A CSS rule outranks a presentation attribute, so this repaints
+               only the empty cells; the filled cells (greens) are untouched and
+               stay clearly brighter. */
+            .calendar .day[fill="#ebedf0"] { fill: #21262d; }
           output_action: commit
           committer_message: "chore(metrics): refresh dark card"
 
