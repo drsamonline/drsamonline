@@ -11,6 +11,7 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
+          set +e
           cat > q.graphql <<'GQL'
           query {
             user(login:"drsamonline") {
@@ -30,9 +31,10 @@ jobs:
             }
           }
           GQL
-          echo "=== running ==="
-          gh api graphql -F query=@q.graphql > out.json 2>err.txt; echo "exit=$?"
-          echo "--- errors ---"; python3 -c "import json;d=json.load(open('out.json'));print('ERRORS:',json.dumps(d.get('errors')))" 2>/dev/null || head -c 800 out.json
-          echo "--- nodes ---"
-          python3 -c "import json;d=json.load(open('out.json'));ns=d['data']['user']['repositories']['nodes'];print('nodes:',len(ns));[print(n['name'],[(e['node']['name'],e['size']) for e in n['languages']['edges']]) for n in ns[:8]];print('nonzero-lang repos:',sum(1 for n in ns if n['languages']['edges']))" 2>&1 | head -30
-          echo "--- raw err ---"; head -c 500 err.txt
+          gh api graphql -F query=@q.graphql > out.json 2>err.txt
+          echo "exit=$?"
+          echo "=== err.txt ==="; head -c 1500 err.txt
+          echo "=== out.json ==="; head -c 2500 out.json
+          echo
+          echo "=== parse ==="
+          python3 -c "import json;d=json.load(open('out.json'));print('ERRORS:',json.dumps(d.get('errors'))[:1500]);ns=d.get('data',{}).get('user',{}).get('repositories',{}).get('nodes',[]);print('nodes:',len(ns));[print(n['name'],[(e['node']['name'],e['size']) for e in n['languages']['edges']]) for n in ns[:8]];print('nonzero-lang repos:',sum(1 for n in ns if n['languages']['edges']))" 2>&1 | head -40
