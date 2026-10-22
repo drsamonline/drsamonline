@@ -34,7 +34,7 @@ Away from medicine and code: poet and social worker.
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/metrics-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="assets/metrics-light.svg">
-  <img src="assets/metrics-light.svg" alt="GitHub metrics for drsamonline — languages, commit calendar and activity" width="480">
+  <img src="assets/metrics-light.svg" alt="GitHub metrics for drsamonline — recent activity and contribution calendar" width="480">
 </picture>
 
 </div>
