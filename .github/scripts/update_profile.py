@@ -138,7 +138,7 @@ def replace_region(text, start, end, content):
     pattern = re.compile(re.escape(start) + r".*?" + re.escape(end), re.S)
     if not pattern.search(text):
         sys.exit("ERROR: markers %s / %s not found in README.md" % (start, end))
-    return pattern.sub(lambda _m: start + "\n" + content.rstrip() + "\n" + end, text, count=1)
+    return pattern.sub(lambda _m: start + "\n\n" + content.strip() + "\n\n" + end, text, count=1)
 
 
 def main():

@@ -9,6 +9,7 @@ I'm a practising homeopathic physician who also ships software. I build offline-
 </div>
 
 <!-- BADGES:START -->
+
 <div align="center">
 
 <img src="https://img.shields.io/github/followers/drsamonline?style=flat-square&label=Followers" alt="GitHub followers" onerror="this.style.display='none'" />
@@ -16,11 +17,13 @@ I'm a practising homeopathic physician who also ships software. I build offline-
 <img src="https://img.shields.io/badge/Projects-40-blueviolet?style=flat-square" alt="40 projects" onerror="this.style.display='none'" />
 
 </div>
+
 <!-- BADGES:END -->
 
 ---
 
 <!-- PROJECTS:START -->
+
 ## Featured
 
 - **[All4ONE](https://drsamonline.github.io/All4ONE/)** — 551 portable Windows tools in one free .exe — file operations, hashing, PDF and Office batch jobs, media conversion, network diagnostics, registry helpers, disk cleaning and security audits. Zero installs, zero telemetry. &nbsp;·&nbsp; [source](https://github.com/drsamonline/All4ONE)
@@ -86,6 +89,7 @@ I'm a practising homeopathic physician who also ships software. I build offline-
 ### Meta & Infrastructure
 - [app-builder](https://drsamonline.github.io/app-builder/) — A shared build kit that compiles a static web app into a single-file portable Windows EXE and an Android WebView APK.
 - [skills](https://drsamonline.github.io/skills/) — Reusable, machine-consumable skills extracted from every drsamonline project — a categorised, self-updating catalogue.
+
 <!-- PROJECTS:END -->
 
 ---
