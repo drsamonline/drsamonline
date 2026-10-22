@@ -13,7 +13,7 @@ I'm a practising homeopathic physician who also ships software. I build offline-
 <img src="https://img.shields.io/github/followers/drsamonline" alt="GitHub followers" onerror="this.style.display='none'" />
 <img src="https://img.shields.io/badge/Total%20Stars-18-yellow" alt="Total stars" onerror="this.style.display='none'" />
 <img src="https://img.shields.io/badge/dynamic/json" alt="Public repos" onerror="this.style.display='none'" />
-<img src="https://img.shields.io/badge/Projects-37-blueviolet" alt="37 projects" onerror="this.style.display='none'" />
+<img src="https://img.shields.io/badge/Projects-39-blueviolet" alt="39 projects" onerror="this.style.display='none'" />
 
 </div>
 
@@ -24,6 +24,7 @@ I'm a practising homeopathic physician who also ships software. I build offline-
 - **[All4ONE](https://drsamonline.github.io/All4ONE/)** — 551 portable Windows tools bundled into one .exe &nbsp;·&nbsp; [source](https://github.com/drsamonline/All4ONE)
 - **[ULTIMATE-WINDOWS-OPTIMIZER](https://drsamonline.github.io/ULTIMATE-WINDOWS-OPTIMIZER/)** — one-click Windows tune-up and cleanup suite &nbsp;·&nbsp; [source](https://github.com/drsamonline/ULTIMATE-WINDOWS-OPTIMIZER)
 - **[open-materia-medica](https://drsamonline.github.io/open-materia-medica/)** — open-source materia medica reader for clinicians &nbsp;·&nbsp; [source](https://github.com/drsamonline/open-materia-medica)
+- **[remedy-relationship-explorer](https://drsamonline.github.io/remedy-relationship-explorer/)** — offline explorer of homeopathic remedy relationships &nbsp;·&nbsp; [source](https://github.com/drsamonline/remedy-relationship-explorer)
 - **[neon-runner](https://drsamonline.github.io/neon-runner/)** — neon-soaked endless-runner browser game &nbsp;·&nbsp; [source](https://github.com/drsamonline/neon-runner)
 - **[smartbill-app](https://drsamonline.github.io/smartbill-app/)** — offline billing and invoicing for small practices &nbsp;·&nbsp; [source](https://github.com/drsamonline/smartbill-app)
 - **[boericke-repertory](https://drsamonline.github.io/boericke-repertory/)** — Boericke's repertory, searchable offline &nbsp;·&nbsp; [source](https://github.com/drsamonline/boericke-repertory)
@@ -43,6 +44,7 @@ I'm a practising homeopathic physician who also ships software. I build offline-
 - [blinkcode-ai](https://drsamonline.github.io/blinkcode-ai/) — offline AI coding helper
 - [The_Browser](https://drsamonline.github.io/The_Browser/) — lightweight private web browser
 - [NEO](https://drsamonline.github.io/NEO/) — minimalist desktop operating layer
+- [app-builder](https://drsamonline.github.io/app-builder/) — shared build kit for portable EXE and Android APK releases
 
 ### 🎮 Games & Engines
 - [neon-runner](https://drsamonline.github.io/neon-runner/) — neon endless-runner browser game
@@ -56,6 +58,7 @@ I'm a practising homeopathic physician who also ships software. I build offline-
 - [Aethelgard-Engine](https://drsamonline.github.io/Aethelgard-Engine/) — fantasy game engine
 
 ### 🩺 Health & Medicine
+- [remedy-relationship-explorer](https://drsamonline.github.io/remedy-relationship-explorer/) — offline explorer of homeopathic remedy relationships
 - [open-materia-medica](https://drsamonline.github.io/open-materia-medica/) — open materia medica reader
 - [boericke-repertory](https://drsamonline.github.io/boericke-repertory/) — searchable Boericke repertory
 - [MATERIA-MEDICA-BUILDER](https://drsamonline.github.io/MATERIA-MEDICA-BUILDER/) — build your own materia medica
