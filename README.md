@@ -73,6 +73,18 @@ Away from medicine and code: poet and social worker.
 
 <!-- BADGES:END -->
 
+<div align="center">
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-drsamz-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/drsamz)
+[![Reddit](https://img.shields.io/badge/Reddit-drsambaroda-FF4500?style=flat-square&logo=reddit&logoColor=white)](https://www.reddit.com/user/drsambaroda)
+[![Facebook](https://img.shields.io/badge/Facebook-msohil-1877F2?style=flat-square&logo=facebook&logoColor=white)](https://www.facebook.com/msohil)
+[![about.me](https://img.shields.io/badge/about.me-drsohil-000000?style=flat-square&logo=aboutdotme&logoColor=white)](https://about.me/drsohil)
+[![Email](https://img.shields.io/badge/email-sohilmomin2000%40gmail.com-586069?style=flat-square&logo=gmail&logoColor=white)](mailto:sohilmomin2000@gmail.com)
+[![Homeopathic physician (BHMS)](https://img.shields.io/badge/homeopathic%20physician-BHMS-2E7D32?style=flat-square)](https://drsamonline.github.io/)
+[![Offline-first, no telemetry](https://img.shields.io/badge/offline--first-no%20telemetry-2E7D32?style=flat-square)](https://drsamonline.github.io/)
+
+</div>
+
 ---
 
 <!-- PROJECTS:START -->
