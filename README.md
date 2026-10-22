@@ -1,12 +1,23 @@
 <div align="center">
 
-# Hi, I'm Dr. Sohil Momin 👋
+# Dr. Sohil Momin
 
-**Homeopathic physician (BHMS) building offline-first, open-source software for medicine, learning and play**
+**Homeopathic physician (BHMS) · building offline-first, open-source software for medicine, learning and play**
 
-I'm a practising homeopathic physician who also ships software. I build offline-first, privacy-friendly tools that keep working without an internet connection — from a 551-tool Windows utility suite to open materia medica and repertory apps for clinicians. Everything here is open source, and much of it runs right in your browser.
+I'm a practising homeopathic physician who builds software. One rule shapes all of it: it has to keep working when the connection drops. Everything here is offline-first and privacy-respecting — no accounts, no telemetry, no subscriptions — from a 551-tool Windows utility suite to open materia medica and repertory tools for clinicians, alongside browser games and engines built for the pleasure of it.
+
+Away from medicine and code: poet and social worker.
 
 </div>
+
+<p align="center">
+  <a href="https://github.com/drsamonline">GitHub</a> &nbsp;·&nbsp;
+  <a href="https://www.linkedin.com/in/drsamz">LinkedIn</a> &nbsp;·&nbsp;
+  <a href="https://www.reddit.com/user/drsambaroda">Reddit</a> &nbsp;·&nbsp;
+  <a href="https://about.me/drsohil">about.me</a> &nbsp;·&nbsp;
+  <a href="mailto:sohilmomin2000@gmail.com">Email</a>
+</p>
+
 
 <!-- BADGES:START -->
 
