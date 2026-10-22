@@ -14,6 +14,7 @@ Away from medicine and code: poet and social worker.
   <a href="https://github.com/drsamonline">GitHub</a> &nbsp;·&nbsp;
   <a href="https://www.linkedin.com/in/drsamz">LinkedIn</a> &nbsp;·&nbsp;
   <a href="https://www.reddit.com/user/drsambaroda">Reddit</a> &nbsp;·&nbsp;
+  <a href="https://www.facebook.com/msohil">Facebook</a> &nbsp;·&nbsp;
   <a href="https://about.me/drsohil">about.me</a> &nbsp;·&nbsp;
   <a href="mailto:sohilmomin2000@gmail.com">Email</a>
 </p>
