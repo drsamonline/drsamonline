@@ -82,6 +82,7 @@ Away from medicine and code: poet and social worker.
 [![Email](https://img.shields.io/badge/email-sohilmomin2000%40gmail.com-586069?style=flat-square&logo=gmail&logoColor=white)](mailto:sohilmomin2000@gmail.com)
 [![Homeopathic physician (BHMS)](https://img.shields.io/badge/homeopathic%20physician-BHMS-2E7D32?style=flat-square)](https://drsamonline.github.io/)
 [![Offline-first, no telemetry](https://img.shields.io/badge/offline--first-no%20telemetry-2E7D32?style=flat-square)](https://drsamonline.github.io/)
+[![License: MIT](https://img.shields.io/badge/license-MIT-2e7d32?style=flat-square)](LICENSE)
 
 </div>
 
