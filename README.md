@@ -1,5 +1,15 @@
 <div align="center">
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/hero-light.svg">
+  <img src="assets/hero-light.svg" alt="Dr. Sohil Momin — homeopathic physician building offline-first, open-source software for medicine, learning and play" width="100%">
+</picture>
+
+</div>
+
+<div align="center">
+
 # Dr. Sohil Momin
 
 **Homeopathic physician (BHMS) · building offline-first, open-source software for medicine, learning and play**
@@ -19,6 +29,37 @@ Away from medicine and code: poet and social worker.
   <a href="mailto:sohilmomin2000@gmail.com">Email</a>
 </p>
 
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/metrics-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/metrics-light.svg">
+  <img src="assets/metrics-light.svg" alt="GitHub metrics for drsamonline — languages, commit calendar and activity" width="480">
+</picture>
+
+</div>
+
+<!--
+  Optional widget: language trends (githubtrends.io)
+  Deliberately left OFF. githubtrends.io is a hosted service that needs a free
+  account before its image URLs resolve, so embedding it now would show a broken
+  image. To enable it: sign up at https://www.githubtrends.io with GitHub, then
+  delete this comment wrapper (the opening and closing comment markers only) so
+  the markup below becomes active.
+
+  <p align="center">
+    <img width="480" alt="Language trends for drsamonline over the last year"
+         src="https://api.githubtrends.io/user/svg/drsamonline/langs?time_range=one_year&loc_metric=changed">
+  </p>
+
+  Optional alternative: the zero-setup shared metrics instance. Also external, so
+  also off by default. To use it instead of the committed cards, uncomment:
+
+  <p align="center">
+    <img width="480" alt="GitHub metrics for drsamonline"
+         src="https://metrics.lecoq.io/drsamonline">
+  </p>
+-->
 
 <!-- BADGES:START -->
 
@@ -108,6 +149,10 @@ Away from medicine and code: poet and social worker.
 
 <div align="center">
 
-**🌐 Explore everything → https://drsamonline.github.io/**
+<sub>Explore everything &rarr; <a href="https://drsamonline.github.io/">drsamonline.github.io</a></sub>
+
+<sub>Metrics rendered with <a href="https://github.com/lowlighter/metrics">lowlighter/metrics</a> &middot; hero and panel artwork is hand-drawn SVG &middot; badge counts and project lists regenerate daily from the GitHub API</sub>
+
+<sub>Layout ideas drawn from <a href="https://github.com/rzashakeri/beautify-github-profile">rzashakeri/beautify-github-profile</a></sub>
 
 </div>

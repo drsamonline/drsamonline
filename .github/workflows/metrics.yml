@@ -1,0 +1,107 @@
+name: Metrics
+
+# Renders the two SVG metric cards embedded in README.md and commits them to
+# assets/.  Deliberately decluttered: base content + exactly two plugins
+# (a languages breakdown and a half-year isometric commit calendar).
+#
+# Two variants are produced so the README can serve the right card per GitHub
+# theme via <picture> + media="(prefers-color-scheme: dark)".  Metrics has no
+# built-in light/dark switch (there is no config_theme option), so each variant
+# pins its own palette through extras_css, which is injected into the SVG
+# <style> block.
+
+on:
+  schedule:
+    # Daily, 04:00 UTC. Offset from update-profile.yml (03:17 UTC) so the two
+    # committers do not race each other on main.
+    - cron: "0 4 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: metrics
+  cancel-in-progress: true
+
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Light card -> assets/metrics-light.svg
+        uses: lowlighter/metrics@latest
+        with:
+          # Token used to read GitHub data. See the note at the foot of this file.
+          token: ${{ secrets.GITHUB_TOKEN }}
+          user: drsamonline
+          filename: assets/metrics-light.svg
+          template: classic
+          base: header, activity, community
+          config_timezone: Asia/Kolkata
+          config_display: regular
+          config_animations: no
+          config_order: base.header, base.activity+community, languages, isocalendar
+          plugin_languages: yes
+          plugin_languages_limit: 6
+          plugin_languages_sections: most-used
+          plugin_languages_details: percentage
+          plugin_languages_other: yes
+          plugin_languages_colors: "0:#3E6C9E, 1:#5B84AE, 2:#7E9CBE, 3:#9FB3C8, 4:#7E93A6, 5:#B3C0CB"
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: half-year
+          extras_css: |
+            svg { color: #4A5262; }
+            h1, h2 { color: #171A21; }
+            footer { color: #6B7480; }
+            .field svg { fill: #7A8494; }
+          output_action: commit
+          committer_message: "chore(metrics): refresh light card"
+
+      - name: Dark card -> assets/metrics-dark.svg
+        uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          user: drsamonline
+          filename: assets/metrics-dark.svg
+          template: classic
+          base: header, activity, community
+          config_timezone: Asia/Kolkata
+          config_display: regular
+          config_animations: no
+          config_order: base.header, base.activity+community, languages, isocalendar
+          plugin_languages: yes
+          plugin_languages_limit: 6
+          plugin_languages_sections: most-used
+          plugin_languages_details: percentage
+          plugin_languages_other: yes
+          plugin_languages_colors: "0:#86A9D6, 1:#6E93C4, 2:#5C7FB0, 3:#4E6E9B, 4:#7F8FA6, 5:#9AA6B6"
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: half-year
+          extras_css: |
+            svg { color: #AEB6C2; }
+            h1, h2 { color: #E9ECF2; }
+            footer { color: #8A93A1; }
+            .field svg { fill: #8A93A1; }
+          output_action: commit
+          committer_message: "chore(metrics): refresh dark card"
+
+# ---------------------------------------------------------------------------
+# Token note
+# ---------------------------------------------------------------------------
+# The two steps above read the account's public data. If a run fails with
+# authentication or plugin errors under the repository-scoped GITHUB_TOKEN,
+# switch the `token:` input in BOTH steps to a Personal Access Token:
+#
+#   token: ${{ secrets.METRICS_TOKEN }}
+#
+# The repo owner then has to do exactly three things, once:
+#   1. github.com -> Settings -> Developer settings -> Personal access tokens
+#      -> Tokens (classic) -> Generate new token (classic). Give it NO scopes
+#      (a scopeless classic token is enough) and any expiry you like.
+#   2. In the drsamonline/drsamonline repo: Settings -> Secrets and variables
+#      -> Actions -> New repository secret. Name it exactly METRICS_TOKEN and
+#      paste the token.
+#   3. Actions -> "Metrics" -> Run workflow (re-run the job).
+#
+# Until then the committed placeholder panels at assets/metrics-light.svg and
+# assets/metrics-dark.svg keep both README slots rendering.
