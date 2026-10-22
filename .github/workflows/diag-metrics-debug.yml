@@ -6,6 +6,7 @@ permissions:
 jobs:
   d:
     runs-on: ubuntu-latest
+    timeout-minutes: 6
     steps:
       - uses: lowlighter/metrics@latest
         with:
@@ -20,4 +21,3 @@ jobs:
           plugin_languages_details: percentage
           plugin_languages_other: yes
           debug: yes
-          debug_print: yes
