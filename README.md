@@ -151,8 +151,12 @@ Away from medicine and code: poet and social worker.
 
 <sub>Explore everything &rarr; <a href="https://drsamonline.github.io/">drsamonline.github.io</a></sub>
 
-<sub>Metrics rendered with <a href="https://github.com/lowlighter/metrics">lowlighter/metrics</a> &middot; hero and panel artwork is hand-drawn SVG &middot; badge counts and project lists regenerate daily from the GitHub API</sub>
-
-<sub>Layout ideas drawn from <a href="https://github.com/rzashakeri/beautify-github-profile">rzashakeri/beautify-github-profile</a></sub>
-
 </div>
+
+## Built with
+
+This profile is assembled from other people's work, and it deserves the credit.
+
+- **[lowlighter/metrics](https://github.com/lowlighter/metrics)** — the rendering engine behind the stats card. It uses the `classic` template with the `base` (header, activity) and `calendar` plugins, and its `extras_css` option to produce a matched light and dark pair from one configuration. Worth knowing: `config_theme` is not a real option and silently does nothing, despite how often it is copied around — light/dark has to be done with `extras_css` and two renders.
+- **[avgupta456/github-trends](https://github.com/avgupta456/github-trends)** — the idea of tracking lines of code by language over time, and the pattern of embedding a hosted SVG instead of generating one in the repo. Its embed is parked here until an account is created on their service.
+- **[rzashakeri/beautify-github-profile](https://github.com/rzashakeri/beautify-github-profile)** — the catalogue this was worked from. The badge vocabulary comes from its Badges section (the shields.io family), and metrics was chosen from its Widgets list; the busier widgets it also lists (typing SVG, profile trophy, contribution snake) were deliberately left out to keep this page quiet.
