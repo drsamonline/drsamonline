@@ -45,6 +45,7 @@ I'm a practising homeopathic physician who also ships software. I build offline-
 - [The_Browser](https://drsamonline.github.io/The_Browser/) — lightweight private web browser
 - [NEO](https://drsamonline.github.io/NEO/) — minimalist desktop operating layer
 - [app-builder](https://drsamonline.github.io/app-builder/) — shared build kit for portable EXE and Android APK releases
+- [skills](https://drsamonline.github.io/skills/) — reusable knowledge base of every project's working method
 
 ### 🎮 Games & Engines
 - [neon-runner](https://drsamonline.github.io/neon-runner/) — neon endless-runner browser game
