@@ -66,8 +66,8 @@ Away from medicine and code: poet and social worker.
 <div align="center">
 
 <img src="https://img.shields.io/github/followers/drsamonline?style=flat-square&label=Followers" alt="GitHub followers" onerror="this.style.display='none'" />
-<img src="https://img.shields.io/badge/Public%20repos-43-blue?style=flat-square" alt="43 public repositories" onerror="this.style.display='none'" />
-<img src="https://img.shields.io/badge/Projects-41-blueviolet?style=flat-square" alt="41 projects" onerror="this.style.display='none'" />
+<img src="https://img.shields.io/badge/Public%20repos-67-blue?style=flat-square" alt="67 public repositories" onerror="this.style.display='none'" />
+<img src="https://img.shields.io/badge/Projects-65-blueviolet?style=flat-square" alt="65 projects" onerror="this.style.display='none'" />
 
 </div>
 
@@ -115,9 +115,7 @@ Away from medicine and code: poet and social worker.
 - [ULTIMATE-WINDOWS-OPTIMIZER](https://drsamonline.github.io/ULTIMATE-WINDOWS-OPTIMIZER/) — A PowerShell and batch toolkit for documented, reversible Windows 10/11 debloat and performance tweaks.
 
 ### Games & Engines
-- [Aethelgard-Engine](https://drsamonline.github.io/Aethelgard-Engine/) — The vanilla-JavaScript engine behind Aethelgard: Chronicles of Fate, a single-player browser RPG.
 - [aethelgard-games](https://drsamonline.github.io/aethelgard-games/) — Two free Aethelgard browser games — a visual novel (The Books) and a role-playing game (Chronicles of Fate).
-- [AethelgardVN](https://drsamonline.github.io/AethelgardVN/) — Saga — a small, dependency-free visual-novel engine for the browser, built to make Aethelgard — The Books.
 - [dance-fight](https://drsamonline.github.io/dance-fight/) — A single-file browser rhythm game where every fight move is a dance move, driven by the beat grid of your own track.
 - [idle-city-ages-of-growth](https://drsamonline.github.io/idle-city-ages-of-growth/) — A single-file idle city-builder that grows from a Stone Age village into a Fusion Age world-city.
 - [neon-engine](https://drsamonline.github.io/neon-engine/) — A code-only open-world game engine for the browser — no assets, no dependencies; every texture, mesh and sound is generated at runtime.
@@ -157,7 +155,33 @@ Away from medicine and code: poet and social worker.
 - [skills](https://drsamonline.github.io/skills/) — Reusable, machine-consumable skills extracted from every drsamonline project — a categorised, self-updating catalogue.
 
 ### Other / New
+- [aethelgard-rpg-engine](https://drsamonline.github.io/aethelgard-rpg-engine/) — A dependency-free, vanilla-JavaScript engine for deep, single-player browser RPGs. Engine only — ships a small generic sample world; the games it powers live in drsamonline/aethelgard-games.
+- [app-companion-forge](https://drsamonline.github.io/app-companion-forge/) — Forge tooling (not a product app): an offline pocket console for the Forge system.
+- [app-panchang](https://drsamonline.github.io/app-panchang/) — A daily Indian almanac — tithi, nakshatra, yoga, karana, rahu-kaal and muhurat, computed offline. Built with Forge.
+- [astro-kit](https://drsamonline.github.io/astro-kit/) — The shared astronomy core for drsamonline apps: sun and moon longitude (Meeus), ayanamsa, sunrise/sunset, and tithi/nakshatra/yoga/karana. Zero dependencies. MIT.
+- [book-kit](https://drsamonline.github.io/book-kit/) — The companion-app-from-a-book pattern: chapters, key points, practices, flashcards, search and reading progress. Zero dependencies, MIT.
+- [canteen-lan](https://drsamonline.github.io/canteen-lan/) — Order from your table over the room's own Wi-Fi - a LAN canteen board for Forge
+- [case-kit](https://drsamonline.github.io/case-kit/) — Clinical case tracking: sections, dated symptoms, follow-ups, a timeline and a summary. Zero dependencies, MIT.
+- [chalk-lan](https://drsamonline.github.io/chalk-lan/) — A shared whiteboard for the room: everyone on the same Wi-Fi draws on the same board, live. Offline, no accounts. Built with Forge on web-kit + lan-kit.
+- [compress-kit](https://drsamonline.github.io/compress-kit/) — The shared compression core for drsamonline apps: gzip, deflate and deflate-raw via the platform's Compression Streams. One file, no dependencies. MIT.
+- [crypto-kit](https://drsamonline.github.io/crypto-kit/) — The shared crypto core for drsamonline apps: AES-256-GCM, PBKDF2 passphrase keys, sealed envelopes, one-time view. One file, Web Crypto. MIT.
+- [dashboard](https://drsamonline.github.io/dashboard/) — Live status of the drsamonline system: the repo fleet, build health, downloads and the store. Public so it can use free GitHub Pages.
+- [export-kit](https://github.com/drsamonline/export-kit) — Save text, JSON, CSV and binary to the user's device, and bundle files into a store-only ZIP. One file, no dependencies. Built with Forge.
+- [frame-kit](https://drsamonline.github.io/frame-kit/) — The shared transfer-frame core for drsamonline apps: a self-describing frame, a rateless collector and byte/checksum utilities. One file, no dependencies. MIT.
+- [game-kit](https://drsamonline.github.io/game-kit/) — The shared game core for drsamonline apps: a fixed-timestep loop, input, scenes, save/load and maths. Zero dependencies. MIT.
+- [helioprism](https://drsamonline.github.io/helioprism/) — One app, two optical transports — send a file with light over QR or a colour matrix. Offline, no network.
+- [kent-repertory-explorer](https://drsamonline.github.io/kent-repertory-explorer/) — Offline, single-file explorer for Kent's Repertory (1897) — 74,667 rubrics, 735,500 graded remedy links, case builder and grade-weighted repertorisation. No server, no backend.
+- [lan-kit](https://drsamonline.github.io/lan-kit/) — The shared LAN core for drsamonline apps: a local room with a real-time channel over Server-Sent Events + POST. Zero dependencies. MIT.
+- [offline-pdf-toolkit](https://drsamonline.github.io/offline-pdf-toolkit/) — Merge, split, rotate, reorder, watermark, number and compress PDFs entirely in your browser. No upload, no account, no server — works offline. Single self-contained HTML file.
+- [optical-kit](https://drsamonline.github.io/optical-kit/) — The shared optical-transfer core: a systematic LT fountain code, self-describing frames, and a pluggable codec. One file, no dependencies. MIT.
 - [profile-kit](https://drsamonline.github.io/profile-kit/) — A small, reusable kit for a theme-aware, self-updating GitHub profile — hero banner, metrics card and README generator.
+- [repertory-kit](https://drsamonline.github.io/repertory-kit/) — The homeopathic repertorisation core: rubric grading and grade-weighted remedy scoring. Zero dependencies, MIT.
+- [saga-vn-engine](https://drsamonline.github.io/saga-vn-engine/) — Saga — a small, dependency-free visual-novel engine for the browser. Plain JavaScript, one stylesheet, no build step. Engine only; the games it powers live in drsamonline/aethelgard-games.
+- [seance](https://drsamonline.github.io/seance/) — Strongbox (master-list app) - sealed notes, opened once: seal a note with a passphrase, it opens once. Offline, no accounts. Built with crypto-kit + web-kit. (Fold-in of the working name 'seance'.)
+- [search-kit](https://drsamonline.github.io/search-kit/) — Ranked search over big corpora: an inverted index with prefix and fuzzy matching. Zero dependencies, MIT.
+- [srs-kit](https://drsamonline.github.io/srs-kit/) — Spaced repetition (SM-2) for flashcards: scheduling, lapses, due cards and stats. Zero dependencies, MIT.
+- [today-card](https://drsamonline.github.io/today-card/) — Today Card - one card for the day: your date, one intention, one task, and a streak. Offline, no accounts. Built with web-kit and Forge.
+- [web-kit](https://drsamonline.github.io/web-kit/) — The shared offline-first runtime for drsamonline apps: storage, i18n (EN/HI/GU), CSV, PWA, theme, SEO, a11y. One file, no build step. MIT.
 
 <!-- PROJECTS:END -->
 
