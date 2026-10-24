@@ -66,8 +66,8 @@ Away from medicine and code: poet and social worker.
 <div align="center">
 
 <img src="https://img.shields.io/github/followers/drsamonline?style=flat-square&label=Followers" alt="GitHub followers" onerror="this.style.display='none'" />
-<img src="https://img.shields.io/badge/Public%20repos-67-blue?style=flat-square" alt="67 public repositories" onerror="this.style.display='none'" />
-<img src="https://img.shields.io/badge/Projects-65-blueviolet?style=flat-square" alt="65 projects" onerror="this.style.display='none'" />
+<img src="https://img.shields.io/badge/Public%20repos-68-blue?style=flat-square" alt="68 public repositories" onerror="this.style.display='none'" />
+<img src="https://img.shields.io/badge/Projects-66-blueviolet?style=flat-square" alt="66 projects" onerror="this.style.display='none'" />
 
 </div>
 
@@ -172,6 +172,7 @@ Away from medicine and code: poet and social worker.
 - [helioprism](https://drsamonline.github.io/helioprism/) — One app, two optical transports — send a file with light over QR or a colour matrix. Offline, no network.
 - [kent-repertory-explorer](https://drsamonline.github.io/kent-repertory-explorer/) — Offline, single-file explorer for Kent's Repertory (1897) — 74,667 rubrics, 735,500 graded remedy links, case builder and grade-weighted repertorisation. No server, no backend.
 - [lan-kit](https://drsamonline.github.io/lan-kit/) — The shared LAN core for drsamonline apps: a local room with a real-time channel over Server-Sent Events + POST. Zero dependencies. MIT.
+- [ml-kit](https://github.com/drsamonline/ml-kit) — The classic algorithms, from scratch, for offline features: tf-idf + cosine, Naive Bayes, k-NN, k-means, PCA, ID3, linear regression, Markov chains and a grammar expander. Zero dependencies, single file, no model, no API key, no network. MIT.
 - [offline-pdf-toolkit](https://drsamonline.github.io/offline-pdf-toolkit/) — Merge, split, rotate, reorder, watermark, number and compress PDFs entirely in your browser. No upload, no account, no server — works offline. Single self-contained HTML file.
 - [optical-kit](https://drsamonline.github.io/optical-kit/) — The shared optical-transfer core: a systematic LT fountain code, self-describing frames, and a pluggable codec. One file, no dependencies. MIT.
 - [profile-kit](https://drsamonline.github.io/profile-kit/) — A small, reusable kit for a theme-aware, self-updating GitHub profile — hero banner, metrics card and README generator.
