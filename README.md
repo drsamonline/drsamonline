@@ -66,8 +66,8 @@ Away from medicine and code: poet and social worker.
 <div align="center">
 
 <img src="https://img.shields.io/github/followers/drsamonline?style=flat-square&label=Followers" alt="GitHub followers" onerror="this.style.display='none'" />
-<img src="https://img.shields.io/badge/Public%20repos-68-blue?style=flat-square" alt="68 public repositories" onerror="this.style.display='none'" />
-<img src="https://img.shields.io/badge/Projects-66-blueviolet?style=flat-square" alt="66 projects" onerror="this.style.display='none'" />
+<img src="https://img.shields.io/badge/Public%20repos-74-blue?style=flat-square" alt="74 public repositories" onerror="this.style.display='none'" />
+<img src="https://img.shields.io/badge/Projects-72-blueviolet?style=flat-square" alt="72 projects" onerror="this.style.display='none'" />
 
 </div>
 
@@ -157,13 +157,18 @@ Away from medicine and code: poet and social worker.
 ### Other / New
 - [aethelgard-rpg-engine](https://drsamonline.github.io/aethelgard-rpg-engine/) — A dependency-free, vanilla-JavaScript engine for deep, single-player browser RPGs. Engine only — ships a small generic sample world; the games it powers live in drsamonline/aethelgard-games.
 - [app-companion-forge](https://drsamonline.github.io/app-companion-forge/) — Forge tooling (not a product app): an offline pocket console for the Forge system.
+- [app-encrypted-case-log](https://drsamonline.github.io/app-encrypted-case-log/) — Per-patient clinical notes, encrypted on the device with AES-256-GCM. Offline, no account, no server. Built with Forge on crypto-kit, case-kit, search-kit, export-kit and web-kit. MIT.
 - [app-panchang](https://drsamonline.github.io/app-panchang/) — A daily Indian almanac — tithi, nakshatra, yoga, karana, rahu-kaal and muhurat, computed offline. Built with Forge.
+- [art-kit](https://github.com/drsamonline/art-kit) — The art primitives Forge was missing: an indexed palette, a pixel canvas with nearest-neighbour scaling, draw ops, a delta undo stack, dithering (Bayer + Floyd-Steinberg), median-cut quantisation, sprite sheets, the isometric mapping and a sketch loop. Zero dependencies, single file, no assets. MIT.
 - [astro-kit](https://drsamonline.github.io/astro-kit/) — The shared astronomy core for drsamonline apps: sun and moon longitude (Meeus), ayanamsa, sunrise/sunset, and tithi/nakshatra/yoga/karana. Zero dependencies. MIT.
+- [audio-kit](https://github.com/drsamonline/audio-kit) — Synthesis, theory, patterns and notation for offline apps: a pure ADSR envelope, oscillator voices, filters, noise and a mixer; notes, scales and chords; a pattern sequencer; a staff layout; byte sonification; and honest mastering helpers. Zero dependencies, single file, no audio assets — game music is patterns, not files. MIT.
+- [backup](https://github.com/drsamonline/backup) — Snapshot a repository BEFORE a merge replaces it: a reusable GitHub workflow + a zero-dependency script. Compressed, timestamped, rotated to keep the newest 100, and it rolls over to a new dumps repo when one fills up. MIT.
 - [book-kit](https://drsamonline.github.io/book-kit/) — The companion-app-from-a-book pattern: chapters, key points, practices, flashcards, search and reading progress. Zero dependencies, MIT.
 - [canteen-lan](https://drsamonline.github.io/canteen-lan/) — Order from your table over the room's own Wi-Fi - a LAN canteen board for Forge
 - [case-kit](https://drsamonline.github.io/case-kit/) — Clinical case tracking: sections, dated symptoms, follow-ups, a timeline and a summary. Zero dependencies, MIT.
 - [chalk-lan](https://drsamonline.github.io/chalk-lan/) — A shared whiteboard for the room: everyone on the same Wi-Fi draws on the same board, live. Offline, no accounts. Built with Forge on web-kit + lan-kit.
 - [compress-kit](https://drsamonline.github.io/compress-kit/) — The shared compression core for drsamonline apps: gzip, deflate and deflate-raw via the platform's Compression Streams. One file, no dependencies. MIT.
+- [control-panel](https://drsamonline.github.io/control-panel/) — Every workflow in every repo: what runs, when, what calls what, and what is connected to nothing. The four stages from scratch to repair, the routes that need one input, and a Run button for each workflow. MIT.
 - [crypto-kit](https://drsamonline.github.io/crypto-kit/) — The shared crypto core for drsamonline apps: AES-256-GCM, PBKDF2 passphrase keys, sealed envelopes, one-time view. One file, Web Crypto. MIT.
 - [dashboard](https://drsamonline.github.io/dashboard/) — Live status of the drsamonline system: the repo fleet, build health, downloads and the store. Public so it can use free GitHub Pages.
 - [export-kit](https://github.com/drsamonline/export-kit) — Save text, JSON, CSV and binary to the user's device, and bundle files into a store-only ZIP. One file, no dependencies. Built with Forge.
@@ -182,6 +187,7 @@ Away from medicine and code: poet and social worker.
 - [search-kit](https://drsamonline.github.io/search-kit/) — Ranked search over big corpora: an inverted index with prefix and fuzzy matching. Zero dependencies, MIT.
 - [srs-kit](https://drsamonline.github.io/srs-kit/) — Spaced repetition (SM-2) for flashcards: scheduling, lapses, due cards and stats. Zero dependencies, MIT.
 - [today-card](https://drsamonline.github.io/today-card/) — Today Card - one card for the day: your date, one intention, one task, and a streak. Offline, no accounts. Built with web-kit and Forge.
+- [ui-kit](https://github.com/drsamonline/ui-kit) — A reactive UI layer small enough for a single file: signals, computed, reactive effects, hyperscript, a keyed list, events, a hash router and form binding. Zero runtime dependencies, no build step. TodoMVC included as the acceptance test. MIT.
 - [web-kit](https://drsamonline.github.io/web-kit/) — The shared offline-first runtime for drsamonline apps: storage, i18n (EN/HI/GU), CSV, PWA, theme, SEO, a11y. One file, no build step. MIT.
 
 <!-- PROJECTS:END -->
