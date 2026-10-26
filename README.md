@@ -66,8 +66,8 @@ Away from medicine and code: poet and social worker.
 <div align="center">
 
 <img src="https://img.shields.io/github/followers/drsamonline?style=flat-square&label=Followers" alt="GitHub followers" onerror="this.style.display='none'" />
-<img src="https://img.shields.io/badge/Public%20repos-74-blue?style=flat-square" alt="74 public repositories" onerror="this.style.display='none'" />
-<img src="https://img.shields.io/badge/Projects-72-blueviolet?style=flat-square" alt="72 projects" onerror="this.style.display='none'" />
+<img src="https://img.shields.io/badge/Public%20repos-78-blue?style=flat-square" alt="78 public repositories" onerror="this.style.display='none'" />
+<img src="https://img.shields.io/badge/Projects-76-blueviolet?style=flat-square" alt="76 projects" onerror="this.style.display='none'" />
 
 </div>
 
@@ -159,10 +159,12 @@ Away from medicine and code: poet and social worker.
 - [app-companion-forge](https://drsamonline.github.io/app-companion-forge/) — Forge tooling (not a product app): an offline pocket console for the Forge system.
 - [app-encrypted-case-log](https://drsamonline.github.io/app-encrypted-case-log/) — Per-patient clinical notes, encrypted on the device with AES-256-GCM. Offline, no account, no server. Built with Forge on crypto-kit, case-kit, search-kit, export-kit and web-kit. MIT.
 - [app-panchang](https://drsamonline.github.io/app-panchang/) — A daily Indian almanac — tithi, nakshatra, yoga, karana, rahu-kaal and muhurat, computed offline. Built with Forge.
+- [app-poets-studio](https://drsamonline.github.io/app-poets-studio/) — Rhyme, metre and fixed forms, fully offline — a poetry workshop that measures what you wrote. 124,085 words bundled.
 - [art-kit](https://github.com/drsamonline/art-kit) — The art primitives Forge was missing: an indexed palette, a pixel canvas with nearest-neighbour scaling, draw ops, a delta undo stack, dithering (Bayer + Floyd-Steinberg), median-cut quantisation, sprite sheets, the isometric mapping and a sketch loop. Zero dependencies, single file, no assets. MIT.
 - [astro-kit](https://drsamonline.github.io/astro-kit/) — The shared astronomy core for drsamonline apps: sun and moon longitude (Meeus), ayanamsa, sunrise/sunset, and tithi/nakshatra/yoga/karana. Zero dependencies. MIT.
 - [audio-kit](https://github.com/drsamonline/audio-kit) — Synthesis, theory, patterns and notation for offline apps: a pure ADSR envelope, oscillator voices, filters, noise and a mixer; notes, scales and chords; a pattern sequencer; a staff layout; byte sonification; and honest mastering helpers. Zero dependencies, single file, no audio assets — game music is patterns, not files. MIT.
 - [backup](https://github.com/drsamonline/backup) — Snapshot a repository BEFORE a merge replaces it: a reusable GitHub workflow + a zero-dependency script. Compressed, timestamped, rotated to keep the newest 100, and it rolls over to a new dumps repo when one fills up. MIT.
+- [base-bench](https://drsamonline.github.io/base-bench/) — Every number base, unit and timezone on one page, with the working shown. Offline, no accounts.
 - [book-kit](https://drsamonline.github.io/book-kit/) — The companion-app-from-a-book pattern: chapters, key points, practices, flashcards, search and reading progress. Zero dependencies, MIT.
 - [canteen-lan](https://drsamonline.github.io/canteen-lan/) — Order from your table over the room's own Wi-Fi - a LAN canteen board for Forge
 - [case-kit](https://drsamonline.github.io/case-kit/) — Clinical case tracking: sections, dated symptoms, follow-ups, a timeline and a summary. Zero dependencies, MIT.
@@ -178,11 +180,13 @@ Away from medicine and code: poet and social worker.
 - [kent-repertory-explorer](https://drsamonline.github.io/kent-repertory-explorer/) — Offline, single-file explorer for Kent's Repertory (1897) — 74,667 rubrics, 735,500 graded remedy links, case builder and grade-weighted repertorisation. No server, no backend.
 - [lan-kit](https://drsamonline.github.io/lan-kit/) — The shared LAN core for drsamonline apps: a local room with a real-time channel over Server-Sent Events + POST. Zero dependencies. MIT.
 - [ml-kit](https://github.com/drsamonline/ml-kit) — The classic algorithms, from scratch, for offline features: tf-idf + cosine, Naive Bayes, k-NN, k-means, PCA, ID3, linear regression, Markov chains and a grammar expander. Zero dependencies, single file, no model, no API key, no network. MIT.
+- [neon-velocity](https://drsamonline.github.io/neon-velocity/) — Procedural retro side-scrolling shooter for Godot 4.3 — zero binary assets, all sprites and audio generated at runtime.
 - [offline-pdf-toolkit](https://drsamonline.github.io/offline-pdf-toolkit/) — Merge, split, rotate, reorder, watermark, number and compress PDFs entirely in your browser. No upload, no account, no server — works offline. Single self-contained HTML file.
 - [optical-kit](https://drsamonline.github.io/optical-kit/) — The shared optical-transfer core: a systematic LT fountain code, self-describing frames, and a pluggable codec. One file, no dependencies. MIT.
 - [profile-kit](https://drsamonline.github.io/profile-kit/) — A small, reusable kit for a theme-aware, self-updating GitHub profile — hero banner, metrics card and README generator.
 - [repertory-kit](https://drsamonline.github.io/repertory-kit/) — The homeopathic repertorisation core: rubric grading and grade-weighted remedy scoring. Zero dependencies, MIT.
 - [saga-vn-engine](https://drsamonline.github.io/saga-vn-engine/) — Saga — a small, dependency-free visual-novel engine for the browser. Plain JavaScript, one stylesheet, no build step. Engine only; the games it powers live in drsamonline/aethelgard-games.
+- [Scrap-and-Gun](https://drsamonline.github.io/Scrap-and-Gun/) — SCRAP & GUN — a retro pixel-art arena defense shooter with tactical construction, escalating enemy waves, persistent upgrades, roguelite drafts, bosses and local co-op. Playable in the browser, zero dependencies.
 - [seance](https://drsamonline.github.io/seance/) — Strongbox (master-list app) - sealed notes, opened once: seal a note with a passphrase, it opens once. Offline, no accounts. Built with crypto-kit + web-kit. (Fold-in of the working name 'seance'.)
 - [search-kit](https://drsamonline.github.io/search-kit/) — Ranked search over big corpora: an inverted index with prefix and fuzzy matching. Zero dependencies, MIT.
 - [srs-kit](https://drsamonline.github.io/srs-kit/) — Spaced repetition (SM-2) for flashcards: scheduling, lapses, due cards and stats. Zero dependencies, MIT.
