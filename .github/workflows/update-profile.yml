@@ -25,22 +25,11 @@ jobs:
 
       - name: Commit if changed
         run: |
-          git config user.name  "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add README.md
-          if git diff --cached --quiet; then
-            echo "No changes — README already up to date."
-          else
-            git commit -m "chore: auto-update profile README"
-            # retry: a bare `git push` loses the race when anything else commits first
-            BR="${GITHUB_REF_NAME:-main}"
-            pushed=0
-            for attempt in 1 2 3 4; do
-              git fetch origin "$BR" --quiet
-              git rebase "origin/$BR" --quiet || { git rebase --abort || true; sleep 4; continue; }
-              if git push --quiet origin "HEAD:$BR"; then pushed=1; break; fi
-              echo "::warning::push rejected on attempt $attempt - the branch moved again"
-              sleep 4
-            done
-            [ "$pushed" = 1 ] || { echo "::error::could not push after 4 attempts - another workflow keeps moving the branch"; exit 1; }
-          fi
+          # F-97: the verdict is "did README.md land", not "did git exit 0".
+          #
+          # This step had its own four-attempt rebase-and-push loop, written because a
+          # bare `git push` loses the race. The loop was right and the verdict was still
+          # wrong: a push that exited 0 was never checked against the branch.
+          # tools/commit-and-verify.sh does both - the same backoff, then a blob-sha
+          # comparison against origin/main.
+          bash tools/commit-and-verify.sh "chore: auto-update profile README" main -- README.md
