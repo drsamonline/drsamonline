@@ -1,0 +1,65 @@
+name: Align licence badges with LICENSE
+
+# Makes every licence badge say what the LICENSE file actually grants.
+#
+# The LICENSE file is authoritative and is never touched. The script reads it and
+# then corrects a badge that names a different licence, adds a badge where there
+# is none, or replaces a dynamic github/license badge (GitHub answers
+# "NOASSERTION" for every PolyForm and every bespoke licence).
+#
+# Bespoke licences are left completely alone: the script will not put a standard
+# licence name on a repository that does not have one, in either direction. Those
+# are listed at the end of the run for you to word yourself.
+#
+# Dry run (28 Oct 2026): 10 badges corrected, 16 added, 41 already correct,
+# 9 bespoke left alone, 2 needing a human (split licence, unrecognised notice).
+#
+# SETUP: same AUDIT_TOKEN secret as the other workflows.
+# RUN: Actions -> "Align licence badges with LICENSE" -> Run workflow.
+#      Unticked first to read the plan, then ticked to commit.
+
+on:
+  workflow_dispatch:
+    inputs:
+      apply:
+        description: "Write the changes (leave unticked for a dry run)"
+        type: boolean
+        default: false
+      only:
+        description: "Optional: comma-separated repo names to limit the run"
+        type: string
+        default: ""
+
+permissions:
+  contents: read
+
+jobs:
+  align:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check the token is present
+        env:
+          AUDIT_TOKEN: ${{ secrets.AUDIT_TOKEN }}
+        run: |
+          if [ -z "$AUDIT_TOKEN" ]; then
+            echo "::error::AUDIT_TOKEN is missing. Add it under Settings -> Secrets and variables -> Actions."
+            exit 1
+          fi
+          echo "token present"
+
+      - name: Align the badges
+        env:
+          GH_TOKEN: ${{ secrets.AUDIT_TOKEN }}
+          OWNER: drsamonline
+          APPLY: ${{ inputs.apply }}
+          ONLY: ${{ inputs.only }}
+        run: |
+          if [ "$APPLY" = "true" ]; then
+            echo "MODE: APPLY - commits will be made"
+          else
+            echo "MODE: DRY RUN - nothing will be written"
+          fi
+          python3 tools/fix_licence_badges.py
