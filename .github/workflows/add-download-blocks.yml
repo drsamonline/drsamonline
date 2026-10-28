@@ -1,19 +1,22 @@
 name: Add download blocks to landing pages
 
+# v2 - fixes a bug in v1 that shipped API endpoints instead of download URLs.
+#
 # 14 landing pages describe an app and offer no way to get it, even though those
 # repos publish a real APK, EXE or installer. This inserts one download block
 # above the footer of each, built from that repo's newest release.
 #
+#   * links use browser_download_url (the file), never "url" (the REST endpoint,
+#     which returns JSON metadata in a browser)
 #   * labels come from the file names (Android APK, Windows EXE, Linux, .zip)
 #   * sizes are shown, because a 20 MB Linux binary and a 645 KB APK are very
 #     different commitments
-#   * the block is wrapped in <!-- download:start --> markers, so a second run
-#     does nothing
-#   * a page that already links a release asset is left alone
+#   * the block is wrapped in <!-- download:start --> / <!-- download:end -->
+#     markers, and an existing block is REPLACED, so re-running repairs pages
+#     that already have a wrong block
+#   * a page that already links a release asset and has no block is left alone
 #   * the 10 repos with no published assets are skipped - a download button
 #     there would be a lie
-#
-# Dry run reported: 14 pages, 0 skipped.
 #
 # SETUP: the AUDIT_TOKEN secret (needs Contents: Read and write).
 # RUN: Actions -> "Add download blocks to landing pages" -> Run workflow.
@@ -133,60 +136,67 @@ jobs:
             LCBhKSkKICAgIG9yZGVyID0geyJBbmRyb2lkIEFQSyI6IDAsICJXaW5kb3dzIEVYRSI6IDEsICJX
             aW5kb3dzIGluc3RhbGxlciI6IDEsICJtYWNPUyI6IDIsICJMaW51eCI6IDN9CiAgICBwaWNrZWQu
             c29ydChrZXk9bGFtYmRhIHg6IG9yZGVyLmdldCh4WzBdLCA5KSkKICAgIHBpY2tlZCA9IHBpY2tl
-            ZFs6M10KCiAgICBidXR0b25zID0gIiIuam9pbigKICAgICAgICAnPGEgaHJlZj0iJXMiIHN0eWxl
-            PSIlcyI+JXMlczwvYT4nICUgKGFbInVybCJdLCBQUklNQVJZIGlmIHByaW1hcnkgZWxzZSBHSE9T
-            VCwgbGFiZWwsIGh1bWFuKGEuZ2V0KCJzaXplIikpKQogICAgICAgIGZvciBsYWJlbCwgcHJpbWFy
-            eSwgYSBpbiBwaWNrZWQKICAgICkKICAgIHJldHVybiAoCiAgICAgICAgU1RBUlQgKyAiXG4iCiAg
-            ICAgICAgJzxzZWN0aW9uIHN0eWxlPSJtYXgtd2lkdGg6NjIwcHg7bWFyZ2luOjMwcHggYXV0byAw
-            O3BhZGRpbmc6MTZweCAxOHB4OycKICAgICAgICAnYm9yZGVyOjFweCBzb2xpZCByZ2JhKDEyOCwx
-            MjgsMTI4LC4zNSk7Ym9yZGVyLXJhZGl1czoxNHB4OycKICAgICAgICAiZm9udDoxNnB4LzEuNiBz
-            eXN0ZW0tdWksLWFwcGxlLXN5c3RlbSwnU2Vnb2UgVUknLFJvYm90byxzYW5zLXNlcmlmXCI+XG4i
-            CiAgICAgICAgJyAgPHAgc3R5bGU9Im1hcmdpbjowIDAgMTBweDtmb250LXNpemU6MTJweDtsZXR0
-            ZXItc3BhY2luZzouMTJlbTsnCiAgICAgICAgJ3RleHQtdHJhbnNmb3JtOnVwcGVyY2FzZTtvcGFj
-            aXR5Oi42NTtmb250LXdlaWdodDo3MDAiPkRvd25sb2FkPC9wPlxuJwogICAgICAgICcgIDxwIHN0
-            eWxlPSJkaXNwbGF5OmZsZXg7Z2FwOjhweDtmbGV4LXdyYXA6d3JhcDttYXJnaW46MCI+JyArIGJ1
-            dHRvbnMgKyAiPC9wPlxuIgogICAgICAgICcgIDxwIHN0eWxlPSJtYXJnaW46MTBweCAwIDA7Zm9u
-            dC1zaXplOjEyLjVweDtvcGFjaXR5Oi42NSI+JwogICAgICAgICJGcm9tIHRoZSBsYXRlc3QgcmVs
-            ZWFzZSDCtyBmcmVlIMK3IG5vIGFjY291bnQsIG5vIHRlbGVtZXRyeS48L3A+XG4iCiAgICAgICAg
-            Ijwvc2VjdGlvbj5cbiIgKyBFTkQKICAgICkKCgpkZWYgaW5zZXJ0KHBhZ2UsIGJsb2NrKToKICAg
-            ICIiIlB1dCB0aGUgYmxvY2sgYWJvdmUgdGhlIGZvb3Rlciwgb3IgYmVmb3JlIDwvYm9keT4gd2hl
-            biB0aGVyZSBpcyBubyBmb290ZXIuIiIiCiAgICBpZiBTVEFSVCBpbiBwYWdlOgogICAgICAgIHJl
-            dHVybiBwYWdlLCAiYWxyZWFkeSBoYXMgYSBibG9jayIKICAgIGlmIHJlLnNlYXJjaChyIlwuYXBr
-            fHBvcnRhYmxlXC5leGV8L3JlbGVhc2VzLyIsIHBhZ2UsIHJlLkkpOgogICAgICAgIHJldHVybiBw
-            YWdlLCAiYWxyZWFkeSBsaW5rcyBhIHJlbGVhc2UiCiAgICBmb3IgYW5jaG9yIGluICgiPGZvb3Rl
-            ciIsICI8L21haW4+Iik6CiAgICAgICAgaSA9IHBhZ2UuZmluZChhbmNob3IpCiAgICAgICAgaWYg
-            aSAhPSAtMToKICAgICAgICAgICAgcmV0dXJuIHBhZ2VbOmldICsgYmxvY2sgKyAiXG4iICsgcGFn
-            ZVtpOl0sICIiCiAgICBpID0gcGFnZS5yZmluZCgiPC9ib2R5PiIpCiAgICBpZiBpID09IC0xOgog
-            ICAgICAgIHJldHVybiBwYWdlLCAibm8gaW5zZXJ0aW9uIHBvaW50IgogICAgcmV0dXJuIHBhZ2Vb
-            OmldICsgYmxvY2sgKyAiXG4iICsgcGFnZVtpOl0sICIiCgoKZGVmIG1haW4oKToKICAgIGFwcGx5
-            ID0gIi0tYXBwbHkiIGluIHN5cy5hcmd2IG9yIG9zLmVudmlyb24uZ2V0KCJBUFBMWSIpID09ICJ0
-            cnVlIgogICAgaWYgbm90IFRPS0VOOgogICAgICAgIHN5cy5leGl0KCJHSF9UT0tFTiBpcyBub3Qg
-            c2V0IikKCiAgICBjaGFuZ2VkID0gc2tpcHBlZCA9IGZhaWxlZCA9IDAKICAgIGZvciByZXBvIGlu
-            IENBTkRJREFURVM6CiAgICAgICAgY29kZSwgcmVsID0gYXBpKCIvcmVwb3MvJXMvJXMvcmVsZWFz
-            ZXM/cGVyX3BhZ2U9MSIgJSAoT1dORVIsIHJlcG8pKQogICAgICAgIGlmIGNvZGUgIT0gMjAwIG9y
-            IG5vdCBpc2luc3RhbmNlKHJlbCwgbGlzdCkgb3Igbm90IHJlbDoKICAgICAgICAgICAgcHJpbnQo
-            InNraXAgICAgICUtMzBzIG5vIHJlbGVhc2UiICUgcmVwbykKICAgICAgICAgICAgc2tpcHBlZCAr
-            PSAxCiAgICAgICAgICAgIGNvbnRpbnVlCiAgICAgICAgYmxvY2sgPSBidWlsZF9ibG9jayhyZWxb
-            MF0pCiAgICAgICAgaWYgbm90IGJsb2NrOgogICAgICAgICAgICBwcmludCgic2tpcCAgICAgJS0z
-            MHMgcmVsZWFzZSBoYXMgbm8gYXNzZXRzIiAlIHJlcG8pCiAgICAgICAgICAgIHNraXBwZWQgKz0g
-            MQogICAgICAgICAgICBjb250aW51ZQoKICAgICAgICBwYWdlLCBzaGEgPSBnZXRfZmlsZShyZXBv
-            LCAiZG9jcy9pbmRleC5odG1sIikKICAgICAgICBpZiBwYWdlIGlzIE5vbmU6CiAgICAgICAgICAg
-            IHByaW50KCJza2lwICAgICAlLTMwcyBubyBkb2NzL2luZGV4Lmh0bWwiICUgcmVwbykKICAgICAg
-            ICAgICAgc2tpcHBlZCArPSAxCiAgICAgICAgICAgIGNvbnRpbnVlCgogICAgICAgIG5ldywgd2h5
-            ID0gaW5zZXJ0KHBhZ2UsIGJsb2NrKQogICAgICAgIGlmIHdoeToKICAgICAgICAgICAgcHJpbnQo
-            Im9rICAgICAgICUtMzBzICVzIiAlIChyZXBvLCB3aHkpKQogICAgICAgICAgICBza2lwcGVkICs9
-            IDEKICAgICAgICAgICAgY29udGludWUKCiAgICAgICAgcHJpbnQoImNoYW5nZSAgICUtMzBzICsl
-            ZCBjaGFycyAoJXMpIiAlIChyZXBvLCBsZW4obmV3KSAtIGxlbihwYWdlKSwKICAgICAgICAgICAg
-            ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHJlbFswXS5nZXQoInRhZ19uYW1l
-            IikpKQogICAgICAgIGNoYW5nZWQgKz0gMQogICAgICAgIGlmIGFwcGx5OgogICAgICAgICAgICBz
-            dCwgcmVzcCA9IHB1dF9maWxlKHJlcG8sICJkb2NzL2luZGV4Lmh0bWwiLCBuZXcsIHNoYSkKICAg
-            ICAgICAgICAgb2sgPSBzdCBpbiAoMjAwLCAyMDEpCiAgICAgICAgICAgIHByaW50KCIgICAgICAg
-            ICAtPiAlcyIgJSAoIndyaXR0ZW4iIGlmIG9rIGVsc2UgIkZBSUxFRCAlcyIgJSByZXNwKSkKICAg
-            ICAgICAgICAgaWYgbm90IG9rOgogICAgICAgICAgICAgICAgZmFpbGVkICs9IDEKCiAgICBwcmlu
-            dCgiXG4lcyAlZCBwYWdlKHMpLCBza2lwcGVkICVkIiAlICgid291bGQgY2hhbmdlIiBpZiBub3Qg
-            YXBwbHkgZWxzZSAiY2hhbmdlZCIsIGNoYW5nZWQsIHNraXBwZWQpKQogICAgaWYgYXBwbHkgYW5k
-            IGZhaWxlZDoKICAgICAgICBzeXMuZXhpdCgxKQoKCmlmIF9fbmFtZV9fID09ICJfX21haW5fXyI6
-            CiAgICBtYWluKCkK
+            ZFs6M10KCiAgICAjIGJyb3dzZXJfZG93bmxvYWRfdXJsIGlzIHRoZSBmaWxlLiAidXJsIiBpcyB0
+            aGUgUkVTVCBlbmRwb2ludCBmb3IgdGhlIGFzc2V0LAogICAgIyB3aGljaCByZXR1cm5zIEpTT04g
+            bWV0YWRhdGEgaW4gYSBicm93c2VyIC0gc2hpcHBpbmcgdGhhdCBhcyBhIGxpbmsgaXMgdGhlCiAg
+            ICAjIHNhbWUgZGVmZWN0IGFzIHNoaXBwaW5nIG5vIGxpbmsgYXQgYWxsLgogICAgYnV0dG9ucyA9
+            ICIiLmpvaW4oCiAgICAgICAgJzxhIGhyZWY9IiVzIiBzdHlsZT0iJXMiPiVzJXM8L2E+JwogICAg
+            ICAgICUgKGEuZ2V0KCJicm93c2VyX2Rvd25sb2FkX3VybCIpIG9yICIiLCBQUklNQVJZIGlmIHBy
+            aW1hcnkgZWxzZSBHSE9TVCwgbGFiZWwsIGh1bWFuKGEuZ2V0KCJzaXplIikpKQogICAgICAgIGZv
+            ciBsYWJlbCwgcHJpbWFyeSwgYSBpbiBwaWNrZWQKICAgICkKICAgIHJldHVybiAoCiAgICAgICAg
+            U1RBUlQgKyAiXG4iCiAgICAgICAgJzxzZWN0aW9uIHN0eWxlPSJtYXgtd2lkdGg6NjIwcHg7bWFy
+            Z2luOjMwcHggYXV0byAwO3BhZGRpbmc6MTZweCAxOHB4OycKICAgICAgICAnYm9yZGVyOjFweCBz
+            b2xpZCByZ2JhKDEyOCwxMjgsMTI4LC4zNSk7Ym9yZGVyLXJhZGl1czoxNHB4OycKICAgICAgICAi
+            Zm9udDoxNnB4LzEuNiBzeXN0ZW0tdWksLWFwcGxlLXN5c3RlbSwnU2Vnb2UgVUknLFJvYm90byxz
+            YW5zLXNlcmlmXCI+XG4iCiAgICAgICAgJyAgPHAgc3R5bGU9Im1hcmdpbjowIDAgMTBweDtmb250
+            LXNpemU6MTJweDtsZXR0ZXItc3BhY2luZzouMTJlbTsnCiAgICAgICAgJ3RleHQtdHJhbnNmb3Jt
+            OnVwcGVyY2FzZTtvcGFjaXR5Oi42NTtmb250LXdlaWdodDo3MDAiPkRvd25sb2FkPC9wPlxuJwog
+            ICAgICAgICcgIDxwIHN0eWxlPSJkaXNwbGF5OmZsZXg7Z2FwOjhweDtmbGV4LXdyYXA6d3JhcDtt
+            YXJnaW46MCI+JyArIGJ1dHRvbnMgKyAiPC9wPlxuIgogICAgICAgICcgIDxwIHN0eWxlPSJtYXJn
+            aW46MTBweCAwIDA7Zm9udC1zaXplOjEyLjVweDtvcGFjaXR5Oi42NSI+JwogICAgICAgICJGcm9t
+            IHRoZSBsYXRlc3QgcmVsZWFzZSDCtyBmcmVlIMK3IG5vIGFjY291bnQsIG5vIHRlbGVtZXRyeS48
+            L3A+XG4iCiAgICAgICAgIjwvc2VjdGlvbj5cbiIgKyBFTkQKICAgICkKCgpkZWYgaW5zZXJ0KHBh
+            Z2UsIGJsb2NrKToKICAgICIiIlB1dCB0aGUgYmxvY2sgYWJvdmUgdGhlIGZvb3Rlciwgb3IgYmVm
+            b3JlIDwvYm9keT4gd2hlbiB0aGVyZSBpcyBubyBmb290ZXIuIiIiCiAgICBpZiBTVEFSVCBpbiBw
+            YWdlIGFuZCBFTkQgaW4gcGFnZToKICAgICAgICBpLCBqID0gcGFnZS5maW5kKFNUQVJUKSwgcGFn
+            ZS5maW5kKEVORCkgKyBsZW4oRU5EKQogICAgICAgIGlmIHBhZ2VbaTpqXSA9PSBibG9jazoKICAg
+            ICAgICAgICAgcmV0dXJuIHBhZ2UsICJhbHJlYWR5IGNvcnJlY3QiCiAgICAgICAgcmV0dXJuIHBh
+            Z2VbOmldICsgYmxvY2sgKyBwYWdlW2o6XSwgInJlcGxhY2VkIGV4aXN0aW5nIGJsb2NrIgogICAg
+            aWYgcmUuc2VhcmNoKHIiXC5hcGt8cG9ydGFibGVcLmV4ZXwvcmVsZWFzZXMvIiwgcGFnZSwgcmUu
+            SSk6CiAgICAgICAgcmV0dXJuIHBhZ2UsICJhbHJlYWR5IGxpbmtzIGEgcmVsZWFzZSIKICAgIGZv
+            ciBhbmNob3IgaW4gKCI8Zm9vdGVyIiwgIjwvbWFpbj4iKToKICAgICAgICBpID0gcGFnZS5maW5k
+            KGFuY2hvcikKICAgICAgICBpZiBpICE9IC0xOgogICAgICAgICAgICByZXR1cm4gcGFnZVs6aV0g
+            KyBibG9jayArICJcbiIgKyBwYWdlW2k6XSwgIiIKICAgIGkgPSBwYWdlLnJmaW5kKCI8L2JvZHk+
+            IikKICAgIGlmIGkgPT0gLTE6CiAgICAgICAgcmV0dXJuIHBhZ2UsICJubyBpbnNlcnRpb24gcG9p
+            bnQiCiAgICByZXR1cm4gcGFnZVs6aV0gKyBibG9jayArICJcbiIgKyBwYWdlW2k6XSwgIiIKCgpk
+            ZWYgbWFpbigpOgogICAgYXBwbHkgPSAiLS1hcHBseSIgaW4gc3lzLmFyZ3Ygb3Igb3MuZW52aXJv
+            bi5nZXQoIkFQUExZIikgPT0gInRydWUiCiAgICBpZiBub3QgVE9LRU46CiAgICAgICAgc3lzLmV4
+            aXQoIkdIX1RPS0VOIGlzIG5vdCBzZXQiKQoKICAgIGNoYW5nZWQgPSBza2lwcGVkID0gZmFpbGVk
+            ID0gMAogICAgZm9yIHJlcG8gaW4gQ0FORElEQVRFUzoKICAgICAgICBjb2RlLCByZWwgPSBhcGko
+            Ii9yZXBvcy8lcy8lcy9yZWxlYXNlcz9wZXJfcGFnZT0xIiAlIChPV05FUiwgcmVwbykpCiAgICAg
+            ICAgaWYgY29kZSAhPSAyMDAgb3Igbm90IGlzaW5zdGFuY2UocmVsLCBsaXN0KSBvciBub3QgcmVs
+            OgogICAgICAgICAgICBwcmludCgic2tpcCAgICAgJS0zMHMgbm8gcmVsZWFzZSIgJSByZXBvKQog
+            ICAgICAgICAgICBza2lwcGVkICs9IDEKICAgICAgICAgICAgY29udGludWUKICAgICAgICBibG9j
+            ayA9IGJ1aWxkX2Jsb2NrKHJlbFswXSkKICAgICAgICBpZiBub3QgYmxvY2s6CiAgICAgICAgICAg
+            IHByaW50KCJza2lwICAgICAlLTMwcyByZWxlYXNlIGhhcyBubyBhc3NldHMiICUgcmVwbykKICAg
+            ICAgICAgICAgc2tpcHBlZCArPSAxCiAgICAgICAgICAgIGNvbnRpbnVlCgogICAgICAgIHBhZ2Us
+            IHNoYSA9IGdldF9maWxlKHJlcG8sICJkb2NzL2luZGV4Lmh0bWwiKQogICAgICAgIGlmIHBhZ2Ug
+            aXMgTm9uZToKICAgICAgICAgICAgcHJpbnQoInNraXAgICAgICUtMzBzIG5vIGRvY3MvaW5kZXgu
+            aHRtbCIgJSByZXBvKQogICAgICAgICAgICBza2lwcGVkICs9IDEKICAgICAgICAgICAgY29udGlu
+            dWUKCiAgICAgICAgbmV3LCB3aHkgPSBpbnNlcnQocGFnZSwgYmxvY2spCiAgICAgICAgaWYgd2h5
+            OgogICAgICAgICAgICBwcmludCgib2sgICAgICAgJS0zMHMgJXMiICUgKHJlcG8sIHdoeSkpCiAg
+            ICAgICAgICAgIHNraXBwZWQgKz0gMQogICAgICAgICAgICBjb250aW51ZQoKICAgICAgICBwcmlu
+            dCgiY2hhbmdlICAgJS0zMHMgKyVkIGNoYXJzICglcykiICUgKHJlcG8sIGxlbihuZXcpIC0gbGVu
+            KHBhZ2UpLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+            cmVsWzBdLmdldCgidGFnX25hbWUiKSkpCiAgICAgICAgY2hhbmdlZCArPSAxCiAgICAgICAgaWYg
+            YXBwbHk6CiAgICAgICAgICAgIHN0LCByZXNwID0gcHV0X2ZpbGUocmVwbywgImRvY3MvaW5kZXgu
+            aHRtbCIsIG5ldywgc2hhKQogICAgICAgICAgICBvayA9IHN0IGluICgyMDAsIDIwMSkKICAgICAg
+            ICAgICAgcHJpbnQoIiAgICAgICAgIC0+ICVzIiAlICgid3JpdHRlbiIgaWYgb2sgZWxzZSAiRkFJ
+            TEVEICVzIiAlIHJlc3ApKQogICAgICAgICAgICBpZiBub3Qgb2s6CiAgICAgICAgICAgICAgICBm
+            YWlsZWQgKz0gMQoKICAgIHByaW50KCJcbiVzICVkIHBhZ2UocyksIHNraXBwZWQgJWQiICUgKCJ3
+            b3VsZCBjaGFuZ2UiIGlmIG5vdCBhcHBseSBlbHNlICJjaGFuZ2VkIiwgY2hhbmdlZCwgc2tpcHBl
+            ZCkpCiAgICBpZiBhcHBseSBhbmQgZmFpbGVkOgogICAgICAgIHN5cy5leGl0KDEpCgoKaWYgX19u
+            YW1lX18gPT0gIl9fbWFpbl9fIjoKICAgIG1haW4oKQo=
         run: |
           if [ "$APPLY" = "true" ]; then echo "MODE: APPLY"; else echo "MODE: DRY RUN"; fi
           echo "$SCRIPT_B64" | base64 -d > /tmp/add_download_blocks.py
