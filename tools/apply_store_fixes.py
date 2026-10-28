@@ -1,66 +1,203 @@
-name: Apply Matneo store fixes
+#!/usr/bin/env python3
+"""Apply the Matneo store fixes to the real repositories through the API.
 
-# Applies the store fixes through the API: no patches to paste, no files to
-# create by hand. Four changes across two repos:
-#
-#   app-builder/drsoam.py ........ ENQUIRE mailto, product-page landingPage,
-#                                  drop the sourceRepo that renders a dead
-#                                  "View source" button (Forge is private)
-#   Matneo/docs/js/products.js ... "Enquire by email" and an honest price note
-#   Matneo/docs/product.html ..... products.js?v=5 -> ?v=6 so the new file is
-#   Matneo/docs/products/ ........ actually fetched by returning visitors
-#   Matneo/docs/data/products.json  same data fixes for the live site
-#
-# Every change is a targeted string replacement, so if a file has moved on since
-# this was written it reports "pattern not found" instead of clobbering it.
-# Running it twice is safe: the second run says "already applied".
-#
-# SETUP (once):
-#   1. https://github.com/settings/personal-access-tokens/new
-#        Repository access ........ All repositories
-#        Permissions -> Contents .. Read and write
-#   2. This repo: Settings -> Secrets and variables -> Actions
-#        New repository secret -> Name: AUDIT_TOKEN -> paste
-#
-# RUN: Actions -> "Apply Matneo store fixes" -> Run workflow.
-#      Leave "apply" UNTICKED first to read the plan, then run again ticked.
+Four changes, in three files across two repos:
 
-on:
-  workflow_dispatch:
-    inputs:
-      apply:
-        description: "Write the changes (leave unticked for a dry run)"
-        type: boolean
-        default: false
+  app-builder/drsoam.py
+      the ENQUIRE mailto, the product-page landingPage, and dropping the
+      sourceRepo that renders a dead "View source" button
 
-permissions:
-  contents: read
+  Matneo/docs/js/products.js
+      "Enquire by email" instead of "Get this product", and an honest price
+      note while there is no checkout
 
-jobs:
-  fix:
-    runs-on: ubuntu-latest
-    timeout-minutes: 15
-    steps:
-      - uses: actions/checkout@v4
+  Matneo/docs/product.html + Matneo/docs/products/index.html
+      products.js?v=5 -> ?v=6, so returning visitors actually get the new file
 
-      - name: Check the token is present
-        env:
-          AUDIT_TOKEN: ${{ secrets.AUDIT_TOKEN }}
-        run: |
-          if [ -z "$AUDIT_TOKEN" ]; then
-            echo "::error::AUDIT_TOKEN is missing. Add it under Settings -> Secrets and variables -> Actions."
-            exit 1
-          fi
-          echo "token present"
+  Matneo/docs/data/products.json
+      the same three data fixes, for the live site before the next regeneration
 
-      - name: Apply the store fixes
-        env:
-          GH_TOKEN: ${{ secrets.AUDIT_TOKEN }}
-          APPLY: ${{ inputs.apply }}
-        run: |
-          if [ "$APPLY" = "true" ]; then
-            echo "MODE: APPLY - commits will be made"
-          else
-            echo "MODE: DRY RUN - nothing will be written"
-          fi
-          python3 tools/apply_store_fixes.py
+Every change is a targeted string replacement, not a whole-file overwrite, so a
+file that has moved on since this was written fails loudly instead of being
+clobbered. Running it twice is safe: a second run reports "already applied".
+
+    GH_TOKEN=... python3 apply_store_fixes.py            # dry run
+    GH_TOKEN=... python3 apply_store_fixes.py --apply    # write
+"""
+import base64
+import json
+import os
+import sys
+import urllib.error
+import urllib.request
+
+API = "https://api.github.com"
+TOKEN = os.environ.get("GH_TOKEN") or os.environ.get("GITHUB_TOKEN") or ""
+HUB = "https://drsamonline.github.io/"
+ENQUIRE = ("mailto:sohilmomin2000@gmail.com"
+           "?subject=Forge%20licence%20enquiry"
+           "&body=Which%20licence%20are%20you%20after%20(personal%2C%20commercial%2C%20"
+           "reseller%2FOEM)%3F%0A%0AWhat%20are%20you%20building%3F%0A")
+
+ENQUIRE_BLOCK = '''HUB = "https://drsamonline.github.io/"
+
+# There is no checkout yet. Until there is, every Forge licence button opens a
+# pre-filled enquiry email instead of pointing at HUB: a button that says "Get
+# this product" and lands the visitor on the site's front page reads as broken,
+# and the front page is a project index, not a shop. When a payment link exists,
+# set ENQUIRE to it and nothing else in this file needs to change.
+ENQUIRE = ("mailto:sohilmomin2000@gmail.com"
+           "?subject=Forge%20licence%20enquiry"
+           "&body=Which%20licence%20are%20you%20after%20(personal%2C%20commercial%2C%20"
+           "reseller%2FOEM)%3F%0A%0AWhat%20are%20you%20building%3F%0A")
+PRODUCT_PAGE = HUB + "Matneo/product.html?id=%s"'''
+
+SOURCE_NOTE = '''# sourceRepo is deliberately absent: the Forge repo is private, so a "View source"
+# button built from it 404s for every visitor. The detail page renders that button
+# only when sourceRepo is set, so leaving the key out removes a dead link.
+FOR_SALE = ['''
+
+# repo -> path -> list of (old, new). Empty old means "insert before new".
+FIXES = {
+    "drsamonline/app-builder": {
+        "drsoam.py": [
+            ('HUB = "https://drsamonline.github.io/"', ENQUIRE_BLOCK),
+            ("FOR_SALE = [", SOURCE_NOTE),
+            ('"price": "Free", "link": HUB, "landingPage": HUB,\n'
+             '     "image": "", "sourceRepo": "%s/forge" % OWNER, "license": "Proprietary (EULA)",',
+             '"price": "Free", "link": ENQUIRE, "landingPage": PRODUCT_PAGE % "forge-personal",\n'
+             '     "image": "", "license": "Proprietary (EULA)",'),
+            ('"price": "Paid", "link": HUB, "landingPage": HUB,\n'
+             '     "image": "", "sourceRepo": "%s/forge" % OWNER, "license": "Proprietary (EULA)",\n'
+             '     "tagline": "Use Forge in commercial work, for one entity.",',
+             '"price": "Paid", "link": ENQUIRE, "landingPage": PRODUCT_PAGE % "forge-commercial",\n'
+             '     "image": "", "license": "Proprietary (EULA)",\n'
+             '     "tagline": "Use Forge in commercial work, for one entity.",'),
+            ('"price": "Paid", "link": HUB, "landingPage": HUB,\n'
+             '     "image": "", "sourceRepo": "%s/forge" % OWNER, "license": "Proprietary (EULA)",\n'
+             '     "tagline": "Bundle Forge into your own product.",',
+             '"price": "Paid", "link": ENQUIRE, "landingPage": PRODUCT_PAGE % "forge-reseller",\n'
+             '     "image": "", "license": "Proprietary (EULA)",\n'
+             '     "tagline": "Bundle Forge into your own product.",'),
+        ],
+    },
+    "drsamonline/Matneo": {
+        "docs/js/products.js": [
+            ("          : 'one-time · instant digital delivery';",
+             "          : (product.link && product.link.indexOf('mailto:') === 0)\n"
+             "            ? 'enquire by email · licence issued manually'\n"
+             "            : 'one-time · instant digital delivery';"),
+            ("          buy.textContent = product.type === 'open-source' ? 'Open the app' : 'Get this product';",
+             "          buy.textContent = product.type === 'open-source'\n"
+             "            ? 'Open the app'\n"
+             "            : ((product.link && product.link.indexOf('mailto:') === 0)\n"
+             "                ? 'Enquire by email'\n"
+             "                : 'Get this product');"),
+        ],
+        "docs/product.html": [("js/products.js?v=5", "js/products.js?v=6")],
+        "docs/products/index.html": [("../js/products.js?v=5", "../js/products.js?v=6")],
+    },
+}
+
+
+def api(path, method="GET", payload=None):
+    req = urllib.request.Request(API + path,
+                                 data=json.dumps(payload).encode() if payload else None,
+                                 method=method)
+    req.add_header("Accept", "application/vnd.github+json")
+    req.add_header("X-GitHub-Api-Version", "2022-11-28")
+    req.add_header("User-Agent", "drsamonline-store-fix")
+    if TOKEN:
+        req.add_header("Authorization", "Bearer " + TOKEN)
+    try:
+        with urllib.request.urlopen(req, timeout=30) as r:
+            return r.status, json.loads(r.read().decode() or "null")
+    except urllib.error.HTTPError as e:
+        return e.code, {"error": e.read().decode()[:200]}
+    except Exception as e:                                    # noqa: BLE001
+        return 0, {"error": str(e)[:200]}
+
+
+def get_file(repo, path):
+    code, d = api("/repos/%s/contents/%s" % (repo, path))
+    if code != 200 or not isinstance(d, dict) or "content" not in d:
+        return None, None
+    return base64.b64decode(d["content"]).decode("utf-8", "replace"), d["sha"]
+
+
+def put_file(repo, path, text, sha, message):
+    return api("/repos/%s/contents/%s" % (repo, path), "PUT", {
+        "message": message,
+        "content": base64.b64encode(text.encode("utf-8")).decode("ascii"),
+        "sha": sha,
+    })
+
+
+def apply_replacements(text, pairs):
+    """Return (new_text, applied, missing)."""
+    applied, missing = 0, []
+    for old, new in pairs:
+        if new.strip() and new in text and old not in text:
+            applied += 1
+            continue
+        if old not in text:
+            missing.append(old.strip().splitlines()[0][:70])
+            continue
+        text = text.replace(old, new, 1)
+        applied += 1
+    return text, applied, missing
+
+
+def fix_products_json(text):
+    items = json.loads(text)
+    for i in items:
+        i["link"] = ENQUIRE
+        i["landingPage"] = HUB + "Matneo/product.html?id=" + i["id"]
+        i.pop("sourceRepo", None)
+    return json.dumps(items, indent=2, ensure_ascii=False) + "\n"
+
+
+def main():
+    apply = "--apply" in sys.argv or os.environ.get("APPLY") == "true"
+    if not TOKEN:
+        sys.exit("GH_TOKEN is not set")
+
+    changed = 0
+    for repo, files in FIXES.items():
+        for path, pairs in files.items():
+            text, sha = get_file(repo, path)
+            if text is None:
+                print("MISSING  %s/%s" % (repo, path))
+                continue
+            new_text, applied, missing = apply_replacements(text, pairs)
+            for m in missing:
+                print("  ! %s/%s: pattern not found -> %s" % (repo, path, m))
+            if new_text == text:
+                print("ok       %s/%s (already applied)" % (repo, path))
+                continue
+            print("change   %s/%s (%d edit(s))" % (repo, path, applied))
+            changed += 1
+            if apply:
+                st, resp = put_file(repo, path, new_text, sha,
+                                    "fix(store): enquire-by-email, honest price note, drop dead source link")
+                print("         -> %s" % ("written" if st in (200, 201) else "FAILED %s" % resp))
+
+    # products.json last: it is the generated artefact, so the source of truth goes first
+    text, sha = get_file("drsamonline/Matneo", "docs/data/products.json")
+    if text is not None:
+        new_text = fix_products_json(text)
+        if new_text != text:
+            print("change   drsamonline/Matneo/docs/data/products.json")
+            changed += 1
+            if apply:
+                st, resp = put_file("drsamonline/Matneo", "docs/data/products.json", new_text, sha,
+                                    "fix(store): product links point at the product page")
+                print("         -> %s" % ("written" if st in (200, 201) else "FAILED %s" % resp))
+        else:
+            print("ok       drsamonline/Matneo/docs/data/products.json (already applied)")
+
+    print("\n%s %d file(s)" % ("would change" if not apply else "changed", changed))
+
+
+if __name__ == "__main__":
+    main()
