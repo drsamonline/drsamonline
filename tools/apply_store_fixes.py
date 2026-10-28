@@ -73,6 +73,10 @@ FIXES = {
              '"price": "Paid", "link": ENQUIRE, "landingPage": PRODUCT_PAGE % "forge-commercial",\n'
              '     "image": "", "license": "Proprietary (EULA)",\n'
              '     "tagline": "Use Forge in commercial work, for one entity.",'),
+            # posts() copies p["link"] into the blog, which is now the enquiry
+            # mailto - a blog entry should open the product page instead.
+            ('"url": p.get("link") or HUB,',
+             '"url": p.get("landingPage") or p.get("link") or HUB,'),
             ('"price": "Paid", "link": HUB, "landingPage": HUB,\n'
              '     "image": "", "sourceRepo": "%s/forge" % OWNER, "license": "Proprietary (EULA)",\n'
              '     "tagline": "Bundle Forge into your own product.",',
@@ -137,7 +141,11 @@ def apply_replacements(text, pairs):
     """Return (new_text, applied, missing)."""
     applied, missing = 0, []
     for old, new in pairs:
-        if new.strip() and new in text and old not in text:
+        # "already applied" is decided by the NEW text being present, never by the
+        # old text being absent. Several replacements deliberately contain the
+        # original line (the ENQUIRE block opens with the HUB line it replaces),
+        # so testing `old not in text` would re-apply them and nest the change.
+        if new and new in text:
             applied += 1
             continue
         if old not in text:
@@ -163,6 +171,7 @@ def main():
         sys.exit("GH_TOKEN is not set")
 
     changed = 0
+    failed = []
     for repo, files in FIXES.items():
         for path, pairs in files.items():
             text, sha = get_file(repo, path)
@@ -180,7 +189,10 @@ def main():
             if apply:
                 st, resp = put_file(repo, path, new_text, sha,
                                     "fix(store): enquire-by-email, honest price note, drop dead source link")
-                print("         -> %s" % ("written" if st in (200, 201) else "FAILED %s" % resp))
+                ok = st in (200, 201)
+                if not ok:
+                    failed.append("%s/%s" % (repo, path))
+                print("         -> %s" % ("written" if ok else "FAILED %s" % resp))
 
     # products.json last: it is the generated artefact, so the source of truth goes first
     text, sha = get_file("drsamonline/Matneo", "docs/data/products.json")
@@ -192,11 +204,17 @@ def main():
             if apply:
                 st, resp = put_file("drsamonline/Matneo", "docs/data/products.json", new_text, sha,
                                     "fix(store): product links point at the product page")
-                print("         -> %s" % ("written" if st in (200, 201) else "FAILED %s" % resp))
+                ok = st in (200, 201)
+                if not ok:
+                    failed.append("%s/%s" % (repo, path))
+                print("         -> %s" % ("written" if ok else "FAILED %s" % resp))
         else:
             print("ok       drsamonline/Matneo/docs/data/products.json (already applied)")
 
     print("\n%s %d file(s)" % ("would change" if not apply else "changed", changed))
+    if apply and failed:
+        print("\n%d write(s) FAILED" % len(failed))
+        sys.exit(1)
 
 
 if __name__ == "__main__":
