@@ -24,7 +24,7 @@ on:
   schedule:
     # Daily, 04:00 UTC. Offset from update-profile.yml (03:17 UTC) so the two
     # committers do not race each other on main.
-    - cron: "0 4 * * 2"
+    - cron: "0 4 * * 2"   # weekly, Tuesday 04:00 UTC
   workflow_dispatch:
 
 permissions:
