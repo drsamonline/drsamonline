@@ -1,0 +1,65 @@
+name: Fix licence badges
+
+# Repairs the truncated licence badge across the fleet: the raw space inside the
+# shields.io URL that makes GitHub cut the badge short, and alt text that names a
+# different licence from the badge.
+#
+# Verified dry run: 24 URL fixes and 28 alt-text fixes across 28 repos.
+#
+# SETUP (both steps happen once):
+#   1. Create a fine-grained token at https://github.com/settings/personal-access-tokens/new
+#        Repository access ......... All repositories
+#        Permissions -> Contents .. Read and write
+#      Copy the token.
+#   2. In this repo: Settings -> Secrets and variables -> Actions
+#        New repository secret
+#        Name: AUDIT_TOKEN   Value: (paste the token)
+#
+# The default GITHUB_TOKEN cannot write to other repositories, which is why the
+# token is a secret rather than the built-in one.
+#
+# RUN: Actions tab -> "Fix licence badges" -> Run workflow.
+#      Leave "apply" UNTICKED first and read the log. It prints every change and
+#      writes nothing. Then run again with "apply" ticked to commit.
+#      One commit per repo, one line changed, revertable on its own.
+
+on:
+  workflow_dispatch:
+    inputs:
+      apply:
+        description: "Write the changes (leave unticked for a dry run)"
+        type: boolean
+        default: false
+
+permissions:
+  contents: read
+
+jobs:
+  fix:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check the token is present
+        env:
+          AUDIT_TOKEN: ${{ secrets.AUDIT_TOKEN }}
+        run: |
+          if [ -z "$AUDIT_TOKEN" ]; then
+            echo "::error::AUDIT_TOKEN is missing. Add it under Settings -> Secrets and variables -> Actions."
+            exit 1
+          fi
+          echo "token present"
+
+      - name: Run the licence badge fix
+        env:
+          GH_TOKEN: ${{ secrets.AUDIT_TOKEN }}
+          OWNER: drsamonline
+          APPLY: ${{ inputs.apply }}
+        run: |
+          if [ "$APPLY" = "true" ]; then
+            echo "MODE: APPLY - commits will be made"
+          else
+            echo "MODE: DRY RUN - nothing will be written"
+          fi
+          python3 tools/licence_fix_standalone.py
