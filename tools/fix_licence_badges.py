@@ -60,6 +60,19 @@ CUSTOM = ("proprietary", "all rights reserved", "free-to-use", "free to use",
           "not an open-source", "source-available", "eula", "permission from the author")
 
 
+# Bespoke licences, worded by the owner. A standard licence name would be a lie
+# here, so each one is named from what its own file permits. Keep the wording
+# short: the badge is a label, the LICENSE is the contract.
+OVERRIDES = {
+    # permits copy, share and redistribute for non-commercial purposes
+    "gentle-pediatrics-companion": ("Free to use, non-commercial", "yellowgreen"),
+    # single personal copy for personal/educational study - no redistribution
+    "mnemosyne-companion": ("Free for personal study", "lightgrey"),
+    # free of charge for personal and clinical use - no redistribution
+    "skin-case-tracker": ("Free for personal and clinical use", "lightgrey"),
+}
+
+
 def licence_of(text):
     """Return (message, colour, note).
 
@@ -237,7 +250,10 @@ def main():
             print("skip     %-40s no LICENSE" % repo)
             continue
 
-        msg, colour, note = licence_of(licence)
+        if repo in OVERRIDES:
+            msg, colour, note = OVERRIDES[repo][0], OVERRIDES[repo][1], ""
+        else:
+            msg, colour, note = licence_of(licence)
         if msg is None:
             reason = {"custom": "bespoke licence - word the badge yourself",
                       "split": "two licences in one repo - needs two badges",
