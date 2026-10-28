@@ -70,6 +70,11 @@ OVERRIDES = {
     "mnemosyne-companion": ("Free for personal study", "lightgrey"),
     # free of charge for personal and clinical use - no redistribution
     "skin-case-tracker": ("Free for personal and clinical use", "lightgrey"),
+    # the compiled dataset is free to use and share; the source books are public
+    # domain, so credit is owed to their authors and to the compiler
+    "homoeopathic-materia-medica-repertory-json": ("Free to use, attribution required", "yellowgreen"),
+    # already worded this way in its own README - listed so the wording is pinned
+    "boericke-repertory": ("Free to use, attribution required", "yellowgreen"),
 }
 
 
