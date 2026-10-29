@@ -66,8 +66,8 @@ Away from medicine and code: poet and social worker.
 <div align="center">
 
 <img src="https://img.shields.io/github/followers/drsamonline?style=flat-square&label=Followers" alt="GitHub followers" onerror="this.style.display='none'" />
-<img src="https://img.shields.io/badge/Public%20repos-78-blue?style=flat-square" alt="78 public repositories" onerror="this.style.display='none'" />
-<img src="https://img.shields.io/badge/Projects-76-blueviolet?style=flat-square" alt="76 projects" onerror="this.style.display='none'" />
+<img src="https://img.shields.io/badge/Public%20repos-79-blue?style=flat-square" alt="79 public repositories" onerror="this.style.display='none'" />
+<img src="https://img.shields.io/badge/Projects-77-blueviolet?style=flat-square" alt="77 projects" onerror="this.style.display='none'" />
 
 </div>
 
@@ -158,6 +158,7 @@ Away from medicine and code: poet and social worker.
 - [aethelgard-rpg-engine](https://drsamonline.github.io/aethelgard-rpg-engine/) — A dependency-free, vanilla-JavaScript engine for deep, single-player browser RPGs. Engine only — ships a small generic sample world; the games it powers live in drsamonline/aethelgard-games.
 - [app-companion-forge](https://drsamonline.github.io/app-companion-forge/) — Forge tooling (not a product app): an offline pocket console for the Forge system.
 - [app-encrypted-case-log](https://drsamonline.github.io/app-encrypted-case-log/) — Per-patient clinical notes, encrypted on the device with AES-256-GCM. Offline, no account, no server. Built with Forge on crypto-kit, case-kit, search-kit, export-kit and web-kit. MIT.
+- [app-image-toolkit](https://drsamonline.github.io/app-image-toolkit/) — Compress, resize, convert and strip the GPS from photos on your device — nothing uploaded, no account, works offline. Built with web-kit + export-kit.
 - [app-panchang](https://drsamonline.github.io/app-panchang/) — A daily Indian almanac — tithi, nakshatra, yoga, karana, rahu-kaal and muhurat, computed offline. Built with Forge.
 - [app-poets-studio](https://drsamonline.github.io/app-poets-studio/) — Rhyme, metre and fixed forms, fully offline — a poetry workshop that measures what you wrote. 124,085 words bundled.
 - [art-kit](https://github.com/drsamonline/art-kit) — The art primitives Forge was missing: an indexed palette, a pixel canvas with nearest-neighbour scaling, draw ops, a delta undo stack, dithering (Bayer + Floyd-Steinberg), median-cut quantisation, sprite sheets, the isometric mapping and a sketch loop. Zero dependencies, single file, no assets. MIT.
