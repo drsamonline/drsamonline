@@ -132,3 +132,15 @@ topics 76/94 -> 94/94. homepage 74/94 -> 83/94, and every Pages-enabled repo now
 app-lantern reports size 0 KB to the API while holding a README, server.js, a test file and examples. The hub's "empty repo" rule trusted that field and silently dropped it from the showcase; the rule now also requires that nothing has been pushed. Anything else in the estate that trusts `size` will make the same mistake.
 
 Evidence: catalogue.json in this repo; tools/build_hub.py, tools/commit-and-verify.sh and the refresh workflow in drsamonline.github.io; both workflows green, then re-read live.
+
+7. Since then: it maintains itself
+Aligning the descriptions exposed the real question — who owns them? Answer, now written into the script: GitHub does. Every repository's description was pushed to GitHub from the catalogue (83 changed, 0 disagreements left), and from here the arrow runs the other way. The daily run reconciles the catalogue against the live repositories before it renders:
+
+* a repository that is not in the catalogue is added, with its GitHub description and a category guessed from its name, description and topics; anything the rules cannot place is reported in the run log rather than filed somewhere plausible but wrong;
+* a description edited on GitHub replaces the catalogue's on the next run, so the profile and the hub follow an edit made in the one place a person would naturally make it;
+* an entry carrying "pin": true keeps its own wording, for a description that must not move;
+* category, featured, demo, release, kicker and tag have no equivalent on GitHub, so they stay here. That is the part worth curating, and the only part.
+
+Two cadences were wrong for this. update-profile ran weekly and refresh-hub ran on the 1st and 16th, so a repository added on a Tuesday reached the profile the following Monday and the hub up to a fortnight later. Both are daily now, and the hub's thumbnails are freshness-checked per repo, so a daily run re-captures only what changed. A new repository now reaches both surfaces within a day, described and categorised, with nobody editing a file.
+
+Proved, not assumed: a mock fleet with two invented repositories and an edited description was run through the script — both were added (one to "mind" from its wording, one to "other" with a notice), the edited description propagated, and a repository whose text was already correct was left alone. The real fleet then ran as a no-op: 0 added, 0 refreshed, README byte-identical.
