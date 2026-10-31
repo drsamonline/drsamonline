@@ -48,5 +48,7 @@ jobs:
           # catalogue.json is committed too: the run reconciles it against the live
           # repositories, so a new repo (or a description edited on GitHub) lands in
           # the same commit as the README that renders it.
+          # The stats strip is drawn from the same numbers, so it is committed with
+          # them - a picture of a count that can drift is worse than no picture.
           bash tools/commit-and-verify.sh "chore: auto-update profile README" main -- \
-            README.md catalogue.json
+            README.md catalogue.json assets/stats-light.svg assets/stats-dark.svg
