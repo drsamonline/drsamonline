@@ -69,7 +69,7 @@ shape it does.
 
 ## Everything, by purpose
 
-### ### <img src="assets/icons/desktop.svg" width="18" height="18" alt=""> Desktop, System & Developer Tools <code>14</code>
+### <img src="assets/icons/desktop.svg" width="18" height="18" alt=""> Desktop, System & Developer Tools <code>14</code>
 - [ai-bridge](https://drsamonline.github.io/ai-bridge/) — A VS Code extension that brings web-chat AI models into the editor, so you can work without leaving the code.
 - [All4ONE](https://drsamonline.github.io/All4ONE/) — 403 working tools in one portable Windows binary — file and folder work, encoding and hashing, images, PDFs, media, documents, network diagnostics, system maintenance, security checks and generators. No installer, no registry writes, no telemetry.
 - [app-image-toolkit](https://drsamonline.github.io/app-image-toolkit/) — Compress, resize, convert and strip the GPS from photos on your own device — nothing uploaded, no account, works offline.
@@ -85,7 +85,7 @@ shape it does.
 - [TTB](https://drsamonline.github.io/TTB/) — TinyToolBox — 591 tiny utilities bundled into one lightweight, offline-first browser extension for Chrome, Edge, Firefox and Safari.
 - [ULTIMATE-WINDOWS-OPTIMIZER](https://drsamonline.github.io/ULTIMATE-WINDOWS-OPTIMIZER/) — A PowerShell and batch toolkit for documented, reversible Windows 10/11 debloat and performance tweaks.
 
-### ### <img src="assets/icons/games.svg" width="18" height="18" alt=""> Games & Engines <code>11</code>
+### <img src="assets/icons/games.svg" width="18" height="18" alt=""> Games & Engines <code>11</code>
 - [aethelgard-games](https://drsamonline.github.io/aethelgard-games/) — Two free Aethelgard browser games — a visual novel (The Books) and a role-playing game (Chronicles of Fate).
 - [aethelgard-rpg-engine](https://drsamonline.github.io/aethelgard-rpg-engine/) — A dependency-free vanilla-JavaScript engine for deep single-player browser RPGs. Engine only — the games it powers live in aethelgard-games.
 - [dance-fight](https://drsamonline.github.io/dance-fight/) — A single-file browser rhythm game where every fight move is a dance move, driven by the beat grid of your own track.
@@ -98,7 +98,7 @@ shape it does.
 - [saga-vn-engine](https://drsamonline.github.io/saga-vn-engine/) — Saga — a small, dependency-free visual-novel engine for the browser. Plain JavaScript, one stylesheet, no build step.
 - [Scrap-and-Gun](https://drsamonline.github.io/Scrap-and-Gun/) — SCRAP & GUN — a retro pixel-art arena-defence shooter with tactical construction, escalating waves, persistent upgrades, roguelite drafts, bosses and local co-op.
 
-### ### <img src="assets/icons/health.svg" width="18" height="18" alt=""> Health & Medicine <code>13</code>
+### <img src="assets/icons/health.svg" width="18" height="18" alt=""> Health & Medicine <code>13</code>
 - [app-encrypted-case-log](https://drsamonline.github.io/app-encrypted-case-log/) — Per-patient clinical notes encrypted on the device with AES-256-GCM — offline, no account, no server.
 - [bmi-bmr-tdee-macros-fluid-calculator](https://drsamonline.github.io/bmi-bmr-tdee-macros-fluid-calculator/) — A single-file clinical calculator — BMI, BMR (Mifflin–St Jeor), TDEE, macros, fluids and body composition, with Indian and WHO cut-offs in English, Hindi and Gujarati.
 - [boericke-repertory](https://drsamonline.github.io/boericke-repertory/) — Boericke's Repertory as a free, offline single-file web app — a searchable clinical repertory and repertorisation tool, after Oscar E. Boericke, M.D. (1927).
@@ -113,7 +113,7 @@ shape it does.
 - [skin-case-tracker](https://drsamonline.github.io/skin-case-tracker/) — A private, offline skin-case tracker built on the HHMS dashboard — history, habits, mapping and symptoms — with a 90-day pattern engine, from the book The Skin Is a Liar.
 - [whispering-body-first-aid](https://drsamonline.github.io/whispering-body-first-aid/) — A home homeopathic first-aid companion of 30 remedies with a symptom finder, dosing guidance and emergency signs, in English, Hindi and Gujarati.
 
-### ### <img src="assets/icons/mind.svg" width="18" height="18" alt=""> Mind, Memory & Wellbeing <code>7</code>
+### <img src="assets/icons/mind.svg" width="18" height="18" alt=""> Mind, Memory & Wellbeing <code>7</code>
 - [conqueror-os](https://drsamonline.github.io/conqueror-os/) — A private, offline resilience workspace in a single HTML file — read, reflect, journal, track and review.
 - [read-live-transform-app](https://drsamonline.github.io/read-live-transform-app/) — A companion PWA to Read. Live. Transform.: A Practical Reading of the Qur'an — read the verse, live the practice, keep the change.
 - [seance](https://drsamonline.github.io/seance/) — Strongbox — sealed notes opened once: seal a note with a passphrase and it opens a single time. Offline, no accounts.
@@ -122,30 +122,30 @@ shape it does.
 - [today-card](https://drsamonline.github.io/today-card/) — Today Card — one card for the day: your date, one intention, one task and a streak. Offline, no accounts.
 - [unstoppable-mind-companion](https://drsamonline.github.io/unstoppable-mind-companion/) — An offline companion to The Unstoppable Mind — the book's key points, exercises, a 7-day challenge and flashcards.
 
-### ### <img src="assets/icons/audio.svg" width="18" height="18" alt=""> Audio & Media <code>2</code>
+### <img src="assets/icons/audio.svg" width="18" height="18" alt=""> Audio & Media <code>2</code>
 - [ambient-sound-studio](https://drsamonline.github.io/ambient-sound-studio/) — A private, offline ambient sound mixer in a single HTML file — 25 synthesised layers, 36 presets and WAV/Opus export.
 - [musicgen](https://drsamonline.github.io/musicgen/) — A pocket generative composer — an offline-first PWA that writes, synthesises, masters and exports music in the browser, with no server and no samples.
 
-### ### <img src="assets/icons/business.svg" width="18" height="18" alt=""> Business & Productivity <code>5</code>
+### <img src="assets/icons/business.svg" width="18" height="18" alt=""> Business & Productivity <code>5</code>
 - [app-clip-loom](https://drsamonline.github.io/app-clip-loom/) — Clip Loom — clipboard programs you can read: strip tracking, tidy text, keep what matters. Weft-8 on the Loom.
 - [canteen-lan](https://drsamonline.github.io/canteen-lan/) — Order from your table over the room's own Wi-Fi — a LAN canteen board built with Forge.
 - [chalk-lan](https://drsamonline.github.io/chalk-lan/) — A shared whiteboard for the room: everyone on the same Wi-Fi draws on the same board, live.
 - [Matneo](https://drsamonline.github.io/Matneo/) — An AI-powered digital products and automation platform — practical planners, templates, AI resources and offline browser tools.
 - [smartbill-app](https://drsamonline.github.io/smartbill-app/) — A fast, serverless single-page GST billing and invoicing app for Indian businesses, with local IndexedDB storage.
 
-### ### <img src="assets/icons/learning.svg" width="18" height="18" alt=""> Learning & Reference <code>3</code>
+### <img src="assets/icons/learning.svg" width="18" height="18" alt=""> Learning & Reference <code>3</code>
 - [app-panchang](https://drsamonline.github.io/app-panchang/) — A daily Indian almanac — tithi, nakshatra, yoga, karana, rahu-kaal and muhurat, computed offline.
 - [app-poets-studio](https://drsamonline.github.io/app-poets-studio/) — Rhyme, metre and fixed forms, fully offline — a poetry workshop that measures what you wrote, with 124,085 words bundled.
 - [base-bench](https://drsamonline.github.io/base-bench/) — Every number base, unit and timezone on one page, with the working shown — offline, no accounts.
 
-### ### <img src="assets/icons/weft.svg" width="18" height="18" alt=""> Weft-8 & Retrocomputing <code>5</code>
+### <img src="assets/icons/weft.svg" width="18" height="18" alt=""> Weft-8 & Retrocomputing <code>5</code>
 - [app-jacquard](https://drsamonline.github.io/app-jacquard/) — Jacquard — the loom you program: a Weft-8 8-bit assembler and VM with the device's sensors as memory-mapped peripherals.
 - [app-weft-puzzles](https://drsamonline.github.io/app-weft-puzzles/) — Weft Puzzles — small programming puzzles you solve in Weft-8 assembly, on the machine from Jacquard.
 - [weft8-classroom](https://drsamonline.github.io/weft8-classroom/) — Weft-8 Classroom — a teacher's pack and exercises for teaching how a computer works, offline, in one file.
 - [weft8-compare](https://drsamonline.github.io/weft8-compare/) — Weft-8 beside x86 and ARM — the same algorithm in three machines, so you can see which part is the computer.
 - [weft8-hardware](https://drsamonline.github.io/weft8-hardware/) — Weft-8 on real silicon — a C port of the Loom's 8-bit machine, an Arduino/ESP32 sketch and a parity harness.
 
-### ### <img src="assets/icons/kits.svg" width="18" height="18" alt=""> Libraries & Kits <code>19</code>
+### <img src="assets/icons/kits.svg" width="18" height="18" alt=""> Libraries & Kits <code>19</code>
 - [art-kit](https://github.com/drsamonline/art-kit) — The art primitives Forge was missing: an indexed palette, a pixel canvas, draw ops, a delta undo stack, dithering, median-cut quantisation and sprite sheets.
 - [astro-kit](https://drsamonline.github.io/astro-kit/) — The shared astronomy core: sun and moon longitude (Meeus), ayanamsa, sunrise/sunset, and tithi, nakshatra, yoga and karana.
 - [audio-kit](https://github.com/drsamonline/audio-kit) — Synthesis, theory, patterns and notation for offline apps: ADSR envelopes, oscillator voices, filters, scales, chords, a pattern sequencer and staff layout.
@@ -166,14 +166,14 @@ shape it does.
 - [web-kit](https://drsamonline.github.io/web-kit/) — The shared offline-first runtime for drsamonline apps: storage, i18n (EN/HI/GU), CSV, PWA, theme, SEO and accessibility.
 - [weft8-kit](https://drsamonline.github.io/weft8-kit/) — The Loom's Weft-8 as a reusable kit — an auditable, step-limited rule engine you can drop into another app.
 
-### ### <img src="assets/icons/chce.svg" width="18" height="18" alt=""> CHCE Compression <code>5</code>
+### <img src="assets/icons/chce.svg" width="18" height="18" alt=""> CHCE Compression <code>5</code>
 - [compfactory](https://github.com/drsamonline/compfactory) — The development workspace for the CHCE multi-repository project.
 - [HCS](https://github.com/drsamonline/HCS) — CHCE — Holistic Compression Sources: the reference compressor sources the CHCE engines are built from.
 - [heavenzip](https://github.com/drsamonline/heavenzip) — The CHCE orchestrator — chains prebuilt compression binaries into one pipeline.
 - [lexora](https://drsamonline.github.io/lexora/) — LEXORA — Layered EXact-text Repository and Adaptive compression architecture: canonicalise text, then compress it with guaranteed byte-exact recovery.
 - [ziptastic](https://github.com/drsamonline/ziptastic) — The CHCE native engine — a single binary with the codecs embedded.
 
-### ### <img src="assets/icons/infra.svg" width="18" height="18" alt=""> Meta & Infrastructure <code>8</code>
+### <img src="assets/icons/infra.svg" width="18" height="18" alt=""> Meta & Infrastructure <code>8</code>
 - [app-builder](https://drsamonline.github.io/app-builder/) — A shared build kit that compiles a static web app into a single-file portable Windows EXE and an Android WebView APK.
 - [app-companion-forge](https://drsamonline.github.io/app-companion-forge/) — Forge tooling, not a product app — an offline pocket console for the Forge system.
 - [audit](https://github.com/drsamonline/audit) — The change log for the drsamonline fleet: what was measured, what was fixed, and the evidence.
