@@ -651,8 +651,8 @@ def render_achievements(achievements, progress=None):
                   "  </picture>",
                   "</p>",
                   "",
-                  '<p align="center"><sub>Counted from the API on every build. The two rows '
-                  "without a number are the two GitHub publishes no counter for.</sub></p>"]
+                  '<p align="center"><sub>Counted from the API on every build. A number marked + is a floor, '
+                  "not a count \u2014 GitHub publishes no counter for those two.</sub></p>"]
     return "\n".join(parts) + "\n"
 
 
