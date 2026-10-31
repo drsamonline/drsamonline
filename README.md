@@ -14,7 +14,7 @@
 
 **Homeopathic physician (BHMS) · building offline-first, open-source software for medicine, learning and play**
 
-I'm a practising homeopathic physician who builds software. One rule shapes all of it: it has to keep working when the connection drops. Everything here is offline-first and privacy-respecting — no accounts, no telemetry, no subscriptions — from a 551-tool Windows utility suite to open materia medica and repertory tools for clinicians, alongside browser games and engines built for the pleasure of it.
+I'm a practising homeopathic physician who builds software. One rule shapes all of it: it has to keep working when the connection drops. Everything here is offline-first and privacy-respecting — no accounts, no telemetry, no subscriptions — from a 403-tool Windows utility suite to open materia medica and repertory tools for clinicians, alongside browser games and engines built for the pleasure of it.
 
 Away from medicine and code: poet and social worker.
 
