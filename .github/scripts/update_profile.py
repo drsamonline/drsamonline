@@ -42,6 +42,8 @@ ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)
 DATA_FILE = os.path.join(ROOT, "catalogue.json")
 README = os.path.join(ROOT, "README.md")
 
+FONT = ("-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif")
+
 BADGES_START, BADGES_END = "<!-- BADGES:START -->", "<!-- BADGES:END -->"
 PROJ_START, PROJ_END = "<!-- PROJECTS:START -->", "<!-- PROJECTS:END -->"
 
@@ -222,15 +224,21 @@ def render_badges(public_repos, project_count):
     )
 
 
+def heading(cat, label, count):
+    """A category heading with its icon and its count, keeping a real anchor slug."""
+    return ('### <img src="assets/icons/%s.svg" width="18" height="18" alt=""> %s '
+            '<code>%d</code>' % (cat, label, count))
+
+
 def render_projects(projects, labels):
     def key(p):
         return p["name"].lower()
 
-    lines = ["## Featured", ""]
+    lines = ["## Start here", ""]
     for p in sorted([p for p in projects if p["featured"]], key=key):
         lines.append('- **[%s](%s)** \u2014 %s &nbsp;\u00b7&nbsp; [source](%s)'
                      % (p["name"], p["landing"], p["desc"], p["source"]))
-    lines += ["", "## Projects by category", ""]
+    lines += ["", "## Everything, by purpose", ""]
     order = list(labels.keys())
     if "other" not in order:
         order.append("other")
@@ -238,7 +246,10 @@ def render_projects(projects, labels):
         group = sorted([p for p in projects if p["cat"] == cat], key=key)
         if not group:
             continue
-        lines.append("### " + labels.get(cat, DEFAULT_LABELS.get(cat, cat.title())))
+        # An icon and a count per heading: a 92-item index needs landmarks, and
+        # the count is the one number a reader actually wants before scrolling.
+        lines.append("### " + heading(cat, labels.get(cat, DEFAULT_LABELS.get(cat, cat.title())),
+                                      len(group)))
         for p in group:
             lines.append('- [%s](%s) \u2014 %s' % (p["name"], p["landing"], p["desc"]))
         lines.append("")
@@ -250,6 +261,56 @@ def replace_region(text, start, end, content):
     if not pattern.search(text):
         sys.exit("ERROR: markers %s / %s not found in README.md" % (start, end))
     return pattern.sub(lambda _m: start + "\n\n" + content.strip() + "\n\n" + end, text, count=1)
+
+
+STATS_THEME = {
+    "light": dict(paper="#F7F8FA", border="#E4E8EF", ink="#12161E", muted="#5A6473", accent="#3E6C9E"),
+    "dark": dict(paper="#0F131A", border="#232A35", ink="#EDF1F7", muted="#9AA6B8", accent="#7FB0E0"),
+}
+
+
+def render_stats(theme, cells):
+    """The strip under the hero. Drawn from live numbers, so it never lies."""
+    t = STATS_THEME[theme]
+    n = len(cells)
+    w = 1200 // n
+    parts = []
+    for i, (value, label) in enumerate(cells):
+        cx = i * w + w // 2
+        if i:
+            parts.append('<path d="M %d 34 V 116" stroke="%s" stroke-width="1"/>'
+                         % (i * w, t["border"]))
+        parts.append('<text x="%d" y="78" text-anchor="middle" font-family="%s" '
+                     'font-size="38" font-weight="700" fill="%s">%s</text>'
+                     % (cx, FONT, t["ink"], value))
+        parts.append('<text x="%d" y="104" text-anchor="middle" font-family="%s" '
+                     'font-size="10.5" letter-spacing="2.2" fill="%s">%s</text>'
+                     % (cx, FONT, t["muted"], label))
+    aria = " · ".join("%s %s" % (v, l.title()) for v, l in cells)
+    return """<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="150" viewBox="0 0 1200 150" role="img" aria-label="{aria}">
+  <rect width="1200" height="150" fill="{paper}"/>
+  <rect x="0.5" y="0.5" width="1199" height="149" fill="none" stroke="{border}"/>
+  <path d="M 0 0 H 1200" stroke="{accent}" stroke-width="2"/>
+  {parts}
+</svg>
+""".format(aria=aria, parts="\n  ".join(parts), **t)
+
+
+def write_stats(projects, api_repos, public_repos):
+    cats = {p["cat"] for p in projects}
+    meta = {"drsamonline", "drsamonline.github.io"}
+    live = [r for r in api_repos
+            if r.get("name") and not r.get("fork") and r["name"].lower() not in meta]
+    web = sum(1 for r in live if r.get("has_pages"))
+    langs = {r.get("language") for r in live if r.get("language")}
+    cells = [(len(projects), "projects"), (len(cats), "purposes"),
+             (web, "web editions"), (len(langs), "languages"),
+             (public_repos, "repositories")]
+    for theme in ("light", "dark"):
+        path = os.path.join(ROOT, "assets", "stats-%s.svg" % theme)
+        with open(path, "w", encoding="utf-8") as fh:
+            fh.write(render_stats(theme, cells))
+    print("stats: " + " · ".join("%s %s" % (v, l) for v, l in cells))
 
 
 def main():
@@ -280,12 +341,14 @@ def main():
               % (len(stale), ", ".join(sorted(stale))))
 
     projects = build_projects(api_repos, data)
+    write_stats(projects, api_repos, public_repos)
 
     with open(README, encoding="utf-8") as fh:
         readme = fh.read()
 
-    readme = replace_region(readme, BADGES_START, BADGES_END,
-                            render_badges(public_repos, len(projects)))
+    if BADGES_START in readme and BADGES_END in readme:
+        readme = replace_region(readme, BADGES_START, BADGES_END,
+                                render_badges(public_repos, len(projects)))
     readme = replace_region(readme, PROJ_START, PROJ_END,
                             render_projects(projects, labels))
     if not readme.endswith("\n"):
