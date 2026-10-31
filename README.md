@@ -8,89 +8,54 @@
 
 </div>
 
-<div align="center">
-
-# Dr. Sohil Momin
-
-**Homeopathic physician (BHMS) · building offline-first, open-source software for medicine, learning and play**
-
-I'm a practising homeopathic physician who builds software. One rule shapes all of it: it has to keep working when the connection drops. Everything here is offline-first and privacy-respecting — no accounts, no telemetry, no subscriptions — from a 403-tool Windows utility suite to open materia medica and repertory tools for clinicians, alongside browser games and engines built for the pleasure of it.
-
-Away from medicine and code: poet and social worker.
-
-</div>
+<h3 align="center">I write software that keeps working when the connection drops.</h3>
 
 <p align="center">
-  <a href="https://github.com/drsamonline">GitHub</a> &nbsp;·&nbsp;
-  <a href="https://www.linkedin.com/in/drsamz">LinkedIn</a> &nbsp;·&nbsp;
-  <a href="https://www.reddit.com/user/drsambaroda">Reddit</a> &nbsp;·&nbsp;
-  <a href="https://www.facebook.com/msohil">Facebook</a> &nbsp;·&nbsp;
-  <a href="https://about.me/drsohil">about.me</a> &nbsp;·&nbsp;
-  <a href="mailto:sohilmomin2000@gmail.com">Email</a>
+  I'm a practising homeopathic physician in Vadodara. Everything here is built on one premise:
+  the app should be the whole app — no server to reach, no account to create, nothing phoned home.
+  It turns out that covers most of what I want to make, from a clinician's repertory to a browser
+  game that runs from a single file.
+</p>
+
+<p align="center">
+  <a href="https://drsamonline.github.io/"><img src="https://img.shields.io/badge/projects-hub-3E6C9E?style=flat-square" alt="Project hub"></a>
+  <a href="https://www.linkedin.com/in/drsamz"><img src="https://img.shields.io/badge/LinkedIn-drsamz-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+  <a href="https://www.reddit.com/user/drsambaroda"><img src="https://img.shields.io/badge/Reddit-drsambaroda-FF4500?style=flat-square&logo=reddit&logoColor=white" alt="Reddit"></a>
+  <a href="https://www.facebook.com/msohil"><img src="https://img.shields.io/badge/Facebook-msohil-1877F2?style=flat-square&logo=facebook&logoColor=white" alt="Facebook"></a>
+  <a href="https://about.me/drsohil"><img src="https://img.shields.io/badge/about.me-drsohil-000000?style=flat-square&logo=aboutdotme&logoColor=white" alt="about.me"></a>
+  <a href="mailto:sohilmomin2000@gmail.com"><img src="https://img.shields.io/badge/email-sohilmomin2000%40gmail.com-586069?style=flat-square&logo=gmail&logoColor=white" alt="Email"></a>
 </p>
 
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/metrics-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/metrics-light.svg">
-  <img src="assets/metrics-light.svg" alt="GitHub metrics for drsamonline — recent activity and contribution calendar" width="480">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/stats-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/stats-light.svg">
+  <img src="assets/stats-light.svg" alt="Projects, purposes, web editions, languages and repositories, counted from the GitHub API at build time" width="100%">
 </picture>
 
 </div>
 
-<!--
-  Optional widget: language trends (githubtrends.io)
-  Deliberately left OFF. githubtrends.io is a hosted service that needs a free
-  account before its image URLs resolve, so embedding it now would show a broken
-  image. To enable it: sign up at https://www.githubtrends.io with GitHub, then
-  delete this comment wrapper (the opening and closing comment markers only) so
-  the markup below becomes active.
+<img src="assets/divider.svg" width="100%" alt="">
 
-  <p align="center">
-    <img width="480" alt="Language trends for drsamonline over the last year"
-         src="https://api.githubtrends.io/user/svg/drsamonline/langs?time_range=one_year&loc_metric=changed">
-  </p>
+## How every project here is built
 
-  Optional alternative: the zero-setup shared metrics instance. Also external, so
-  also off by default. To use it instead of the committed cards, uncomment:
+Five commitments, and they are not aspirations — they are the reason each project exists in the
+shape it does.
 
-  <p align="center">
-    <img width="480" alt="GitHub metrics for drsamonline"
-         src="https://metrics.lecoq.io/drsamonline">
-  </p>
--->
+|  | What it means in practice |
+| :-- | :-- |
+| **It works offline** | Open it with the network off and it still works. Not a cached shell — the whole thing. |
+| **One file, where it can be** | A single HTML file with no build step, no bundler, no CDN, no dependency to rot. Drop it on a USB stick and it runs in ten years. |
+| **No accounts** | Nothing to sign up for, nothing to remember, nothing to lose access to. |
+| **No telemetry** | No analytics, no crash pings, no "anonymous usage statistics". The software does not know you used it. |
+| **It stays yours** | Your cases, your notes, your files stay on your device. Where there is a server, it is one you run, in your own room. |
 
-<!-- BADGES:START -->
-
-<div align="center">
-
-<img src="https://img.shields.io/github/followers/drsamonline?style=flat-square&label=Followers" alt="GitHub followers" onerror="this.style.display='none'" />
-<img src="https://img.shields.io/badge/Public%20repos-94-blue?style=flat-square" alt="94 public repositories" onerror="this.style.display='none'" />
-<img src="https://img.shields.io/badge/Projects-92-blueviolet?style=flat-square" alt="92 projects" onerror="this.style.display='none'" />
-
-</div>
-
-<!-- BADGES:END -->
-
-<div align="center">
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-drsamz-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/drsamz)
-[![Reddit](https://img.shields.io/badge/Reddit-drsambaroda-FF4500?style=flat-square&logo=reddit&logoColor=white)](https://www.reddit.com/user/drsambaroda)
-[![Facebook](https://img.shields.io/badge/Facebook-msohil-1877F2?style=flat-square&logo=facebook&logoColor=white)](https://www.facebook.com/msohil)
-[![about.me](https://img.shields.io/badge/about.me-drsohil-000000?style=flat-square&logo=aboutdotme&logoColor=white)](https://about.me/drsohil)
-[![Email](https://img.shields.io/badge/email-sohilmomin2000%40gmail.com-586069?style=flat-square&logo=gmail&logoColor=white)](mailto:sohilmomin2000@gmail.com)
-[![Homeopathic physician (BHMS)](https://img.shields.io/badge/homeopathic%20physician-BHMS-2E7D32?style=flat-square)](https://drsamonline.github.io/)
-[![Offline-first, no telemetry](https://img.shields.io/badge/offline--first-no%20telemetry-2E7D32?style=flat-square)](https://drsamonline.github.io/)
-[![License: PolyForm Noncommercial 1.0.0](https://img.shields.io/badge/license-PolyForm%20Noncommercial%201.0.0-2e7d32?style=flat-square)](LICENSE)
-
-</div>
-
----
+<img src="assets/divider.svg" width="100%" alt="">
 
 <!-- PROJECTS:START -->
 
-## Featured
+## Start here
 
 - **[All4ONE](https://drsamonline.github.io/All4ONE/)** — 403 working tools in one portable Windows binary — file and folder work, encoding and hashing, images, PDFs, media, documents, network diagnostics, system maintenance, security checks and generators. No installer, no registry writes, no telemetry. &nbsp;·&nbsp; [source](https://github.com/drsamonline/All4ONE)
 - **[ambient-sound-studio](https://drsamonline.github.io/ambient-sound-studio/)** — A private, offline ambient sound mixer in a single HTML file — 25 synthesised layers, 36 presets and WAV/Opus export. &nbsp;·&nbsp; [source](https://github.com/drsamonline/ambient-sound-studio)
@@ -102,9 +67,9 @@ Away from medicine and code: poet and social worker.
 - **[remedy-relationship-explorer](https://drsamonline.github.io/remedy-relationship-explorer/)** — An offline single-file explorer for homeopathic remedy relationships, built from public-domain materia medicas (Boericke 1927, Clarke 1900, Hering 1879). &nbsp;·&nbsp; [source](https://github.com/drsamonline/remedy-relationship-explorer)
 - **[ULTIMATE-WINDOWS-OPTIMIZER](https://drsamonline.github.io/ULTIMATE-WINDOWS-OPTIMIZER/)** — A PowerShell and batch toolkit for documented, reversible Windows 10/11 debloat and performance tweaks. &nbsp;·&nbsp; [source](https://github.com/drsamonline/ULTIMATE-WINDOWS-OPTIMIZER)
 
-## Projects by category
+## Everything, by purpose
 
-### Desktop, System & Developer Tools
+### ### <img src="assets/icons/desktop.svg" width="18" height="18" alt=""> Desktop, System & Developer Tools <code>14</code>
 - [ai-bridge](https://drsamonline.github.io/ai-bridge/) — A VS Code extension that brings web-chat AI models into the editor, so you can work without leaving the code.
 - [All4ONE](https://drsamonline.github.io/All4ONE/) — 403 working tools in one portable Windows binary — file and folder work, encoding and hashing, images, PDFs, media, documents, network diagnostics, system maintenance, security checks and generators. No installer, no registry writes, no telemetry.
 - [app-image-toolkit](https://drsamonline.github.io/app-image-toolkit/) — Compress, resize, convert and strip the GPS from photos on your own device — nothing uploaded, no account, works offline.
@@ -120,7 +85,7 @@ Away from medicine and code: poet and social worker.
 - [TTB](https://drsamonline.github.io/TTB/) — TinyToolBox — 591 tiny utilities bundled into one lightweight, offline-first browser extension for Chrome, Edge, Firefox and Safari.
 - [ULTIMATE-WINDOWS-OPTIMIZER](https://drsamonline.github.io/ULTIMATE-WINDOWS-OPTIMIZER/) — A PowerShell and batch toolkit for documented, reversible Windows 10/11 debloat and performance tweaks.
 
-### Games & Engines
+### ### <img src="assets/icons/games.svg" width="18" height="18" alt=""> Games & Engines <code>11</code>
 - [aethelgard-games](https://drsamonline.github.io/aethelgard-games/) — Two free Aethelgard browser games — a visual novel (The Books) and a role-playing game (Chronicles of Fate).
 - [aethelgard-rpg-engine](https://drsamonline.github.io/aethelgard-rpg-engine/) — A dependency-free vanilla-JavaScript engine for deep single-player browser RPGs. Engine only — the games it powers live in aethelgard-games.
 - [dance-fight](https://drsamonline.github.io/dance-fight/) — A single-file browser rhythm game where every fight move is a dance move, driven by the beat grid of your own track.
@@ -133,7 +98,7 @@ Away from medicine and code: poet and social worker.
 - [saga-vn-engine](https://drsamonline.github.io/saga-vn-engine/) — Saga — a small, dependency-free visual-novel engine for the browser. Plain JavaScript, one stylesheet, no build step.
 - [Scrap-and-Gun](https://drsamonline.github.io/Scrap-and-Gun/) — SCRAP & GUN — a retro pixel-art arena-defence shooter with tactical construction, escalating waves, persistent upgrades, roguelite drafts, bosses and local co-op.
 
-### Health & Medicine
+### ### <img src="assets/icons/health.svg" width="18" height="18" alt=""> Health & Medicine <code>13</code>
 - [app-encrypted-case-log](https://drsamonline.github.io/app-encrypted-case-log/) — Per-patient clinical notes encrypted on the device with AES-256-GCM — offline, no account, no server.
 - [bmi-bmr-tdee-macros-fluid-calculator](https://drsamonline.github.io/bmi-bmr-tdee-macros-fluid-calculator/) — A single-file clinical calculator — BMI, BMR (Mifflin–St Jeor), TDEE, macros, fluids and body composition, with Indian and WHO cut-offs in English, Hindi and Gujarati.
 - [boericke-repertory](https://drsamonline.github.io/boericke-repertory/) — Boericke's Repertory as a free, offline single-file web app — a searchable clinical repertory and repertorisation tool, after Oscar E. Boericke, M.D. (1927).
@@ -148,7 +113,7 @@ Away from medicine and code: poet and social worker.
 - [skin-case-tracker](https://drsamonline.github.io/skin-case-tracker/) — A private, offline skin-case tracker built on the HHMS dashboard — history, habits, mapping and symptoms — with a 90-day pattern engine, from the book The Skin Is a Liar.
 - [whispering-body-first-aid](https://drsamonline.github.io/whispering-body-first-aid/) — A home homeopathic first-aid companion of 30 remedies with a symptom finder, dosing guidance and emergency signs, in English, Hindi and Gujarati.
 
-### Mind, Memory & Wellbeing
+### ### <img src="assets/icons/mind.svg" width="18" height="18" alt=""> Mind, Memory & Wellbeing <code>7</code>
 - [conqueror-os](https://drsamonline.github.io/conqueror-os/) — A private, offline resilience workspace in a single HTML file — read, reflect, journal, track and review.
 - [read-live-transform-app](https://drsamonline.github.io/read-live-transform-app/) — A companion PWA to Read. Live. Transform.: A Practical Reading of the Qur'an — read the verse, live the practice, keep the change.
 - [seance](https://drsamonline.github.io/seance/) — Strongbox — sealed notes opened once: seal a note with a passphrase and it opens a single time. Offline, no accounts.
@@ -157,30 +122,30 @@ Away from medicine and code: poet and social worker.
 - [today-card](https://drsamonline.github.io/today-card/) — Today Card — one card for the day: your date, one intention, one task and a streak. Offline, no accounts.
 - [unstoppable-mind-companion](https://drsamonline.github.io/unstoppable-mind-companion/) — An offline companion to The Unstoppable Mind — the book's key points, exercises, a 7-day challenge and flashcards.
 
-### Audio & Media
+### ### <img src="assets/icons/audio.svg" width="18" height="18" alt=""> Audio & Media <code>2</code>
 - [ambient-sound-studio](https://drsamonline.github.io/ambient-sound-studio/) — A private, offline ambient sound mixer in a single HTML file — 25 synthesised layers, 36 presets and WAV/Opus export.
 - [musicgen](https://drsamonline.github.io/musicgen/) — A pocket generative composer — an offline-first PWA that writes, synthesises, masters and exports music in the browser, with no server and no samples.
 
-### Business & Productivity
+### ### <img src="assets/icons/business.svg" width="18" height="18" alt=""> Business & Productivity <code>5</code>
 - [app-clip-loom](https://drsamonline.github.io/app-clip-loom/) — Clip Loom — clipboard programs you can read: strip tracking, tidy text, keep what matters. Weft-8 on the Loom.
 - [canteen-lan](https://drsamonline.github.io/canteen-lan/) — Order from your table over the room's own Wi-Fi — a LAN canteen board built with Forge.
 - [chalk-lan](https://drsamonline.github.io/chalk-lan/) — A shared whiteboard for the room: everyone on the same Wi-Fi draws on the same board, live.
 - [Matneo](https://drsamonline.github.io/Matneo/) — An AI-powered digital products and automation platform — practical planners, templates, AI resources and offline browser tools.
 - [smartbill-app](https://drsamonline.github.io/smartbill-app/) — A fast, serverless single-page GST billing and invoicing app for Indian businesses, with local IndexedDB storage.
 
-### Learning & Reference
+### ### <img src="assets/icons/learning.svg" width="18" height="18" alt=""> Learning & Reference <code>3</code>
 - [app-panchang](https://drsamonline.github.io/app-panchang/) — A daily Indian almanac — tithi, nakshatra, yoga, karana, rahu-kaal and muhurat, computed offline.
 - [app-poets-studio](https://drsamonline.github.io/app-poets-studio/) — Rhyme, metre and fixed forms, fully offline — a poetry workshop that measures what you wrote, with 124,085 words bundled.
 - [base-bench](https://drsamonline.github.io/base-bench/) — Every number base, unit and timezone on one page, with the working shown — offline, no accounts.
 
-### Weft-8 & Retrocomputing
+### ### <img src="assets/icons/weft.svg" width="18" height="18" alt=""> Weft-8 & Retrocomputing <code>5</code>
 - [app-jacquard](https://drsamonline.github.io/app-jacquard/) — Jacquard — the loom you program: a Weft-8 8-bit assembler and VM with the device's sensors as memory-mapped peripherals.
 - [app-weft-puzzles](https://drsamonline.github.io/app-weft-puzzles/) — Weft Puzzles — small programming puzzles you solve in Weft-8 assembly, on the machine from Jacquard.
 - [weft8-classroom](https://drsamonline.github.io/weft8-classroom/) — Weft-8 Classroom — a teacher's pack and exercises for teaching how a computer works, offline, in one file.
 - [weft8-compare](https://drsamonline.github.io/weft8-compare/) — Weft-8 beside x86 and ARM — the same algorithm in three machines, so you can see which part is the computer.
 - [weft8-hardware](https://drsamonline.github.io/weft8-hardware/) — Weft-8 on real silicon — a C port of the Loom's 8-bit machine, an Arduino/ESP32 sketch and a parity harness.
 
-### Libraries & Kits
+### ### <img src="assets/icons/kits.svg" width="18" height="18" alt=""> Libraries & Kits <code>19</code>
 - [art-kit](https://github.com/drsamonline/art-kit) — The art primitives Forge was missing: an indexed palette, a pixel canvas, draw ops, a delta undo stack, dithering, median-cut quantisation and sprite sheets.
 - [astro-kit](https://drsamonline.github.io/astro-kit/) — The shared astronomy core: sun and moon longitude (Meeus), ayanamsa, sunrise/sunset, and tithi, nakshatra, yoga and karana.
 - [audio-kit](https://github.com/drsamonline/audio-kit) — Synthesis, theory, patterns and notation for offline apps: ADSR envelopes, oscillator voices, filters, scales, chords, a pattern sequencer and staff layout.
@@ -201,14 +166,14 @@ Away from medicine and code: poet and social worker.
 - [web-kit](https://drsamonline.github.io/web-kit/) — The shared offline-first runtime for drsamonline apps: storage, i18n (EN/HI/GU), CSV, PWA, theme, SEO and accessibility.
 - [weft8-kit](https://drsamonline.github.io/weft8-kit/) — The Loom's Weft-8 as a reusable kit — an auditable, step-limited rule engine you can drop into another app.
 
-### CHCE Compression
+### ### <img src="assets/icons/chce.svg" width="18" height="18" alt=""> CHCE Compression <code>5</code>
 - [compfactory](https://github.com/drsamonline/compfactory) — The development workspace for the CHCE multi-repository project.
 - [HCS](https://github.com/drsamonline/HCS) — CHCE — Holistic Compression Sources: the reference compressor sources the CHCE engines are built from.
 - [heavenzip](https://github.com/drsamonline/heavenzip) — The CHCE orchestrator — chains prebuilt compression binaries into one pipeline.
 - [lexora](https://drsamonline.github.io/lexora/) — LEXORA — Layered EXact-text Repository and Adaptive compression architecture: canonicalise text, then compress it with guaranteed byte-exact recovery.
 - [ziptastic](https://github.com/drsamonline/ziptastic) — The CHCE native engine — a single binary with the codecs embedded.
 
-### Meta & Infrastructure
+### ### <img src="assets/icons/infra.svg" width="18" height="18" alt=""> Meta & Infrastructure <code>8</code>
 - [app-builder](https://drsamonline.github.io/app-builder/) — A shared build kit that compiles a static web app into a single-file portable Windows EXE and an Android WebView APK.
 - [app-companion-forge](https://drsamonline.github.io/app-companion-forge/) — Forge tooling, not a product app — an offline pocket console for the Forge system.
 - [audit](https://github.com/drsamonline/audit) — The change log for the drsamonline fleet: what was measured, what was fixed, and the evidence.
@@ -220,18 +185,57 @@ Away from medicine and code: poet and social worker.
 
 <!-- PROJECTS:END -->
 
----
+<img src="assets/divider.svg" width="100%" alt="">
 
-<div align="center">
+## The books, and the apps that come with them
 
-<sub>Explore everything &rarr; <a href="https://drsamonline.github.io/">drsamonline.github.io</a></sub>
+Seven of these projects are companions to books I have written — the book does the reading, the app
+does the practice: a checklist, a symptom finder, a case log, a set of flashcards.
 
-</div>
+| The book | The companion | What it does |
+| :-- | :-- | :-- |
+| *Gentle Pediatrics* | [gentle-pediatrics-companion](https://drsamonline.github.io/gentle-pediatrics-companion/) | Triage-first help for a sick child: nine common situations, a red-flag check, remedy orientation. |
+| *The Skin Is a Liar* | [skin-case-tracker](https://drsamonline.github.io/skin-case-tracker/) | A private skin-case log with a 90-day pattern engine. |
+| *The Whispering Body* | [whispering-body-first-aid](https://drsamonline.github.io/whispering-body-first-aid/) | A home first-aid box of 30 remedies, with a symptom finder and emergency signs. |
+| *The Symphony of the Present* | [the-symphony-companion](https://drsamonline.github.io/the-symphony-companion/) | The ideas as cards, the practices as a checklist, a breathing timer, a gratitude journal. |
+| *The Unstoppable Mind* | [unstoppable-mind-companion](https://drsamonline.github.io/unstoppable-mind-companion/) | Key points, exercises, a seven-day challenge, flashcards. |
+| *Read. Live. Transform.* | [read-live-transform-app](https://drsamonline.github.io/read-live-transform-app/) | A practical reading of the Qur'an: read the verse, live the practice, keep the change. |
+| *Mnemosyne Materia Medica* | [mnemosyne-companion](https://drsamonline.github.io/mnemosyne-companion/) | A hundred polycrest remedies as poetic pearls, keynotes and spaced repetition. |
 
-## Built with
+<img src="assets/divider.svg" width="100%" alt="">
 
-This profile is assembled from other people's work, and it deserves the credit.
+## Signals
 
-- **[lowlighter/metrics](https://github.com/lowlighter/metrics)** — the rendering engine behind the stats card. It uses the `classic` template with the `base` (header, activity) and `calendar` plugins, and its `extras_css` option to produce a matched light and dark pair from one configuration. Worth knowing: `config_theme` is not a real option and silently does nothing, despite how often it is copied around — light/dark has to be done with `extras_css` and two renders.
-- **[avgupta456/github-trends](https://github.com/avgupta456/github-trends)** — the idea of tracking lines of code by language over time, and the pattern of embedding a hosted SVG instead of generating one in the repo. Its embed is parked here until an account is created on their service.
-- **[rzashakeri/beautify-github-profile](https://github.com/rzashakeri/beautify-github-profile)** — the catalogue this was worked from. The badge vocabulary comes from its Badges section (the shields.io family), and metrics was chosen from its Widgets list; the busier widgets it also lists (typing SVG, profile trophy, contribution snake) were deliberately left out to keep this page quiet.
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/metrics-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="assets/metrics-light.svg">
+    <img src="assets/metrics-light.svg" alt="Contribution activity and calendar for drsamonline" width="480">
+  </picture>
+</p>
+
+<p align="center">
+  <sub>Contribution activity, rendered from the GitHub API by a scheduled workflow. The strip at the
+  top of this page is counted the same way, on every run.</sub>
+</p>
+
+<img src="assets/divider.svg" width="100%" alt="">
+
+## Colophon
+
+**How this page is made.** Two GitHub Actions workflows and one file. `catalogue.json` holds the
+description and the purpose of every repository; this profile and the [project hub](https://drsamonline.github.io/)
+are both generated from it, daily. A new repository appears in both without anyone editing this
+page — and if a description is edited on GitHub, this page follows it on the next run. The numbers
+in the strip are read from the API at build time, so they cannot drift.
+
+**Licences.** Most repositories are PolyForm Noncommercial 1.0.0; a few are MIT, and some carry a
+bespoke "free for personal use" term. The `LICENSE` file in the repository you are reading is the
+one that counts — not a badge on this page.
+
+**Elsewhere.** Poet and social worker the rest of the time. Email is the reliable way to reach me:
+[sohilmomin2000@gmail.com](mailto:sohilmomin2000@gmail.com).
+
+<p align="center">
+  <sub>Built in Vadodara, Gujarat. No trackers on this page, either.</sub>
+</p>
