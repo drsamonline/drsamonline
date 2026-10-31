@@ -248,8 +248,8 @@ def render_projects(projects, labels):
             continue
         # An icon and a count per heading: a 92-item index needs landmarks, and
         # the count is the one number a reader actually wants before scrolling.
-        lines.append("### " + heading(cat, labels.get(cat, DEFAULT_LABELS.get(cat, cat.title())),
-                                      len(group)))
+        lines.append(heading(cat, labels.get(cat, DEFAULT_LABELS.get(cat, cat.title())),
+                             len(group)))
         for p in group:
             lines.append('- [%s](%s) \u2014 %s' % (p["name"], p["landing"], p["desc"]))
         lines.append("")
