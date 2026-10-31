@@ -42,4 +42,8 @@ jobs:
           # wrong: a push that exited 0 was never checked against the branch.
           # tools/commit-and-verify.sh does both - the same backoff, then a blob-sha
           # comparison against origin/main.
-          bash tools/commit-and-verify.sh "chore: auto-update profile README" main -- README.md
+          # catalogue.json is committed too: the run reconciles it against the live
+          # repositories, so a new repo (or a description edited on GitHub) lands in
+          # the same commit as the README that renders it.
+          bash tools/commit-and-verify.sh "chore: auto-update profile README" main -- \
+            README.md catalogue.json
