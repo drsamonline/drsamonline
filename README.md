@@ -65,9 +65,9 @@ Away from medicine and code: poet and social worker.
 
 <div align="center">
 
-<img src="https://img.shields.io/github/followers/drsamonline" alt="GitHub followers" onerror="this.style.display='none'" />
-<img src="https://img.shields.io/badge/Public%20repos-94-blue" alt="94 public repositories" onerror="this.style.display='none'" />
-<img src="https://img.shields.io/badge/Projects-92-blueviolet" alt="92 projects" onerror="this.style.display='none'" />
+<img src="https://img.shields.io/github/followers/drsamonline?style=flat-square&label=Followers" alt="GitHub followers" onerror="this.style.display='none'" />
+<img src="https://img.shields.io/badge/Public%20repos-94-blue?style=flat-square" alt="94 public repositories" onerror="this.style.display='none'" />
+<img src="https://img.shields.io/badge/Projects-92-blueviolet?style=flat-square" alt="92 projects" onerror="this.style.display='none'" />
 
 </div>
 
@@ -108,7 +108,7 @@ Away from medicine and code: poet and social worker.
 - [ai-bridge](https://drsamonline.github.io/ai-bridge/) — A VS Code extension that brings web-chat AI models into the editor, so you can work without leaving the code.
 - [All4ONE](https://drsamonline.github.io/All4ONE/) — 403 working tools in one portable Windows binary — file and folder work, encoding and hashing, images, PDFs, media, documents, network diagnostics, system maintenance, security checks and generators. No installer, no registry writes, no telemetry.
 - [app-image-toolkit](https://drsamonline.github.io/app-image-toolkit/) — Compress, resize, convert and strip the GPS from photos on your own device — nothing uploaded, no account, works offline.
-- [app-lantern](https://github.com/drsamonline/app-lantern) — A whole library served over your own Wi-Fi — browse and search offline content on the LAN, with no internet at any point.
+- [app-lantern](https://drsamonline.github.io/app-lantern/) — A whole library served over your own Wi-Fi — browse and search offline content on the LAN, with no internet at any point.
 - [blinkcode-ai](https://drsamonline.github.io/blinkcode-ai/) — An optical file-transfer PWA — compress a file into a File DNA container, paint it as SpectraCode colour matrices and recover it with a camera.
 - [BLINKTRANSFER](https://drsamonline.github.io/BLINKTRANSFER/) — Offline file transfer over animated QR codes — no internet, no Bluetooth, no cables.
 - [CLDR](https://drsamonline.github.io/CLDR/) — A single tiny Rust binary that sits in the system tray, pops up on a keystroke and runs whatever you type — a sum, a path, an app or a search.
