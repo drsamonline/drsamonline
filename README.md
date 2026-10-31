@@ -43,7 +43,7 @@
 Five commitments, and they are not aspirations — they are the reason each project exists in the
 shape it does.
 
-|  | What it means in practice |
+| The commitment | What it means in practice |
 | :-- | :-- |
 | **It works offline** | Open it with the network off and it still works. Not a cached shell — the whole thing. |
 | **One file, where it can be** | A single HTML file with no build step, no bundler, no CDN, no dependency to rot. Drop it on a USB stick and it runs in ten years. |
