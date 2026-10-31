@@ -1,19 +1,19 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="150" viewBox="0 0 1200 150" role="img" aria-label="92 Projects · 11 Purposes · 81 Web Editions · 10 Languages · 94 Repositories">
-  <rect width="1200" height="150" fill="#F7F8FA"/>
-  <rect x="0.5" y="0.5" width="1199" height="149" fill="none" stroke="#E4E8EF"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="168" viewBox="0 0 1200 168" role="img" aria-label="92 Projects · 11 Purposes · 81 Web Editions · 10 Languages · 94 Repositories">
+  <rect width="1200" height="168" fill="#F7F8FA"/>
+  <rect x="0.5" y="0.5" width="1199" height="167" fill="none" stroke="#E4E8EF"/>
   <path d="M 0 0 H 1200" stroke="#3E6C9E" stroke-width="2"/>
-  <text x="120" y="78" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="38" font-weight="700" fill="#12161E">92</text>
-  <text x="120" y="104" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="10.5" letter-spacing="2.2" fill="#5A6473">projects</text>
-  <path d="M 240 34 V 116" stroke="#E4E8EF" stroke-width="1"/>
-  <text x="360" y="78" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="38" font-weight="700" fill="#12161E">11</text>
-  <text x="360" y="104" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="10.5" letter-spacing="2.2" fill="#5A6473">purposes</text>
-  <path d="M 480 34 V 116" stroke="#E4E8EF" stroke-width="1"/>
-  <text x="600" y="78" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="38" font-weight="700" fill="#12161E">81</text>
-  <text x="600" y="104" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="10.5" letter-spacing="2.2" fill="#5A6473">web editions</text>
-  <path d="M 720 34 V 116" stroke="#E4E8EF" stroke-width="1"/>
-  <text x="840" y="78" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="38" font-weight="700" fill="#12161E">10</text>
-  <text x="840" y="104" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="10.5" letter-spacing="2.2" fill="#5A6473">languages</text>
-  <path d="M 960 34 V 116" stroke="#E4E8EF" stroke-width="1"/>
-  <text x="1080" y="78" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="38" font-weight="700" fill="#12161E">94</text>
-  <text x="1080" y="104" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="10.5" letter-spacing="2.2" fill="#5A6473">repositories</text>
+  <text x="120" y="86" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="50" font-weight="700" fill="#12161E">92</text>
+  <text x="120" y="116" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="14.5" font-weight="600" letter-spacing="1.6" fill="#5A6473">PROJECTS</text>
+  <path d="M 240 36 V 132" stroke="#E4E8EF" stroke-width="1"/>
+  <text x="360" y="86" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="50" font-weight="700" fill="#12161E">11</text>
+  <text x="360" y="116" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="14.5" font-weight="600" letter-spacing="1.6" fill="#5A6473">PURPOSES</text>
+  <path d="M 480 36 V 132" stroke="#E4E8EF" stroke-width="1"/>
+  <text x="600" y="86" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="50" font-weight="700" fill="#12161E">81</text>
+  <text x="600" y="116" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="14.5" font-weight="600" letter-spacing="1.6" fill="#5A6473">WEB EDITIONS</text>
+  <path d="M 720 36 V 132" stroke="#E4E8EF" stroke-width="1"/>
+  <text x="840" y="86" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="50" font-weight="700" fill="#12161E">10</text>
+  <text x="840" y="116" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="14.5" font-weight="600" letter-spacing="1.6" fill="#5A6473">LANGUAGES</text>
+  <path d="M 960 36 V 132" stroke="#E4E8EF" stroke-width="1"/>
+  <text x="1080" y="86" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="50" font-weight="700" fill="#12161E">94</text>
+  <text x="1080" y="116" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="14.5" font-weight="600" letter-spacing="1.6" fill="#5A6473">REPOSITORIES</text>
 </svg>

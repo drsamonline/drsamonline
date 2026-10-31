@@ -36,6 +36,19 @@
 
 </div>
 
+<!-- ACHIEVEMENTS:START -->
+
+## Achievements
+
+<p align="center">
+  <a href="https://github.com/drsamonline?tab=achievements"><img src="assets/achievements/quickdraw.svg" height="78" alt="Quickdraw"></a>&nbsp;
+  <a href="https://github.com/drsamonline?tab=achievements"><img src="assets/achievements/pull-shark.svg" height="78" alt="Pull Shark, Silver, earned 3 times"></a>&nbsp;
+  <a href="https://github.com/drsamonline?tab=achievements"><img src="assets/achievements/yolo.svg" height="78" alt="YOLO"></a>&nbsp;
+  <a href="https://github.com/drsamonline?tab=achievements"><img src="assets/achievements/pair-extraordinaire.svg" height="78" alt="Pair Extraordinaire"></a>&nbsp;
+</p>
+
+<!-- ACHIEVEMENTS:END -->
+
 <img src="assets/divider.svg" width="100%" alt="">
 
 ## How every project here is built
@@ -57,131 +70,131 @@ shape it does.
 
 ## Start here
 
-- **[All4ONE](https://drsamonline.github.io/All4ONE/)** — 403 working tools in one portable Windows binary — file and folder work, encoding and hashing, images, PDFs, media, documents, network diagnostics, system maintenance, security checks and generators. No installer, no registry writes, no telemetry. &nbsp;·&nbsp; [source](https://github.com/drsamonline/All4ONE)
-- **[ambient-sound-studio](https://drsamonline.github.io/ambient-sound-studio/)** — A private, offline ambient sound mixer in a single HTML file — 25 synthesised layers, 36 presets and WAV/Opus export. &nbsp;·&nbsp; [source](https://github.com/drsamonline/ambient-sound-studio)
-- **[bmi-bmr-tdee-macros-fluid-calculator](https://drsamonline.github.io/bmi-bmr-tdee-macros-fluid-calculator/)** — A single-file clinical calculator — BMI, BMR (Mifflin–St Jeor), TDEE, macros, fluids and body composition, with Indian and WHO cut-offs in English, Hindi and Gujarati. &nbsp;·&nbsp; [source](https://github.com/drsamonline/bmi-bmr-tdee-macros-fluid-calculator)
-- **[boericke-repertory](https://drsamonline.github.io/boericke-repertory/)** — Boericke's Repertory as a free, offline single-file web app — a searchable clinical repertory and repertorisation tool, after Oscar E. Boericke, M.D. (1927). &nbsp;·&nbsp; [source](https://github.com/drsamonline/boericke-repertory)
-- **[lockhtml](https://drsamonline.github.io/lockhtml/)** — PIN-protect or one-time-view any HTML file with AES-256-GCM — a cross-platform CLI plus a browser GUI that runs on any OS. &nbsp;·&nbsp; [source](https://github.com/drsamonline/lockhtml)
-- **[neon-runner](https://drsamonline.github.io/neon-runner/)** — A retro auto-fire side-scrolling shooter in one self-contained HTML file — move, jump and duck; the gun fires itself. &nbsp;·&nbsp; [source](https://github.com/drsamonline/neon-runner)
-- **[open-materia-medica](https://drsamonline.github.io/open-materia-medica/)** — The classical homeopathic materia medica in plain language — 344 remedy portraits, with a free web edition and an offline Android companion. &nbsp;·&nbsp; [source](https://github.com/drsamonline/open-materia-medica)
-- **[remedy-relationship-explorer](https://drsamonline.github.io/remedy-relationship-explorer/)** — An offline single-file explorer for homeopathic remedy relationships, built from public-domain materia medicas (Boericke 1927, Clarke 1900, Hering 1879). &nbsp;·&nbsp; [source](https://github.com/drsamonline/remedy-relationship-explorer)
-- **[ULTIMATE-WINDOWS-OPTIMIZER](https://drsamonline.github.io/ULTIMATE-WINDOWS-OPTIMIZER/)** — A PowerShell and batch toolkit for documented, reversible Windows 10/11 debloat and performance tweaks. &nbsp;·&nbsp; [source](https://github.com/drsamonline/ULTIMATE-WINDOWS-OPTIMIZER)
+- <a href="https://drsamonline.github.io/All4ONE/"><img src="assets/pills/all4one.svg" height="24" alt="All4ONE"></a> — 403 working tools in one portable Windows binary — file and folder work, encoding and hashing, images, PDFs, media, documents, network diagnostics, system maintenance, security checks and generators. No installer, no registry writes, no telemetry. &nbsp;·&nbsp; [source](https://github.com/drsamonline/All4ONE)
+- <a href="https://drsamonline.github.io/ambient-sound-studio/"><img src="assets/pills/ambient-sound-studio.svg" height="24" alt="ambient-sound-studio"></a> — A private, offline ambient sound mixer in a single HTML file — 25 synthesised layers, 36 presets and WAV/Opus export. &nbsp;·&nbsp; [source](https://github.com/drsamonline/ambient-sound-studio)
+- <a href="https://drsamonline.github.io/bmi-bmr-tdee-macros-fluid-calculator/"><img src="assets/pills/bmi-bmr-tdee-macros-fluid-calculator.svg" height="24" alt="bmi-bmr-tdee-macros-fluid-calculator"></a> — A single-file clinical calculator — BMI, BMR (Mifflin–St Jeor), TDEE, macros, fluids and body composition, with Indian and WHO cut-offs in English, Hindi and Gujarati. &nbsp;·&nbsp; [source](https://github.com/drsamonline/bmi-bmr-tdee-macros-fluid-calculator)
+- <a href="https://drsamonline.github.io/boericke-repertory/"><img src="assets/pills/boericke-repertory.svg" height="24" alt="boericke-repertory"></a> — Boericke's Repertory as a free, offline single-file web app — a searchable clinical repertory and repertorisation tool, after Oscar E. Boericke, M.D. (1927). &nbsp;·&nbsp; [source](https://github.com/drsamonline/boericke-repertory)
+- <a href="https://drsamonline.github.io/lockhtml/"><img src="assets/pills/lockhtml.svg" height="24" alt="lockhtml"></a> — PIN-protect or one-time-view any HTML file with AES-256-GCM — a cross-platform CLI plus a browser GUI that runs on any OS. &nbsp;·&nbsp; [source](https://github.com/drsamonline/lockhtml)
+- <a href="https://drsamonline.github.io/neon-runner/"><img src="assets/pills/neon-runner.svg" height="24" alt="neon-runner"></a> — A retro auto-fire side-scrolling shooter in one self-contained HTML file — move, jump and duck; the gun fires itself. &nbsp;·&nbsp; [source](https://github.com/drsamonline/neon-runner)
+- <a href="https://drsamonline.github.io/open-materia-medica/"><img src="assets/pills/open-materia-medica.svg" height="24" alt="open-materia-medica"></a> — The classical homeopathic materia medica in plain language — 344 remedy portraits, with a free web edition and an offline Android companion. &nbsp;·&nbsp; [source](https://github.com/drsamonline/open-materia-medica)
+- <a href="https://drsamonline.github.io/remedy-relationship-explorer/"><img src="assets/pills/remedy-relationship-explorer.svg" height="24" alt="remedy-relationship-explorer"></a> — An offline single-file explorer for homeopathic remedy relationships, built from public-domain materia medicas (Boericke 1927, Clarke 1900, Hering 1879). &nbsp;·&nbsp; [source](https://github.com/drsamonline/remedy-relationship-explorer)
+- <a href="https://drsamonline.github.io/ULTIMATE-WINDOWS-OPTIMIZER/"><img src="assets/pills/ultimate-windows-optimizer.svg" height="24" alt="ULTIMATE-WINDOWS-OPTIMIZER"></a> — A PowerShell and batch toolkit for documented, reversible Windows 10/11 debloat and performance tweaks. &nbsp;·&nbsp; [source](https://github.com/drsamonline/ULTIMATE-WINDOWS-OPTIMIZER)
 
 ## Everything, by purpose
 
-### <img src="assets/icons/desktop.svg" width="18" height="18" alt=""> Desktop, System & Developer Tools <code>14</code>
-- [ai-bridge](https://drsamonline.github.io/ai-bridge/) — A VS Code extension that brings web-chat AI models into the editor, so you can work without leaving the code.
-- [All4ONE](https://drsamonline.github.io/All4ONE/) — 403 working tools in one portable Windows binary — file and folder work, encoding and hashing, images, PDFs, media, documents, network diagnostics, system maintenance, security checks and generators. No installer, no registry writes, no telemetry.
-- [app-image-toolkit](https://drsamonline.github.io/app-image-toolkit/) — Compress, resize, convert and strip the GPS from photos on your own device — nothing uploaded, no account, works offline.
-- [app-lantern](https://drsamonline.github.io/app-lantern/) — A whole library served over your own Wi-Fi — browse and search offline content on the LAN, with no internet at any point.
-- [blinkcode-ai](https://drsamonline.github.io/blinkcode-ai/) — An optical file-transfer PWA — compress a file into a File DNA container, paint it as SpectraCode colour matrices and recover it with a camera.
-- [BLINKTRANSFER](https://drsamonline.github.io/BLINKTRANSFER/) — Offline file transfer over animated QR codes — no internet, no Bluetooth, no cables.
-- [CLDR](https://drsamonline.github.io/CLDR/) — A single tiny Rust binary that sits in the system tray, pops up on a keystroke and runs whatever you type — a sum, a path, an app or a search.
-- [helioprism](https://drsamonline.github.io/helioprism/) — One app, two optical transports — send a file with light over QR codes or a colour matrix, with no network at all.
-- [lockhtml](https://drsamonline.github.io/lockhtml/) — PIN-protect or one-time-view any HTML file with AES-256-GCM — a cross-platform CLI plus a browser GUI that runs on any OS.
-- [NEO](https://drsamonline.github.io/NEO/) — NOVA — a statically typed, compiled systems programming language whose compiler lowers to C, JavaScript, Rust and WebAssembly.
-- [offline-pdf-toolkit](https://drsamonline.github.io/offline-pdf-toolkit/) — Merge, split, rotate, reorder, watermark, number and compress PDFs entirely in the browser — no upload, no account, no server, works offline.
-- [The_Browser](https://drsamonline.github.io/The_Browser/) — Aetheris — an experimental C++ browser engine on a Ladybird/SerenityOS-derived codebase, built to learn how rendering works. Not production-ready.
-- [TTB](https://drsamonline.github.io/TTB/) — TinyToolBox — 591 tiny utilities bundled into one lightweight, offline-first browser extension for Chrome, Edge, Firefox and Safari.
-- [ULTIMATE-WINDOWS-OPTIMIZER](https://drsamonline.github.io/ULTIMATE-WINDOWS-OPTIMIZER/) — A PowerShell and batch toolkit for documented, reversible Windows 10/11 debloat and performance tweaks.
+### <img src="assets/icons/desktop.svg" width="20" height="20" alt=""> Desktop, System & Developer Tools <img src="assets/pills/count-desktop.svg" height="22" alt="14 projects">
+- <a href="https://drsamonline.github.io/ai-bridge/"><img src="assets/pills/ai-bridge.svg" height="24" alt="ai-bridge"></a> — A VS Code extension that brings web-chat AI models into the editor, so you can work without leaving the code.
+- <a href="https://drsamonline.github.io/All4ONE/"><img src="assets/pills/all4one.svg" height="24" alt="All4ONE"></a> — 403 working tools in one portable Windows binary — file and folder work, encoding and hashing, images, PDFs, media, documents, network diagnostics, system maintenance, security checks and generators. No installer, no registry writes, no telemetry.
+- <a href="https://drsamonline.github.io/app-image-toolkit/"><img src="assets/pills/app-image-toolkit.svg" height="24" alt="app-image-toolkit"></a> — Compress, resize, convert and strip the GPS from photos on your own device — nothing uploaded, no account, works offline.
+- <a href="https://drsamonline.github.io/app-lantern/"><img src="assets/pills/app-lantern.svg" height="24" alt="app-lantern"></a> — A whole library served over your own Wi-Fi — browse and search offline content on the LAN, with no internet at any point.
+- <a href="https://drsamonline.github.io/blinkcode-ai/"><img src="assets/pills/blinkcode-ai.svg" height="24" alt="blinkcode-ai"></a> — An optical file-transfer PWA — compress a file into a File DNA container, paint it as SpectraCode colour matrices and recover it with a camera.
+- <a href="https://drsamonline.github.io/BLINKTRANSFER/"><img src="assets/pills/blinktransfer.svg" height="24" alt="BLINKTRANSFER"></a> — Offline file transfer over animated QR codes — no internet, no Bluetooth, no cables.
+- <a href="https://drsamonline.github.io/CLDR/"><img src="assets/pills/cldr.svg" height="24" alt="CLDR"></a> — A single tiny Rust binary that sits in the system tray, pops up on a keystroke and runs whatever you type — a sum, a path, an app or a search.
+- <a href="https://drsamonline.github.io/helioprism/"><img src="assets/pills/helioprism.svg" height="24" alt="helioprism"></a> — One app, two optical transports — send a file with light over QR codes or a colour matrix, with no network at all.
+- <a href="https://drsamonline.github.io/lockhtml/"><img src="assets/pills/lockhtml.svg" height="24" alt="lockhtml"></a> — PIN-protect or one-time-view any HTML file with AES-256-GCM — a cross-platform CLI plus a browser GUI that runs on any OS.
+- <a href="https://drsamonline.github.io/NEO/"><img src="assets/pills/neo.svg" height="24" alt="NEO"></a> — NOVA — a statically typed, compiled systems programming language whose compiler lowers to C, JavaScript, Rust and WebAssembly.
+- <a href="https://drsamonline.github.io/offline-pdf-toolkit/"><img src="assets/pills/offline-pdf-toolkit.svg" height="24" alt="offline-pdf-toolkit"></a> — Merge, split, rotate, reorder, watermark, number and compress PDFs entirely in the browser — no upload, no account, no server, works offline.
+- <a href="https://drsamonline.github.io/The_Browser/"><img src="assets/pills/the_browser.svg" height="24" alt="The_Browser"></a> — Aetheris — an experimental C++ browser engine on a Ladybird/SerenityOS-derived codebase, built to learn how rendering works. Not production-ready.
+- <a href="https://drsamonline.github.io/TTB/"><img src="assets/pills/ttb.svg" height="24" alt="TTB"></a> — TinyToolBox — 591 tiny utilities bundled into one lightweight, offline-first browser extension for Chrome, Edge, Firefox and Safari.
+- <a href="https://drsamonline.github.io/ULTIMATE-WINDOWS-OPTIMIZER/"><img src="assets/pills/ultimate-windows-optimizer.svg" height="24" alt="ULTIMATE-WINDOWS-OPTIMIZER"></a> — A PowerShell and batch toolkit for documented, reversible Windows 10/11 debloat and performance tweaks.
 
-### <img src="assets/icons/games.svg" width="18" height="18" alt=""> Games & Engines <code>11</code>
-- [aethelgard-games](https://drsamonline.github.io/aethelgard-games/) — Two free Aethelgard browser games — a visual novel (The Books) and a role-playing game (Chronicles of Fate).
-- [aethelgard-rpg-engine](https://drsamonline.github.io/aethelgard-rpg-engine/) — A dependency-free vanilla-JavaScript engine for deep single-player browser RPGs. Engine only — the games it powers live in aethelgard-games.
-- [dance-fight](https://drsamonline.github.io/dance-fight/) — A single-file browser rhythm game where every fight move is a dance move, driven by the beat grid of your own track.
-- [idle-city-ages-of-growth](https://drsamonline.github.io/idle-city-ages-of-growth/) — A single-file idle city-builder that grows from a Stone Age village into a Fusion Age world-city.
-- [neon-engine](https://drsamonline.github.io/neon-engine/) — A code-only open-world game engine for the browser — no assets, no dependencies; every texture, mesh and sound is generated at runtime.
-- [neon-games](https://drsamonline.github.io/neon-games/) — Two free open-world browser games on the Neon Engine — Dead Zone (zombie survival) and Neon Police.
-- [neon-runner](https://drsamonline.github.io/neon-runner/) — A retro auto-fire side-scrolling shooter in one self-contained HTML file — move, jump and duck; the gun fires itself.
-- [neon-velocity](https://drsamonline.github.io/neon-velocity/) — A procedural retro side-scrolling shooter for Godot 4.3 — zero binary assets, every sprite and sound generated at runtime.
-- [retro-strike](https://drsamonline.github.io/retro-strike/) — A complete retro third-person shooter in a single HTML file — a custom software 3D renderer and chiptune audio, no dependencies.
-- [saga-vn-engine](https://drsamonline.github.io/saga-vn-engine/) — Saga — a small, dependency-free visual-novel engine for the browser. Plain JavaScript, one stylesheet, no build step.
-- [Scrap-and-Gun](https://drsamonline.github.io/Scrap-and-Gun/) — SCRAP & GUN — a retro pixel-art arena-defence shooter with tactical construction, escalating waves, persistent upgrades, roguelite drafts, bosses and local co-op.
+### <img src="assets/icons/games.svg" width="20" height="20" alt=""> Games & Engines <img src="assets/pills/count-games.svg" height="22" alt="11 projects">
+- <a href="https://drsamonline.github.io/aethelgard-games/"><img src="assets/pills/aethelgard-games.svg" height="24" alt="aethelgard-games"></a> — Two free Aethelgard browser games — a visual novel (The Books) and a role-playing game (Chronicles of Fate).
+- <a href="https://drsamonline.github.io/aethelgard-rpg-engine/"><img src="assets/pills/aethelgard-rpg-engine.svg" height="24" alt="aethelgard-rpg-engine"></a> — A dependency-free vanilla-JavaScript engine for deep single-player browser RPGs. Engine only — the games it powers live in aethelgard-games.
+- <a href="https://drsamonline.github.io/dance-fight/"><img src="assets/pills/dance-fight.svg" height="24" alt="dance-fight"></a> — A single-file browser rhythm game where every fight move is a dance move, driven by the beat grid of your own track.
+- <a href="https://drsamonline.github.io/idle-city-ages-of-growth/"><img src="assets/pills/idle-city-ages-of-growth.svg" height="24" alt="idle-city-ages-of-growth"></a> — A single-file idle city-builder that grows from a Stone Age village into a Fusion Age world-city.
+- <a href="https://drsamonline.github.io/neon-engine/"><img src="assets/pills/neon-engine.svg" height="24" alt="neon-engine"></a> — A code-only open-world game engine for the browser — no assets, no dependencies; every texture, mesh and sound is generated at runtime.
+- <a href="https://drsamonline.github.io/neon-games/"><img src="assets/pills/neon-games.svg" height="24" alt="neon-games"></a> — Two free open-world browser games on the Neon Engine — Dead Zone (zombie survival) and Neon Police.
+- <a href="https://drsamonline.github.io/neon-runner/"><img src="assets/pills/neon-runner.svg" height="24" alt="neon-runner"></a> — A retro auto-fire side-scrolling shooter in one self-contained HTML file — move, jump and duck; the gun fires itself.
+- <a href="https://drsamonline.github.io/neon-velocity/"><img src="assets/pills/neon-velocity.svg" height="24" alt="neon-velocity"></a> — A procedural retro side-scrolling shooter for Godot 4.3 — zero binary assets, every sprite and sound generated at runtime.
+- <a href="https://drsamonline.github.io/retro-strike/"><img src="assets/pills/retro-strike.svg" height="24" alt="retro-strike"></a> — A complete retro third-person shooter in a single HTML file — a custom software 3D renderer and chiptune audio, no dependencies.
+- <a href="https://drsamonline.github.io/saga-vn-engine/"><img src="assets/pills/saga-vn-engine.svg" height="24" alt="saga-vn-engine"></a> — Saga — a small, dependency-free visual-novel engine for the browser. Plain JavaScript, one stylesheet, no build step.
+- <a href="https://drsamonline.github.io/Scrap-and-Gun/"><img src="assets/pills/scrap-and-gun.svg" height="24" alt="Scrap-and-Gun"></a> — SCRAP & GUN — a retro pixel-art arena-defence shooter with tactical construction, escalating waves, persistent upgrades, roguelite drafts, bosses and local co-op.
 
-### <img src="assets/icons/health.svg" width="18" height="18" alt=""> Health & Medicine <code>13</code>
-- [app-encrypted-case-log](https://drsamonline.github.io/app-encrypted-case-log/) — Per-patient clinical notes encrypted on the device with AES-256-GCM — offline, no account, no server.
-- [bmi-bmr-tdee-macros-fluid-calculator](https://drsamonline.github.io/bmi-bmr-tdee-macros-fluid-calculator/) — A single-file clinical calculator — BMI, BMR (Mifflin–St Jeor), TDEE, macros, fluids and body composition, with Indian and WHO cut-offs in English, Hindi and Gujarati.
-- [boericke-repertory](https://drsamonline.github.io/boericke-repertory/) — Boericke's Repertory as a free, offline single-file web app — a searchable clinical repertory and repertorisation tool, after Oscar E. Boericke, M.D. (1927).
-- [gentle-pediatrics-companion](https://drsamonline.github.io/gentle-pediatrics-companion/) — A triage-first home companion for a sick child — nine common childhood situations, a red-flag check and remedy orientation from the book Gentle Pediatrics.
-- [HMS](https://drsamonline.github.io/HMS/) — HHMS — a LAN-based hospital management system purpose-built for homeopathic hospitals and clinics, with a server-owned database and no cloud lock-in.
-- [homoeopathic-materia-medica-repertory-json](https://drsamonline.github.io/homoeopathic-materia-medica-repertory-json/) — Open-domain homoeopathic materia medica and repertory texts as app-ready JSON — 13 books (1840–1906), about 108,000 rubrics.
-- [kent-repertory-explorer](https://drsamonline.github.io/kent-repertory-explorer/) — Offline single-file explorer for Kent's Repertory (1897) — 74,667 rubrics, 735,500 graded remedy links, a case builder and grade-weighted repertorisation.
-- [MATERIA-MEDICA-BUILDER](https://drsamonline.github.io/MATERIA-MEDICA-BUILDER/) — Build your own materia medica and repertory — offline, private and yours to export.
-- [mnemosyne-companion](https://drsamonline.github.io/mnemosyne-companion/) — A study companion for Mnemosyne Materia Medica — 100 polycrest remedies as poetic pearls, keynotes and spaced-repetition drills.
-- [open-materia-medica](https://drsamonline.github.io/open-materia-medica/) — The classical homeopathic materia medica in plain language — 344 remedy portraits, with a free web edition and an offline Android companion.
-- [remedy-relationship-explorer](https://drsamonline.github.io/remedy-relationship-explorer/) — An offline single-file explorer for homeopathic remedy relationships, built from public-domain materia medicas (Boericke 1927, Clarke 1900, Hering 1879).
-- [skin-case-tracker](https://drsamonline.github.io/skin-case-tracker/) — A private, offline skin-case tracker built on the HHMS dashboard — history, habits, mapping and symptoms — with a 90-day pattern engine, from the book The Skin Is a Liar.
-- [whispering-body-first-aid](https://drsamonline.github.io/whispering-body-first-aid/) — A home homeopathic first-aid companion of 30 remedies with a symptom finder, dosing guidance and emergency signs, in English, Hindi and Gujarati.
+### <img src="assets/icons/health.svg" width="20" height="20" alt=""> Health & Medicine <img src="assets/pills/count-health.svg" height="22" alt="13 projects">
+- <a href="https://drsamonline.github.io/app-encrypted-case-log/"><img src="assets/pills/app-encrypted-case-log.svg" height="24" alt="app-encrypted-case-log"></a> — Per-patient clinical notes encrypted on the device with AES-256-GCM — offline, no account, no server.
+- <a href="https://drsamonline.github.io/bmi-bmr-tdee-macros-fluid-calculator/"><img src="assets/pills/bmi-bmr-tdee-macros-fluid-calculator.svg" height="24" alt="bmi-bmr-tdee-macros-fluid-calculator"></a> — A single-file clinical calculator — BMI, BMR (Mifflin–St Jeor), TDEE, macros, fluids and body composition, with Indian and WHO cut-offs in English, Hindi and Gujarati.
+- <a href="https://drsamonline.github.io/boericke-repertory/"><img src="assets/pills/boericke-repertory.svg" height="24" alt="boericke-repertory"></a> — Boericke's Repertory as a free, offline single-file web app — a searchable clinical repertory and repertorisation tool, after Oscar E. Boericke, M.D. (1927).
+- <a href="https://drsamonline.github.io/gentle-pediatrics-companion/"><img src="assets/pills/gentle-pediatrics-companion.svg" height="24" alt="gentle-pediatrics-companion"></a> — A triage-first home companion for a sick child — nine common childhood situations, a red-flag check and remedy orientation from the book Gentle Pediatrics.
+- <a href="https://drsamonline.github.io/HMS/"><img src="assets/pills/hms.svg" height="24" alt="HMS"></a> — HHMS — a LAN-based hospital management system purpose-built for homeopathic hospitals and clinics, with a server-owned database and no cloud lock-in.
+- <a href="https://drsamonline.github.io/homoeopathic-materia-medica-repertory-json/"><img src="assets/pills/homoeopathic-materia-medica-repertory-json.svg" height="24" alt="homoeopathic-materia-medica-repertory-json"></a> — Open-domain homoeopathic materia medica and repertory texts as app-ready JSON — 13 books (1840–1906), about 108,000 rubrics.
+- <a href="https://drsamonline.github.io/kent-repertory-explorer/"><img src="assets/pills/kent-repertory-explorer.svg" height="24" alt="kent-repertory-explorer"></a> — Offline single-file explorer for Kent's Repertory (1897) — 74,667 rubrics, 735,500 graded remedy links, a case builder and grade-weighted repertorisation.
+- <a href="https://drsamonline.github.io/MATERIA-MEDICA-BUILDER/"><img src="assets/pills/materia-medica-builder.svg" height="24" alt="MATERIA-MEDICA-BUILDER"></a> — Build your own materia medica and repertory — offline, private and yours to export.
+- <a href="https://drsamonline.github.io/mnemosyne-companion/"><img src="assets/pills/mnemosyne-companion.svg" height="24" alt="mnemosyne-companion"></a> — A study companion for Mnemosyne Materia Medica — 100 polycrest remedies as poetic pearls, keynotes and spaced-repetition drills.
+- <a href="https://drsamonline.github.io/open-materia-medica/"><img src="assets/pills/open-materia-medica.svg" height="24" alt="open-materia-medica"></a> — The classical homeopathic materia medica in plain language — 344 remedy portraits, with a free web edition and an offline Android companion.
+- <a href="https://drsamonline.github.io/remedy-relationship-explorer/"><img src="assets/pills/remedy-relationship-explorer.svg" height="24" alt="remedy-relationship-explorer"></a> — An offline single-file explorer for homeopathic remedy relationships, built from public-domain materia medicas (Boericke 1927, Clarke 1900, Hering 1879).
+- <a href="https://drsamonline.github.io/skin-case-tracker/"><img src="assets/pills/skin-case-tracker.svg" height="24" alt="skin-case-tracker"></a> — A private, offline skin-case tracker built on the HHMS dashboard — history, habits, mapping and symptoms — with a 90-day pattern engine, from the book The Skin Is a Liar.
+- <a href="https://drsamonline.github.io/whispering-body-first-aid/"><img src="assets/pills/whispering-body-first-aid.svg" height="24" alt="whispering-body-first-aid"></a> — A home homeopathic first-aid companion of 30 remedies with a symptom finder, dosing guidance and emergency signs, in English, Hindi and Gujarati.
 
-### <img src="assets/icons/mind.svg" width="18" height="18" alt=""> Mind, Memory & Wellbeing <code>7</code>
-- [conqueror-os](https://drsamonline.github.io/conqueror-os/) — A private, offline resilience workspace in a single HTML file — read, reflect, journal, track and review.
-- [read-live-transform-app](https://drsamonline.github.io/read-live-transform-app/) — A companion PWA to Read. Live. Transform.: A Practical Reading of the Qur'an — read the verse, live the practice, keep the change.
-- [seance](https://drsamonline.github.io/seance/) — Strongbox — sealed notes opened once: seal a note with a passphrase and it opens a single time. Offline, no accounts.
-- [SmartNotes](https://drsamonline.github.io/SmartNotes/) — SmartNote Scheduler — AI-powered notes, reminders and scheduling: write in plain English and it files itself.
-- [the-symphony-companion](https://drsamonline.github.io/the-symphony-companion/) — A pocket PWA companion to The Symphony of the Present — the book's ideas as cards, its practices as a checklist, a breathing timer and a gratitude journal.
-- [today-card](https://drsamonline.github.io/today-card/) — Today Card — one card for the day: your date, one intention, one task and a streak. Offline, no accounts.
-- [unstoppable-mind-companion](https://drsamonline.github.io/unstoppable-mind-companion/) — An offline companion to The Unstoppable Mind — the book's key points, exercises, a 7-day challenge and flashcards.
+### <img src="assets/icons/mind.svg" width="20" height="20" alt=""> Mind, Memory & Wellbeing <img src="assets/pills/count-mind.svg" height="22" alt="7 projects">
+- <a href="https://drsamonline.github.io/conqueror-os/"><img src="assets/pills/conqueror-os.svg" height="24" alt="conqueror-os"></a> — A private, offline resilience workspace in a single HTML file — read, reflect, journal, track and review.
+- <a href="https://drsamonline.github.io/read-live-transform-app/"><img src="assets/pills/read-live-transform-app.svg" height="24" alt="read-live-transform-app"></a> — A companion PWA to Read. Live. Transform.: A Practical Reading of the Qur'an — read the verse, live the practice, keep the change.
+- <a href="https://drsamonline.github.io/seance/"><img src="assets/pills/seance.svg" height="24" alt="seance"></a> — Strongbox — sealed notes opened once: seal a note with a passphrase and it opens a single time. Offline, no accounts.
+- <a href="https://drsamonline.github.io/SmartNotes/"><img src="assets/pills/smartnotes.svg" height="24" alt="SmartNotes"></a> — SmartNote Scheduler — AI-powered notes, reminders and scheduling: write in plain English and it files itself.
+- <a href="https://drsamonline.github.io/the-symphony-companion/"><img src="assets/pills/the-symphony-companion.svg" height="24" alt="the-symphony-companion"></a> — A pocket PWA companion to The Symphony of the Present — the book's ideas as cards, its practices as a checklist, a breathing timer and a gratitude journal.
+- <a href="https://drsamonline.github.io/today-card/"><img src="assets/pills/today-card.svg" height="24" alt="today-card"></a> — Today Card — one card for the day: your date, one intention, one task and a streak. Offline, no accounts.
+- <a href="https://drsamonline.github.io/unstoppable-mind-companion/"><img src="assets/pills/unstoppable-mind-companion.svg" height="24" alt="unstoppable-mind-companion"></a> — An offline companion to The Unstoppable Mind — the book's key points, exercises, a 7-day challenge and flashcards.
 
-### <img src="assets/icons/audio.svg" width="18" height="18" alt=""> Audio & Media <code>2</code>
-- [ambient-sound-studio](https://drsamonline.github.io/ambient-sound-studio/) — A private, offline ambient sound mixer in a single HTML file — 25 synthesised layers, 36 presets and WAV/Opus export.
-- [musicgen](https://drsamonline.github.io/musicgen/) — A pocket generative composer — an offline-first PWA that writes, synthesises, masters and exports music in the browser, with no server and no samples.
+### <img src="assets/icons/audio.svg" width="20" height="20" alt=""> Audio & Media <img src="assets/pills/count-audio.svg" height="22" alt="2 projects">
+- <a href="https://drsamonline.github.io/ambient-sound-studio/"><img src="assets/pills/ambient-sound-studio.svg" height="24" alt="ambient-sound-studio"></a> — A private, offline ambient sound mixer in a single HTML file — 25 synthesised layers, 36 presets and WAV/Opus export.
+- <a href="https://drsamonline.github.io/musicgen/"><img src="assets/pills/musicgen.svg" height="24" alt="musicgen"></a> — A pocket generative composer — an offline-first PWA that writes, synthesises, masters and exports music in the browser, with no server and no samples.
 
-### <img src="assets/icons/business.svg" width="18" height="18" alt=""> Business & Productivity <code>5</code>
-- [app-clip-loom](https://drsamonline.github.io/app-clip-loom/) — Clip Loom — clipboard programs you can read: strip tracking, tidy text, keep what matters. Weft-8 on the Loom.
-- [canteen-lan](https://drsamonline.github.io/canteen-lan/) — Order from your table over the room's own Wi-Fi — a LAN canteen board built with Forge.
-- [chalk-lan](https://drsamonline.github.io/chalk-lan/) — A shared whiteboard for the room: everyone on the same Wi-Fi draws on the same board, live.
-- [Matneo](https://drsamonline.github.io/Matneo/) — An AI-powered digital products and automation platform — practical planners, templates, AI resources and offline browser tools.
-- [smartbill-app](https://drsamonline.github.io/smartbill-app/) — A fast, serverless single-page GST billing and invoicing app for Indian businesses, with local IndexedDB storage.
+### <img src="assets/icons/business.svg" width="20" height="20" alt=""> Business & Productivity <img src="assets/pills/count-business.svg" height="22" alt="5 projects">
+- <a href="https://drsamonline.github.io/app-clip-loom/"><img src="assets/pills/app-clip-loom.svg" height="24" alt="app-clip-loom"></a> — Clip Loom — clipboard programs you can read: strip tracking, tidy text, keep what matters. Weft-8 on the Loom.
+- <a href="https://drsamonline.github.io/canteen-lan/"><img src="assets/pills/canteen-lan.svg" height="24" alt="canteen-lan"></a> — Order from your table over the room's own Wi-Fi — a LAN canteen board built with Forge.
+- <a href="https://drsamonline.github.io/chalk-lan/"><img src="assets/pills/chalk-lan.svg" height="24" alt="chalk-lan"></a> — A shared whiteboard for the room: everyone on the same Wi-Fi draws on the same board, live.
+- <a href="https://drsamonline.github.io/Matneo/"><img src="assets/pills/matneo.svg" height="24" alt="Matneo"></a> — An AI-powered digital products and automation platform — practical planners, templates, AI resources and offline browser tools.
+- <a href="https://drsamonline.github.io/smartbill-app/"><img src="assets/pills/smartbill-app.svg" height="24" alt="smartbill-app"></a> — A fast, serverless single-page GST billing and invoicing app for Indian businesses, with local IndexedDB storage.
 
-### <img src="assets/icons/learning.svg" width="18" height="18" alt=""> Learning & Reference <code>3</code>
-- [app-panchang](https://drsamonline.github.io/app-panchang/) — A daily Indian almanac — tithi, nakshatra, yoga, karana, rahu-kaal and muhurat, computed offline.
-- [app-poets-studio](https://drsamonline.github.io/app-poets-studio/) — Rhyme, metre and fixed forms, fully offline — a poetry workshop that measures what you wrote, with 124,085 words bundled.
-- [base-bench](https://drsamonline.github.io/base-bench/) — Every number base, unit and timezone on one page, with the working shown — offline, no accounts.
+### <img src="assets/icons/learning.svg" width="20" height="20" alt=""> Learning & Reference <img src="assets/pills/count-learning.svg" height="22" alt="3 projects">
+- <a href="https://drsamonline.github.io/app-panchang/"><img src="assets/pills/app-panchang.svg" height="24" alt="app-panchang"></a> — A daily Indian almanac — tithi, nakshatra, yoga, karana, rahu-kaal and muhurat, computed offline.
+- <a href="https://drsamonline.github.io/app-poets-studio/"><img src="assets/pills/app-poets-studio.svg" height="24" alt="app-poets-studio"></a> — Rhyme, metre and fixed forms, fully offline — a poetry workshop that measures what you wrote, with 124,085 words bundled.
+- <a href="https://drsamonline.github.io/base-bench/"><img src="assets/pills/base-bench.svg" height="24" alt="base-bench"></a> — Every number base, unit and timezone on one page, with the working shown — offline, no accounts.
 
-### <img src="assets/icons/weft.svg" width="18" height="18" alt=""> Weft-8 & Retrocomputing <code>5</code>
-- [app-jacquard](https://drsamonline.github.io/app-jacquard/) — Jacquard — the loom you program: a Weft-8 8-bit assembler and VM with the device's sensors as memory-mapped peripherals.
-- [app-weft-puzzles](https://drsamonline.github.io/app-weft-puzzles/) — Weft Puzzles — small programming puzzles you solve in Weft-8 assembly, on the machine from Jacquard.
-- [weft8-classroom](https://drsamonline.github.io/weft8-classroom/) — Weft-8 Classroom — a teacher's pack and exercises for teaching how a computer works, offline, in one file.
-- [weft8-compare](https://drsamonline.github.io/weft8-compare/) — Weft-8 beside x86 and ARM — the same algorithm in three machines, so you can see which part is the computer.
-- [weft8-hardware](https://drsamonline.github.io/weft8-hardware/) — Weft-8 on real silicon — a C port of the Loom's 8-bit machine, an Arduino/ESP32 sketch and a parity harness.
+### <img src="assets/icons/weft.svg" width="20" height="20" alt=""> Weft-8 & Retrocomputing <img src="assets/pills/count-weft.svg" height="22" alt="5 projects">
+- <a href="https://drsamonline.github.io/app-jacquard/"><img src="assets/pills/app-jacquard.svg" height="24" alt="app-jacquard"></a> — Jacquard — the loom you program: a Weft-8 8-bit assembler and VM with the device's sensors as memory-mapped peripherals.
+- <a href="https://drsamonline.github.io/app-weft-puzzles/"><img src="assets/pills/app-weft-puzzles.svg" height="24" alt="app-weft-puzzles"></a> — Weft Puzzles — small programming puzzles you solve in Weft-8 assembly, on the machine from Jacquard.
+- <a href="https://drsamonline.github.io/weft8-classroom/"><img src="assets/pills/weft8-classroom.svg" height="24" alt="weft8-classroom"></a> — Weft-8 Classroom — a teacher's pack and exercises for teaching how a computer works, offline, in one file.
+- <a href="https://drsamonline.github.io/weft8-compare/"><img src="assets/pills/weft8-compare.svg" height="24" alt="weft8-compare"></a> — Weft-8 beside x86 and ARM — the same algorithm in three machines, so you can see which part is the computer.
+- <a href="https://drsamonline.github.io/weft8-hardware/"><img src="assets/pills/weft8-hardware.svg" height="24" alt="weft8-hardware"></a> — Weft-8 on real silicon — a C port of the Loom's 8-bit machine, an Arduino/ESP32 sketch and a parity harness.
 
-### <img src="assets/icons/kits.svg" width="18" height="18" alt=""> Libraries & Kits <code>19</code>
-- [art-kit](https://github.com/drsamonline/art-kit) — The art primitives Forge was missing: an indexed palette, a pixel canvas, draw ops, a delta undo stack, dithering, median-cut quantisation and sprite sheets.
-- [astro-kit](https://drsamonline.github.io/astro-kit/) — The shared astronomy core: sun and moon longitude (Meeus), ayanamsa, sunrise/sunset, and tithi, nakshatra, yoga and karana.
-- [audio-kit](https://github.com/drsamonline/audio-kit) — Synthesis, theory, patterns and notation for offline apps: ADSR envelopes, oscillator voices, filters, scales, chords, a pattern sequencer and staff layout.
-- [book-kit](https://drsamonline.github.io/book-kit/) — The companion-app-from-a-book pattern: chapters, key points, practices, flashcards, search and reading progress.
-- [case-kit](https://drsamonline.github.io/case-kit/) — Clinical case tracking: sections, dated symptoms, follow-ups, a timeline and a summary.
-- [compress-kit](https://drsamonline.github.io/compress-kit/) — The shared compression core: gzip, deflate and deflate-raw via the platform's Compression Streams.
-- [crypto-kit](https://drsamonline.github.io/crypto-kit/) — The shared crypto core: AES-256-GCM, PBKDF2 passphrase keys, sealed envelopes and one-time view, on Web Crypto.
-- [export-kit](https://github.com/drsamonline/export-kit) — Save text, JSON, CSV and binary to the user's device, and bundle files into a store-only ZIP.
-- [frame-kit](https://drsamonline.github.io/frame-kit/) — The shared transfer-frame core: a self-describing frame, a rateless collector and byte/checksum utilities.
-- [game-kit](https://drsamonline.github.io/game-kit/) — The shared game core: a fixed-timestep loop, input, scenes, save/load and maths.
-- [lan-kit](https://drsamonline.github.io/lan-kit/) — The shared LAN core: a local room with a real-time channel over Server-Sent Events and POST.
-- [ml-kit](https://github.com/drsamonline/ml-kit) — The classic algorithms from scratch for offline features: tf-idf, Naive Bayes, k-NN, k-means, PCA, ID3, linear regression and Markov chains — no model, no API key, no network.
-- [optical-kit](https://drsamonline.github.io/optical-kit/) — The shared optical-transfer core: a systematic LT fountain code, self-describing frames and a pluggable codec.
-- [repertory-kit](https://drsamonline.github.io/repertory-kit/) — The homeopathic repertorisation core: rubric grading and grade-weighted remedy scoring.
-- [search-kit](https://drsamonline.github.io/search-kit/) — Ranked search over big corpora — an inverted index with prefix and fuzzy matching.
-- [srs-kit](https://drsamonline.github.io/srs-kit/) — Spaced repetition (SM-2) for flashcards — scheduling, lapses, due cards and stats.
-- [ui-kit](https://github.com/drsamonline/ui-kit) — A reactive UI layer small enough for a single file: signals, computed, reactive effects, hyperscript, a keyed list, events, a hash router and form binding.
-- [web-kit](https://drsamonline.github.io/web-kit/) — The shared offline-first runtime for drsamonline apps: storage, i18n (EN/HI/GU), CSV, PWA, theme, SEO and accessibility.
-- [weft8-kit](https://drsamonline.github.io/weft8-kit/) — The Loom's Weft-8 as a reusable kit — an auditable, step-limited rule engine you can drop into another app.
+### <img src="assets/icons/kits.svg" width="20" height="20" alt=""> Libraries & Kits <img src="assets/pills/count-kits.svg" height="22" alt="19 projects">
+- <a href="https://github.com/drsamonline/art-kit"><img src="assets/pills/art-kit.svg" height="24" alt="art-kit"></a> — The art primitives Forge was missing: an indexed palette, a pixel canvas, draw ops, a delta undo stack, dithering, median-cut quantisation and sprite sheets.
+- <a href="https://drsamonline.github.io/astro-kit/"><img src="assets/pills/astro-kit.svg" height="24" alt="astro-kit"></a> — The shared astronomy core: sun and moon longitude (Meeus), ayanamsa, sunrise/sunset, and tithi, nakshatra, yoga and karana.
+- <a href="https://github.com/drsamonline/audio-kit"><img src="assets/pills/audio-kit.svg" height="24" alt="audio-kit"></a> — Synthesis, theory, patterns and notation for offline apps: ADSR envelopes, oscillator voices, filters, scales, chords, a pattern sequencer and staff layout.
+- <a href="https://drsamonline.github.io/book-kit/"><img src="assets/pills/book-kit.svg" height="24" alt="book-kit"></a> — The companion-app-from-a-book pattern: chapters, key points, practices, flashcards, search and reading progress.
+- <a href="https://drsamonline.github.io/case-kit/"><img src="assets/pills/case-kit.svg" height="24" alt="case-kit"></a> — Clinical case tracking: sections, dated symptoms, follow-ups, a timeline and a summary.
+- <a href="https://drsamonline.github.io/compress-kit/"><img src="assets/pills/compress-kit.svg" height="24" alt="compress-kit"></a> — The shared compression core: gzip, deflate and deflate-raw via the platform's Compression Streams.
+- <a href="https://drsamonline.github.io/crypto-kit/"><img src="assets/pills/crypto-kit.svg" height="24" alt="crypto-kit"></a> — The shared crypto core: AES-256-GCM, PBKDF2 passphrase keys, sealed envelopes and one-time view, on Web Crypto.
+- <a href="https://github.com/drsamonline/export-kit"><img src="assets/pills/export-kit.svg" height="24" alt="export-kit"></a> — Save text, JSON, CSV and binary to the user's device, and bundle files into a store-only ZIP.
+- <a href="https://drsamonline.github.io/frame-kit/"><img src="assets/pills/frame-kit.svg" height="24" alt="frame-kit"></a> — The shared transfer-frame core: a self-describing frame, a rateless collector and byte/checksum utilities.
+- <a href="https://drsamonline.github.io/game-kit/"><img src="assets/pills/game-kit.svg" height="24" alt="game-kit"></a> — The shared game core: a fixed-timestep loop, input, scenes, save/load and maths.
+- <a href="https://drsamonline.github.io/lan-kit/"><img src="assets/pills/lan-kit.svg" height="24" alt="lan-kit"></a> — The shared LAN core: a local room with a real-time channel over Server-Sent Events and POST.
+- <a href="https://github.com/drsamonline/ml-kit"><img src="assets/pills/ml-kit.svg" height="24" alt="ml-kit"></a> — The classic algorithms from scratch for offline features: tf-idf, Naive Bayes, k-NN, k-means, PCA, ID3, linear regression and Markov chains — no model, no API key, no network.
+- <a href="https://drsamonline.github.io/optical-kit/"><img src="assets/pills/optical-kit.svg" height="24" alt="optical-kit"></a> — The shared optical-transfer core: a systematic LT fountain code, self-describing frames and a pluggable codec.
+- <a href="https://drsamonline.github.io/repertory-kit/"><img src="assets/pills/repertory-kit.svg" height="24" alt="repertory-kit"></a> — The homeopathic repertorisation core: rubric grading and grade-weighted remedy scoring.
+- <a href="https://drsamonline.github.io/search-kit/"><img src="assets/pills/search-kit.svg" height="24" alt="search-kit"></a> — Ranked search over big corpora — an inverted index with prefix and fuzzy matching.
+- <a href="https://drsamonline.github.io/srs-kit/"><img src="assets/pills/srs-kit.svg" height="24" alt="srs-kit"></a> — Spaced repetition (SM-2) for flashcards — scheduling, lapses, due cards and stats.
+- <a href="https://github.com/drsamonline/ui-kit"><img src="assets/pills/ui-kit.svg" height="24" alt="ui-kit"></a> — A reactive UI layer small enough for a single file: signals, computed, reactive effects, hyperscript, a keyed list, events, a hash router and form binding.
+- <a href="https://drsamonline.github.io/web-kit/"><img src="assets/pills/web-kit.svg" height="24" alt="web-kit"></a> — The shared offline-first runtime for drsamonline apps: storage, i18n (EN/HI/GU), CSV, PWA, theme, SEO and accessibility.
+- <a href="https://drsamonline.github.io/weft8-kit/"><img src="assets/pills/weft8-kit.svg" height="24" alt="weft8-kit"></a> — The Loom's Weft-8 as a reusable kit — an auditable, step-limited rule engine you can drop into another app.
 
-### <img src="assets/icons/chce.svg" width="18" height="18" alt=""> CHCE Compression <code>5</code>
-- [compfactory](https://github.com/drsamonline/compfactory) — The development workspace for the CHCE multi-repository project.
-- [HCS](https://github.com/drsamonline/HCS) — CHCE — Holistic Compression Sources: the reference compressor sources the CHCE engines are built from.
-- [heavenzip](https://github.com/drsamonline/heavenzip) — The CHCE orchestrator — chains prebuilt compression binaries into one pipeline.
-- [lexora](https://drsamonline.github.io/lexora/) — LEXORA — Layered EXact-text Repository and Adaptive compression architecture: canonicalise text, then compress it with guaranteed byte-exact recovery.
-- [ziptastic](https://github.com/drsamonline/ziptastic) — The CHCE native engine — a single binary with the codecs embedded.
+### <img src="assets/icons/chce.svg" width="20" height="20" alt=""> CHCE Compression <img src="assets/pills/count-chce.svg" height="22" alt="5 projects">
+- <a href="https://github.com/drsamonline/compfactory"><img src="assets/pills/compfactory.svg" height="24" alt="compfactory"></a> — The development workspace for the CHCE multi-repository project.
+- <a href="https://github.com/drsamonline/HCS"><img src="assets/pills/hcs.svg" height="24" alt="HCS"></a> — CHCE — Holistic Compression Sources: the reference compressor sources the CHCE engines are built from.
+- <a href="https://github.com/drsamonline/heavenzip"><img src="assets/pills/heavenzip.svg" height="24" alt="heavenzip"></a> — The CHCE orchestrator — chains prebuilt compression binaries into one pipeline.
+- <a href="https://drsamonline.github.io/lexora/"><img src="assets/pills/lexora.svg" height="24" alt="lexora"></a> — LEXORA — Layered EXact-text Repository and Adaptive compression architecture: canonicalise text, then compress it with guaranteed byte-exact recovery.
+- <a href="https://github.com/drsamonline/ziptastic"><img src="assets/pills/ziptastic.svg" height="24" alt="ziptastic"></a> — The CHCE native engine — a single binary with the codecs embedded.
 
-### <img src="assets/icons/infra.svg" width="18" height="18" alt=""> Meta & Infrastructure <code>8</code>
-- [app-builder](https://drsamonline.github.io/app-builder/) — A shared build kit that compiles a static web app into a single-file portable Windows EXE and an Android WebView APK.
-- [app-companion-forge](https://drsamonline.github.io/app-companion-forge/) — Forge tooling, not a product app — an offline pocket console for the Forge system.
-- [audit](https://github.com/drsamonline/audit) — The change log for the drsamonline fleet: what was measured, what was fixed, and the evidence.
-- [backup](https://github.com/drsamonline/backup) — Snapshot a repository before a merge replaces it — a reusable GitHub workflow plus a zero-dependency script, compressed, timestamped and rotated to keep the newest 100.
-- [control-panel](https://drsamonline.github.io/control-panel/) — Every workflow in every repo: what runs, when, what calls what, and what is connected to nothing.
-- [dashboard](https://drsamonline.github.io/dashboard/) — Live status of the drsamonline system — the repo fleet, build health, downloads and the store.
-- [profile-kit](https://drsamonline.github.io/profile-kit/) — A small reusable kit for a theme-aware, self-updating GitHub profile — hero banner, metrics card and README generator.
-- [skills](https://drsamonline.github.io/skills/) — Reusable, machine-consumable skills extracted from every drsamonline project — a categorised, self-updating catalogue.
+### <img src="assets/icons/infra.svg" width="20" height="20" alt=""> Meta & Infrastructure <img src="assets/pills/count-infra.svg" height="22" alt="8 projects">
+- <a href="https://drsamonline.github.io/app-builder/"><img src="assets/pills/app-builder.svg" height="24" alt="app-builder"></a> — A shared build kit that compiles a static web app into a single-file portable Windows EXE and an Android WebView APK.
+- <a href="https://drsamonline.github.io/app-companion-forge/"><img src="assets/pills/app-companion-forge.svg" height="24" alt="app-companion-forge"></a> — Forge tooling, not a product app — an offline pocket console for the Forge system.
+- <a href="https://github.com/drsamonline/audit"><img src="assets/pills/audit.svg" height="24" alt="audit"></a> — The change log for the drsamonline fleet: what was measured, what was fixed, and the evidence.
+- <a href="https://github.com/drsamonline/backup"><img src="assets/pills/backup.svg" height="24" alt="backup"></a> — Snapshot a repository before a merge replaces it — a reusable GitHub workflow plus a zero-dependency script, compressed, timestamped and rotated to keep the newest 100.
+- <a href="https://drsamonline.github.io/control-panel/"><img src="assets/pills/control-panel.svg" height="24" alt="control-panel"></a> — Every workflow in every repo: what runs, when, what calls what, and what is connected to nothing.
+- <a href="https://drsamonline.github.io/dashboard/"><img src="assets/pills/dashboard.svg" height="24" alt="dashboard"></a> — Live status of the drsamonline system — the repo fleet, build health, downloads and the store.
+- <a href="https://drsamonline.github.io/profile-kit/"><img src="assets/pills/profile-kit.svg" height="24" alt="profile-kit"></a> — A small reusable kit for a theme-aware, self-updating GitHub profile — hero banner, metrics card and README generator.
+- <a href="https://drsamonline.github.io/skills/"><img src="assets/pills/skills.svg" height="24" alt="skills"></a> — Reusable, machine-consumable skills extracted from every drsamonline project — a categorised, self-updating catalogue.
 
 <!-- PROJECTS:END -->
 

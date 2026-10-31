@@ -50,5 +50,9 @@ jobs:
           # the same commit as the README that renders it.
           # The stats strip is drawn from the same numbers, so it is committed with
           # them - a picture of a count that can drift is worse than no picture.
+          # The pills and achievement cards are generated too, and there is one per
+          # project, so they are staged as directories: commit-and-verify hashes
+          # regular files only and would skip a directory with a warning.
+          git add -A assets/pills assets/achievements
           bash tools/commit-and-verify.sh "chore: auto-update profile README" main -- \
             README.md catalogue.json assets/stats-light.svg assets/stats-dark.svg
