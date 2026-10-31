@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Regenerate the marked regions of the drsamonline profile README.
 
-Reads the curated map (profile-data.json), fetches the owner's public repos
+Reads the curated catalogue (catalogue.json), fetches the owner's public repos
 from the GitHub API using the runner's authenticated token, merges the two,
 and rewrites only the regions of README.md that sit between the HTML comment
 markers.  Everything outside the markers is human-written and is never touched.
@@ -19,7 +19,7 @@ import urllib.request
 
 OWNER = "drsamonline"
 ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-DATA_FILE = os.path.join(ROOT, "profile-data.json")
+DATA_FILE = os.path.join(ROOT, "catalogue.json")
 README = os.path.join(ROOT, "README.md")
 
 BADGES_START, BADGES_END = "<!-- BADGES:START -->", "<!-- BADGES:END -->"
@@ -56,7 +56,7 @@ def fetch_repos(token):
             data = json.load(fh)
         return data["repositories"] if isinstance(data, dict) else data
 
-    repos, url = [], "https://api.github.com/users/%s/repos?per_page=100&sort=full_name" % OWNER
+    repos, url = [], "https://api.github.com/users/%s/repos" % OWNER
     while url:
         page, headers = _get_json(url, token)
         repos.extend(page)
@@ -101,11 +101,11 @@ def build_projects(api_repos, data):
 def render_badges(public_repos, project_count):
     return (
         '<div align="center">\n\n'
-        '<img src="https://img.shields.io/github/followers/%s?style=flat-square&label=Followers"'
+        '<img src="https://img.shields.io/github/followers/%s"'
         ' alt="GitHub followers" onerror="this.style.display=\'none\'" />\n'
-        '<img src="https://img.shields.io/badge/Public%%20repos-%d-blue?style=flat-square"'
+        '<img src="https://img.shields.io/badge/Public%%20repos-%d-blue"'
         ' alt="%d public repositories" onerror="this.style.display=\'none\'" />\n'
-        '<img src="https://img.shields.io/badge/Projects-%d-blueviolet?style=flat-square"'
+        '<img src="https://img.shields.io/badge/Projects-%d-blueviolet"'
         ' alt="%d projects" onerror="this.style.display=\'none\'" />\n\n'
         '</div>' % (OWNER, public_repos, public_repos, project_count, project_count)
     )
