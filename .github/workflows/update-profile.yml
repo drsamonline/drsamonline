@@ -55,4 +55,5 @@ jobs:
           # regular files only and would skip a directory with a warning.
           git add -A assets/pills assets/achievements
           bash tools/commit-and-verify.sh "chore: auto-update profile README" main -- \
-            README.md catalogue.json assets/stats-light.svg assets/stats-dark.svg
+            README.md catalogue.json assets/stats-light.svg assets/stats-dark.svg \
+            assets/progress-light.svg assets/progress-dark.svg

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="252" viewBox="0 0 1200 252" role="img" aria-label="Pull Shark 253 of 1024; Starstruck 1 of 16; Pair Extraordinaire 1 of 10; Galaxy Brain 0 of 2">
+  <rect width="1200" height="252" fill="#0F131A"/>
+  <rect x="0.5" y="0.5" width="1199" height="251" fill="none" stroke="#232A35"/>
+  <path d="M 0 0 H 1200" stroke="#7FB0E0" stroke-width="2"/>
+  <text x="36" y="40" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="15" font-weight="700" fill="#EDF1F7">Pull Shark</text>
+  <text x="36" y="58" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="11" fill="#9AA6B8">merged pull requests</text>
+  <rect x="300" y="32" width="660" height="12" rx="6" fill="#232A35"/>
+  <rect x="300" y="32" width="163" height="12" rx="6" fill="#0369A1"/>
+  <text x="1164" y="40" text-anchor="end" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="15" font-weight="700" fill="#EDF1F7">253 / 1,024</text>
+  <text x="1164" y="58" text-anchor="end" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="10.5" font-weight="600" letter-spacing="1.2" fill="#9AA6B8">SILVER · NEXT GOLD AT 1,024</text>
+  <path d="M 36 72 H 1164" stroke="#232A35" stroke-width="1"/>
+  <text x="36" y="98" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="15" font-weight="700" fill="#EDF1F7">Starstruck</text>
+  <text x="36" y="116" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="11" fill="#9AA6B8">stars on one repository</text>
+  <rect x="300" y="90" width="660" height="12" rx="6" fill="#232A35"/>
+  <rect x="300" y="90" width="41" height="12" rx="6" fill="#A16207"/>
+  <text x="1164" y="98" text-anchor="end" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="15" font-weight="700" fill="#EDF1F7">1 / 16</text>
+  <text x="1164" y="116" text-anchor="end" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="10.5" font-weight="600" letter-spacing="1.2" fill="#9AA6B8">NOT YET · NEXT BADGE AT 16</text>
+  <path d="M 36 130 H 1164" stroke="#232A35" stroke-width="1"/>
+  <text x="36" y="156" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="15" font-weight="700" fill="#EDF1F7">Pair Extraordinaire</text>
+  <text x="36" y="174" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="11" fill="#9AA6B8">co-authored merged PRs</text>
+  <rect x="300" y="148" width="660" height="12" rx="6" fill="#232A35"/>
+  <rect x="300" y="148" width="66" height="12" rx="6" fill="#15803D"/>
+  <text x="1164" y="156" text-anchor="end" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="15" font-weight="700" fill="#EDF1F7">1+ / 10</text>
+  <text x="1164" y="174" text-anchor="end" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="10.5" font-weight="600" letter-spacing="1.2" fill="#9AA6B8">BADGE · NEXT BRONZE AT 10</text>
+  <path d="M 36 188 H 1164" stroke="#232A35" stroke-width="1"/>
+  <text x="36" y="214" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="15" font-weight="700" fill="#EDF1F7">Galaxy Brain</text>
+  <text x="36" y="232" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="11" fill="#9AA6B8">accepted answers</text>
+  <rect x="300" y="206" width="660" height="12" rx="6" fill="#232A35"/>
+  <text x="1164" y="214" text-anchor="end" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="15" font-weight="700" fill="#EDF1F7">0 / 2</text>
+  <text x="1164" y="232" text-anchor="end" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="10.5" font-weight="600" letter-spacing="1.2" fill="#9AA6B8">NOT YET · NEXT BADGE AT 2</text>
+</svg>

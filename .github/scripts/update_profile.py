@@ -44,6 +44,7 @@ import json
 import os
 import re
 import sys
+import urllib.parse
 import urllib.request
 
 OWNER = "drsamonline"
@@ -326,6 +327,34 @@ def write_achievements(achievements):
     return achievements
 
 
+# Tier thresholds, in order: badge, bronze, silver, gold. GitHub never publishes
+# "how far am I from the next tier", so this is computed from the counters the API
+# does give us, checked against the tier the profile page already shows.
+THRESHOLDS = {
+    "pull-shark": [2, 16, 128, 1024],
+    "starstruck": [16, 128, 512, 4096],
+    "pair-extraordinaire": [1, 10, 24, 48],
+    "galaxy-brain": [2, 8, 16, 32],
+}
+TIER_LABEL = ["badge", "bronze", "silver", "gold"]
+TIER_INDEX = {"": -1, "default": 0, "bronze": 1, "silver": 2, "gold": 3}
+
+
+def fetch_merged_pr_count(token):
+    """Merged pull requests authored by the owner — what Pull Shark counts."""
+    mock = os.environ.get("MOCK_MERGED_PRS")
+    if mock:
+        return int(mock)
+    url = ("https://api.github.com/search/issues?per_page=1&q="
+           + urllib.parse.quote("is:pr author:%s is:merged" % OWNER))
+    try:
+        data, _ = _get_json(url, token)
+        return int(data.get("total_count", 0))
+    except Exception as exc:                                    # noqa: BLE001
+        print("::warning::could not count merged PRs (%s)" % exc)
+        return None
+
+
 STATS_THEME = {
     "light": dict(paper="#F7F8FA", border="#E4E8EF", ink="#12161E", muted="#5A6473", accent="#3E6C9E"),
     "dark": dict(paper="#0F131A", border="#232A35", ink="#EDF1F7", muted="#9AA6B8", accent="#7FB0E0"),
@@ -357,6 +386,105 @@ def render_stats(theme, cells):
   {parts}
 </svg>
 """.format(aria=aria, parts="\n  ".join(parts), **t)
+
+
+def progress_rows(achievements, api_repos, merged_prs):
+    """One row per tiered achievement: what we know, and what the next tier costs.
+
+    Pull Shark and Starstruck have exact counters (merged PRs, stars on the best
+    repo). Pair Extraordinaire and Galaxy Brain do not — GitHub publishes neither,
+    and counting co-authored PRs from the API gives a wrong number — so those show
+    the tier it reports and the threshold to beat, and no invented progress.
+    """
+    earned = {a["slug"]: a["tier"].lower() for a in achievements}
+    meta = {"drsamonline", "drsamonline.github.io"}
+    stars = max([r.get("stargazers_count") or 0 for r in api_repos
+                 if r.get("name", "").lower() not in meta] or [0])
+
+    measured = {"pull-shark": merged_prs, "starstruck": stars}
+    rows = []
+    for slug in ("pull-shark", "starstruck", "pair-extraordinaire", "galaxy-brain"):
+        steps = THRESHOLDS[slug]
+        tier = earned.get(slug, "")
+        value = measured.get(slug)
+        exact = value is not None
+        if not exact:
+            # A badge with no tier label is the base tier, not an absent one — but
+            # only if the profile actually lists it. Absent from the list means 0.
+            idx = max(0, TIER_INDEX.get(tier, -1)) if slug in earned else -1
+            value = steps[idx] if idx >= 0 else 0      # the floor that tier guarantees
+
+        nxt = next((i for i, t in enumerate(steps) if t > value), None)
+        if nxt is None:
+            ratio, target, next_label = 1.0, steps[-1], "gold \u00b7 maxed"
+        else:
+            ratio, target = value / float(steps[nxt]), steps[nxt]
+            next_label = "next %s at %s" % (TIER_LABEL[nxt], "{:,}".format(steps[nxt]))
+
+        rows.append({
+            "slug": slug,
+            "name": {"pull-shark": "Pull Shark", "starstruck": "Starstruck",
+                     "pair-extraordinaire": "Pair Extraordinaire",
+                     "galaxy-brain": "Galaxy Brain"}[slug],
+            "unit": {"pull-shark": "merged pull requests", "starstruck": "stars on one repository",
+                     "pair-extraordinaire": "co-authored merged PRs",
+                     "galaxy-brain": "accepted answers"}[slug],
+            "value": value, "target": target, "ratio": min(ratio, 1.0),
+            "tier": tier or ("badge" if slug in earned else "not yet"),
+            "next": next_label, "exact": exact,
+            "colour": ACHIEVEMENT_COLOURS.get(slug, "#334155"),
+        })
+    return rows
+
+
+def render_progress(theme, rows):
+    """Four labelled bars. The number on the right is the one GitHub will not show."""
+    t = STATS_THEME[theme]
+    height = 20 + 58 * len(rows)
+    parts = []
+    for i, r in enumerate(rows):
+        y = 20 + i * 58
+        if i:
+            parts.append('<path d="M 36 %d H 1164" stroke="%s" stroke-width="1"/>'
+                         % (y - 6, t["border"]))
+        parts.append('<text x="36" y="%d" font-family="%s" font-size="15" font-weight="700" '
+                     'fill="%s">%s</text>' % (y + 20, FONT, t["ink"], esc(r["name"])))
+        parts.append('<text x="36" y="%d" font-family="%s" font-size="11" fill="%s">%s</text>'
+                     % (y + 38, FONT, t["muted"], esc(r["unit"])))
+
+        parts.append('<rect x="300" y="%d" width="660" height="12" rx="6" fill="%s"/>'
+                     % (y + 12, t["border"]))
+        filled = 660 * r["ratio"]
+        if filled >= 12:
+            parts.append('<rect x="300" y="%d" width="%.0f" height="12" rx="6" fill="%s"/>'
+                         % (y + 12, filled, r["colour"]))
+
+        shown = "{:,}".format(r["value"]) + ("+" if not r["exact"] and r["value"] else "")
+        parts.append('<text x="1164" y="%d" text-anchor="end" font-family="%s" font-size="15" '
+                     'font-weight="700" fill="%s">%s / %s</text>'
+                     % (y + 20, FONT, t["ink"], shown, "{:,}".format(r["target"])))
+        parts.append('<text x="1164" y="%d" text-anchor="end" font-family="%s" font-size="10.5" '
+                     'font-weight="600" letter-spacing="1.2" fill="%s">%s \u00b7 %s</text>'
+                     % (y + 38, FONT, t["muted"], r["tier"].upper(), r["next"].upper()))
+
+    aria = "; ".join("%s %s of %s" % (r["name"], r["value"], r["target"]) for r in rows)
+    return """<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="{h}" viewBox="0 0 1200 {h}" role="img" aria-label="{aria}">
+  <rect width="1200" height="{h}" fill="{paper}"/>
+  <rect x="0.5" y="0.5" width="1199" height="{hm}" fill="none" stroke="{border}"/>
+  <path d="M 0 0 H 1200" stroke="{accent}" stroke-width="2"/>
+  {parts}
+</svg>
+""".format(h=height, hm=height - 1, aria=esc(aria), parts="\n  ".join(parts), **t)
+
+
+def write_progress(rows):
+    if not rows:
+        return False
+    for theme in ("light", "dark"):
+        write_if_changed(os.path.join(ROOT, "assets", "progress-%s.svg" % theme),
+                         render_progress(theme, rows))
+    print("progress: " + ", ".join("%s %s/%s" % (r["slug"], r["value"], r["target"]) for r in rows))
+    return True
 
 
 def write_stats(projects, api_repos, public_repos):
@@ -498,7 +626,7 @@ def render_projects(projects, labels, pills):
     return "\n".join(lines).rstrip() + "\n"
 
 
-def render_achievements(achievements):
+def render_achievements(achievements, progress=None):
     """The row of achievement cards. Empty string when nothing could be read, so
     the heading disappears with the cards rather than hanging over nothing."""
     if not achievements:
@@ -512,6 +640,19 @@ def render_achievements(achievements):
                      '<img src="%s" height="78" alt="%s"></a>&nbsp;'
                      % (OWNER, a["asset"], esc(label)))
     parts.append("</p>")
+    if progress:
+        parts += ["",
+                  '<p align="center">',
+                  "  <picture>",
+                  '    <source media="(prefers-color-scheme: dark)" srcset="assets/progress-dark.svg">',
+                  '    <source media="(prefers-color-scheme: light)" srcset="assets/progress-light.svg">',
+                  '    <img src="assets/progress-light.svg" width="100%" '
+                  'alt="Distance to the next tier of each tiered achievement">',
+                  "  </picture>",
+                  "</p>",
+                  "",
+                  '<p align="center"><sub>Counted from the API on every build. The two rows '
+                  "without a number are the two GitHub publishes no counter for.</sub></p>"]
     return "\n".join(parts) + "\n"
 
 
@@ -556,6 +697,8 @@ def main():
     projects = build_projects(api_repos, data)
     pills = write_pills(projects, colours, labels)
     achievements = write_achievements(fetch_achievements())
+    rows = progress_rows(achievements, api_repos, fetch_merged_pr_count(token))
+    progress = write_progress(rows)
     write_stats(projects, api_repos, public_repos)
 
     with open(README, encoding="utf-8") as fh:
@@ -564,7 +707,7 @@ def main():
                             render_projects(projects, labels, pills))
     if ACH_START in readme and ACH_END in readme:
         readme = replace_region(readme, ACH_START, ACH_END,
-                                render_achievements(achievements))
+                                render_achievements(achievements, rows if progress else None))
     if not readme.endswith("\n"):
         readme += "\n"
     with open(README, "w", encoding="utf-8") as fh:

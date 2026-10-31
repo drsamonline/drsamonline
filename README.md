@@ -47,6 +47,16 @@
   <a href="https://github.com/drsamonline?tab=achievements"><img src="assets/achievements/pair-extraordinaire.svg" height="78" alt="Pair Extraordinaire"></a>&nbsp;
 </p>
 
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/progress-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="assets/progress-light.svg">
+    <img src="assets/progress-light.svg" width="100%" alt="Distance to the next tier of each tiered achievement">
+  </picture>
+</p>
+
+<p align="center"><sub>Counted from the API on every build. The two rows without a number are the two GitHub publishes no counter for.</sub></p>
+
 <!-- ACHIEVEMENTS:END -->
 
 <img src="assets/divider.svg" width="100%" alt="">
@@ -189,7 +199,7 @@ shape it does.
 ### <img src="assets/icons/infra.svg" width="20" height="20" alt=""> Meta & Infrastructure <img src="assets/pills/count-infra.svg" height="22" alt="8 projects">
 - <a href="https://drsamonline.github.io/app-builder/"><img src="assets/pills/app-builder.svg" height="24" alt="app-builder"></a> — A shared build kit that compiles a static web app into a single-file portable Windows EXE and an Android WebView APK.
 - <a href="https://drsamonline.github.io/app-companion-forge/"><img src="assets/pills/app-companion-forge.svg" height="24" alt="app-companion-forge"></a> — Forge tooling, not a product app — an offline pocket console for the Forge system.
-- <a href="https://drsamonline.github.io/audit/"><img src="assets/pills/audit.svg" height="24" alt="audit"></a> — The change log for the drsamonline fleet: what was measured, what was fixed, and the evidence.
+- <a href="https://github.com/drsamonline/audit"><img src="assets/pills/audit.svg" height="24" alt="audit"></a> — The change log for the drsamonline fleet: what was measured, what was fixed, and the evidence.
 - <a href="https://github.com/drsamonline/backup"><img src="assets/pills/backup.svg" height="24" alt="backup"></a> — Snapshot a repository before a merge replaces it — a reusable GitHub workflow plus a zero-dependency script, compressed, timestamped and rotated to keep the newest 100.
 - <a href="https://drsamonline.github.io/control-panel/"><img src="assets/pills/control-panel.svg" height="24" alt="control-panel"></a> — Every workflow in every repo: what runs, when, what calls what, and what is connected to nothing.
 - <a href="https://drsamonline.github.io/dashboard/"><img src="assets/pills/dashboard.svg" height="24" alt="dashboard"></a> — Live status of the drsamonline system — the repo fleet, build health, downloads and the store.
