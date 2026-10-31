@@ -2,7 +2,10 @@ name: Update profile README
 
 on:
   schedule:
-    - cron: "17 3 * * 1"   # weekly, Monday 03:17 UTC
+    # Daily, not weekly. The run costs about ten seconds and is the thing that
+    # notices a new repository, so a weekly cadence meant a repo added on Tuesday
+    # was missing from the profile until the following Monday.
+    - cron: "17 3 * * *"   # daily, 03:17 UTC
   # Regenerate when the thing it reads changes, not only on a schedule. Editing a
   # description in catalogue.json used to leave the README stale for up to a week.
   push:
