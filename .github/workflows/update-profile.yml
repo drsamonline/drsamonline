@@ -3,6 +3,13 @@ name: Update profile README
 on:
   schedule:
     - cron: "17 3 * * 1"   # weekly, Monday 03:17 UTC
+  # Regenerate when the thing it reads changes, not only on a schedule. Editing a
+  # description in catalogue.json used to leave the README stale for up to a week.
+  push:
+    branches: [ main ]
+    paths:
+      - catalogue.json
+      - .github/scripts/update_profile.py
   workflow_dispatch:
 
 permissions:
