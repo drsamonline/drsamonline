@@ -66,8 +66,8 @@ Away from medicine and code: poet and social worker.
 <div align="center">
 
 <img src="https://img.shields.io/github/followers/drsamonline?style=flat-square&label=Followers" alt="GitHub followers" onerror="this.style.display='none'" />
-<img src="https://img.shields.io/badge/Public%20repos-79-blue?style=flat-square" alt="79 public repositories" onerror="this.style.display='none'" />
-<img src="https://img.shields.io/badge/Projects-77-blueviolet?style=flat-square" alt="77 projects" onerror="this.style.display='none'" />
+<img src="https://img.shields.io/badge/Public%20repos-94-blue?style=flat-square" alt="94 public repositories" onerror="this.style.display='none'" />
+<img src="https://img.shields.io/badge/Projects-92-blueviolet?style=flat-square" alt="92 projects" onerror="this.style.display='none'" />
 
 </div>
 
@@ -156,20 +156,27 @@ Away from medicine and code: poet and social worker.
 
 ### Other / New
 - [aethelgard-rpg-engine](https://drsamonline.github.io/aethelgard-rpg-engine/) — A dependency-free, vanilla-JavaScript engine for deep, single-player browser RPGs. Engine only — ships a small generic sample world; the games it powers live in drsamonline/aethelgard-games.
+- [ai-bridge](https://drsamonline.github.io/ai-bridge/) — VScode Extension to use webchat ais in vscoding environment
+- [app-clip-loom](https://drsamonline.github.io/app-clip-loom/) — Clip Loom — clipboard programs you can read: strip tracking, tidy text, keep what matters. Weft-8 on the Loom.
 - [app-companion-forge](https://drsamonline.github.io/app-companion-forge/) — Forge tooling (not a product app): an offline pocket console for the Forge system.
 - [app-encrypted-case-log](https://drsamonline.github.io/app-encrypted-case-log/) — Per-patient clinical notes, encrypted on the device with AES-256-GCM. Offline, no account, no server. Built with Forge on crypto-kit, case-kit, search-kit, export-kit and web-kit. MIT.
 - [app-image-toolkit](https://drsamonline.github.io/app-image-toolkit/) — Compress, resize, convert and strip the GPS from photos on your device — nothing uploaded, no account, works offline. Built with web-kit + export-kit.
+- [app-jacquard](https://drsamonline.github.io/app-jacquard/) — Jacquard — the loom you program: a Weft-8 8-bit assembler and VM with the device's sensors as memory-mapped peripherals. Offline, single page, no accounts.
+- [app-lantern](https://github.com/drsamonline/app-lantern) — A whole library served over your own Wi-Fi — browse and search offline content on the LAN, no internet at any point. Zero dependencies.
 - [app-panchang](https://drsamonline.github.io/app-panchang/) — A daily Indian almanac — tithi, nakshatra, yoga, karana, rahu-kaal and muhurat, computed offline. Built with Forge.
 - [app-poets-studio](https://drsamonline.github.io/app-poets-studio/) — Rhyme, metre and fixed forms, fully offline — a poetry workshop that measures what you wrote. 124,085 words bundled.
+- [app-weft-puzzles](https://drsamonline.github.io/app-weft-puzzles/) — Weft Puzzles — small programming puzzles you solve in Weft-8 assembly, on the machine from Jacquard (the Loom).
 - [art-kit](https://github.com/drsamonline/art-kit) — The art primitives Forge was missing: an indexed palette, a pixel canvas with nearest-neighbour scaling, draw ops, a delta undo stack, dithering (Bayer + Floyd-Steinberg), median-cut quantisation, sprite sheets, the isometric mapping and a sketch loop. Zero dependencies, single file, no assets. MIT.
 - [astro-kit](https://drsamonline.github.io/astro-kit/) — The shared astronomy core for drsamonline apps: sun and moon longitude (Meeus), ayanamsa, sunrise/sunset, and tithi/nakshatra/yoga/karana. Zero dependencies. MIT.
 - [audio-kit](https://github.com/drsamonline/audio-kit) — Synthesis, theory, patterns and notation for offline apps: a pure ADSR envelope, oscillator voices, filters, noise and a mixer; notes, scales and chords; a pattern sequencer; a staff layout; byte sonification; and honest mastering helpers. Zero dependencies, single file, no audio assets — game music is patterns, not files. MIT.
+- [audit](https://github.com/drsamonline/audit) — The change log for the drsamonline fleet: what was measured, what was fixed, and the evidence.
 - [backup](https://github.com/drsamonline/backup) — Snapshot a repository BEFORE a merge replaces it: a reusable GitHub workflow + a zero-dependency script. Compressed, timestamped, rotated to keep the newest 100, and it rolls over to a new dumps repo when one fills up. MIT.
 - [base-bench](https://drsamonline.github.io/base-bench/) — Every number base, unit and timezone on one page, with the working shown. Offline, no accounts.
 - [book-kit](https://drsamonline.github.io/book-kit/) — The companion-app-from-a-book pattern: chapters, key points, practices, flashcards, search and reading progress. Zero dependencies, MIT.
 - [canteen-lan](https://drsamonline.github.io/canteen-lan/) — Order from your table over the room's own Wi-Fi - a LAN canteen board for Forge
 - [case-kit](https://drsamonline.github.io/case-kit/) — Clinical case tracking: sections, dated symptoms, follow-ups, a timeline and a summary. Zero dependencies, MIT.
 - [chalk-lan](https://drsamonline.github.io/chalk-lan/) — A shared whiteboard for the room: everyone on the same Wi-Fi draws on the same board, live. Offline, no accounts. Built with Forge on web-kit + lan-kit.
+- [compfactory](https://github.com/drsamonline/compfactory) — Development workspace for CHCE multi-repo project
 - [compress-kit](https://drsamonline.github.io/compress-kit/) — The shared compression core for drsamonline apps: gzip, deflate and deflate-raw via the platform's Compression Streams. One file, no dependencies. MIT.
 - [control-panel](https://drsamonline.github.io/control-panel/) — Every workflow in every repo: what runs, when, what calls what, and what is connected to nothing. The four stages from scratch to repair, the routes that need one input, and a Run button for each workflow. MIT.
 - [crypto-kit](https://drsamonline.github.io/crypto-kit/) — The shared crypto core for drsamonline apps: AES-256-GCM, PBKDF2 passphrase keys, sealed envelopes, one-time view. One file, Web Crypto. MIT.
@@ -177,10 +184,13 @@ Away from medicine and code: poet and social worker.
 - [export-kit](https://github.com/drsamonline/export-kit) — Save text, JSON, CSV and binary to the user's device, and bundle files into a store-only ZIP. One file, no dependencies. Built with Forge.
 - [frame-kit](https://drsamonline.github.io/frame-kit/) — The shared transfer-frame core for drsamonline apps: a self-describing frame, a rateless collector and byte/checksum utilities. One file, no dependencies. MIT.
 - [game-kit](https://drsamonline.github.io/game-kit/) — The shared game core for drsamonline apps: a fixed-timestep loop, input, scenes, save/load and maths. Zero dependencies. MIT.
+- [HCS](https://github.com/drsamonline/HCS) — Holistic Compression Sources
+- [heavenzip](https://github.com/drsamonline/heavenzip) — CHCE orchestrator - chains prebuilt binaries
 - [helioprism](https://drsamonline.github.io/helioprism/) — One app, two optical transports — send a file with light over QR or a colour matrix. Offline, no network.
 - [kent-repertory-explorer](https://drsamonline.github.io/kent-repertory-explorer/) — Offline, single-file explorer for Kent's Repertory (1897) — 74,667 rubrics, 735,500 graded remedy links, case builder and grade-weighted repertorisation. No server, no backend.
 - [lan-kit](https://drsamonline.github.io/lan-kit/) — The shared LAN core for drsamonline apps: a local room with a real-time channel over Server-Sent Events + POST. Zero dependencies. MIT.
 - [ml-kit](https://github.com/drsamonline/ml-kit) — The classic algorithms, from scratch, for offline features: tf-idf + cosine, Naive Bayes, k-NN, k-means, PCA, ID3, linear regression, Markov chains and a grammar expander. Zero dependencies, single file, no model, no API key, no network. MIT.
+- [musicgen](https://drsamonline.github.io/musicgen/) — A pocket generative composer — offline-first PWA that writes, synthesises, masters and exports music in the browser. No server, no samples.
 - [neon-velocity](https://drsamonline.github.io/neon-velocity/) — Procedural retro side-scrolling shooter for Godot 4.3 — zero binary assets, all sprites and audio generated at runtime.
 - [offline-pdf-toolkit](https://drsamonline.github.io/offline-pdf-toolkit/) — Merge, split, rotate, reorder, watermark, number and compress PDFs entirely in your browser. No upload, no account, no server — works offline. Single self-contained HTML file.
 - [optical-kit](https://drsamonline.github.io/optical-kit/) — The shared optical-transfer core: a systematic LT fountain code, self-describing frames, and a pluggable codec. One file, no dependencies. MIT.
@@ -194,6 +204,11 @@ Away from medicine and code: poet and social worker.
 - [today-card](https://drsamonline.github.io/today-card/) — Today Card - one card for the day: your date, one intention, one task, and a streak. Offline, no accounts. Built with web-kit and Forge.
 - [ui-kit](https://github.com/drsamonline/ui-kit) — A reactive UI layer small enough for a single file: signals, computed, reactive effects, hyperscript, a keyed list, events, a hash router and form binding. Zero runtime dependencies, no build step. TodoMVC included as the acceptance test. MIT.
 - [web-kit](https://drsamonline.github.io/web-kit/) — The shared offline-first runtime for drsamonline apps: storage, i18n (EN/HI/GU), CSV, PWA, theme, SEO, a11y. One file, no build step. MIT.
+- [weft8-classroom](https://drsamonline.github.io/weft8-classroom/) — Weft-8 Classroom — a teacher's pack and exercises for teaching how a computer works, offline, one file.
+- [weft8-compare](https://drsamonline.github.io/weft8-compare/) — Weft-8 beside x86 and ARM — the same algorithm in three machines, so you can see which part is the computer.
+- [weft8-hardware](https://drsamonline.github.io/weft8-hardware/) — Weft-8 on real silicon — a C port of the Loom's 8-bit machine, an Arduino/ESP32 sketch, and a parity harness.
+- [weft8-kit](https://drsamonline.github.io/weft8-kit/) — The Loom's Weft-8 as a reusable kit: an auditable, step-limited rule engine for other apps.
+- [ziptastic](https://github.com/drsamonline/ziptastic) — CHCE native engine — single binary, embedded codecs
 
 <!-- PROJECTS:END -->
 
