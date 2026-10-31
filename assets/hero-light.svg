@@ -1,12 +1,84 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="210" viewBox="0 0 900 210" role="img" aria-label="Dr. Sohil Momin, homeopathic physician, building offline-first open-source software for medicine, learning and play.">
-  <title>Dr. Sohil Momin — homeopathic physician building offline-first, open-source software</title>
-  <rect x="0.5" y="0.5" width="899" height="209" rx="18" fill="#F6F7F9" stroke="#E3E7ED"/>
-  <rect x="36" y="42" width="6" height="126" rx="3" fill="#3E6C9E"/>
-  <text x="68" y="78" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" letter-spacing="2.6" fill="#3E6C9E">HOMEOPATHIC PHYSICIAN · BHMS</text>
-  <text x="68" y="133" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="56" font-weight="700" fill="#171A21">Dr. Sohil Momin</text>
-  <text x="68" y="168" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="20" fill="#4A5262">Offline-first, open-source software for medicine, learning and play.</text>
-  <g transform="translate(806,105)">
-    <circle r="34" fill="none" stroke="#3E6C9E" stroke-width="1.6" opacity="0.5"/>
-    <text x="0" y="9" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="24" font-weight="700" letter-spacing="1" fill="#3E6C9E">SM</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="330" viewBox="0 0 1200 330" role="img" aria-label="Dr. Sohil Momin — homeopathic physician building offline-first, open-source software for medicine, learning and play">
+  <title>Dr. Sohil Momin — offline-first, open-source software for medicine, learning and play</title>
+  <defs>
+    <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#12161E" stroke-opacity="0.05" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="330" fill="#F7F8FA"/>
+  <rect width="1200" height="330" fill="url(#grid)"/>
+  <rect x="0.5" y="0.5" width="1199" height="329" fill="none" stroke="#E4E8EF"/>
+
+  <rect x="64" y="70" width="5" height="132" rx="2.5" fill="#3E6C9E"/>
+
+  <text x="92" y="96" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="12.5" font-weight="600" letter-spacing="3.4" fill="#3E6C9E">HOMEOPATHIC PHYSICIAN · BHMS · VADODARA, INDIA</text>
+  <text x="92" y="170" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="62" font-weight="700" letter-spacing="-1.6" fill="#12161E">Dr. Sohil Momin</text>
+  <text x="92" y="208" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="21" fill="#5A6473">Offline-first, open-source software for medicine, learning and play.</text>
+  <text x="92" y="236" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="14.5" fill="#3E6C9E">One rule: it keeps working when the connection drops.</text>
+
+  <g>
+    <circle cx="1024" cy="150" r="62" fill="none" stroke="#E4E8EF" stroke-width="1"/>
+    <path d="M 1013.4 139.4 A 15 15 0 0 1 1034.6 139.4" fill="none" stroke="#3E6C9E" stroke-width="3.4" stroke-linecap="round"/>
+    <path d="M 1004.9 130.9 A 27 27 0 0 1 1043.1 130.9" fill="none" stroke="#3E6C9E" stroke-width="3.4" stroke-linecap="round"/>
+    <path d="M 996.4 122.4 A 39 39 0 0 1 1051.6 122.4" fill="none" stroke="#3E6C9E" stroke-width="3.4" stroke-linecap="round"/>
+    <circle cx="1024" cy="150" r="4" fill="#3E6C9E"/>
+    <path d="M 978 196 L 1070 104" stroke="#F7F8FA" stroke-width="11" stroke-linecap="round"/>
+    <path d="M 978 196 L 1070 104" stroke="#3E6C9E" stroke-width="3.4" stroke-linecap="round"/>
+    <text x="1024" y="258" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="10.5" letter-spacing="2.6" fill="#5A6473">OFFLINE-FIRST</text>
   </g>
+
+  <path d="M 64 286 v 7" stroke="#E4E8EF" stroke-width="1"/>
+  <path d="M 84 286 v 4" stroke="#E4E8EF" stroke-width="1"/>
+  <path d="M 104 286 v 4" stroke="#E4E8EF" stroke-width="1"/>
+  <path d="M 124 286 v 4" stroke="#E4E8EF" stroke-width="1"/>
+  <path d="M 144 286 v 4" stroke="#E4E8EF" stroke-width="1"/>
+  <path d="M 164 286 v 7" stroke="#E4E8EF" stroke-width="1"/>
+  <path d="M 184 286 v 4" stroke="#E4E8EF" stroke-width="1"/>
+  <path d="M 204 286 v 4" stroke="#E4E8EF" stroke-width="1"/>
+  <path d="M 224 286 v 4" stroke="#E4E8EF" stroke-width="1"/>
+  <path d="M 244 286 v 4" stroke="#E4E8EF" stroke-width="1"/>
+  <path d="M 264 286 v 7" stroke="#E4E8EF" stroke-width="1"/>
+  <path d="M 284 286 v 4" stroke="#E4E8EF" stroke-width="1"/>
+  <path d="M 304 286 v 4" stroke="#E4E8EF" stroke-width="1"/>
+  <path d="M 324 286 v 4" stroke="#E4E8EF" stroke-width="1"/>
+  <path d="M 344 286 v 4" stroke="#E4E8EF" stroke-width="1"/>
+  <path d="M 364 286 v 7" stroke="#E4E8EF" stroke-width="1"/>
+  <path d="M 384 286 v 4" stroke="#E4E8EF" stroke-width="1"/>
+  <path d="M 404 286 v 4" stroke="#E4E8EF" stroke-width="1"/>
+  <path d="M 424 286 v 4" stroke="#E4E8EF" stroke-width="1"/>
+  <path d="M 444 286 v 4" stroke="#E4E8EF" stroke-width="1"/>
+  <path d="M 464 286 v 7" stroke="#E4E8EF" stroke-width="1"/>
+  <path d="M 484 286 v 4" stroke="#E4E8EF" stroke-width="1"/>
+  <path d="M 504 286 v 4" stroke="#E4E8EF" stroke-width="1"/>
+  <path d="M 524 286 v 4" stroke="#E4E8EF" stroke-width="1"/>
+  <path d="M 544 286 v 4" stroke="#E4E8EF" stroke-width="1"/>
+  <path d="M 564 286 v 7" stroke="#E4E8EF" stroke-width="1"/>
+  <path d="M 584 286 v 4" stroke="#E4E8EF" stroke-width="1"/>
+  <path d="M 604 286 v 4" stroke="#E4E8EF" stroke-width="1"/>
+  <path d="M 624 286 v 4" stroke="#E4E8EF" stroke-width="1"/>
+  <path d="M 644 286 v 4" stroke="#E4E8EF" stroke-width="1"/>
+  <path d="M 664 286 v 7" stroke="#E4E8EF" stroke-width="1"/>
+  <path d="M 684 286 v 4" stroke="#E4E8EF" stroke-width="1"/>
+  <path d="M 704 286 v 4" stroke="#E4E8EF" stroke-width="1"/>
+  <path d="M 724 286 v 4" stroke="#E4E8EF" stroke-width="1"/>
+  <path d="M 744 286 v 4" stroke="#E4E8EF" stroke-width="1"/>
+  <path d="M 764 286 v 7" stroke="#E4E8EF" stroke-width="1"/>
+  <path d="M 784 286 v 4" stroke="#E4E8EF" stroke-width="1"/>
+  <path d="M 804 286 v 4" stroke="#E4E8EF" stroke-width="1"/>
+  <path d="M 824 286 v 4" stroke="#E4E8EF" stroke-width="1"/>
+  <path d="M 844 286 v 4" stroke="#E4E8EF" stroke-width="1"/>
+  <path d="M 864 286 v 7" stroke="#E4E8EF" stroke-width="1"/>
+  <path d="M 884 286 v 4" stroke="#E4E8EF" stroke-width="1"/>
+  <path d="M 904 286 v 4" stroke="#E4E8EF" stroke-width="1"/>
+  <path d="M 924 286 v 4" stroke="#E4E8EF" stroke-width="1"/>
+  <path d="M 944 286 v 4" stroke="#E4E8EF" stroke-width="1"/>
+  <path d="M 964 286 v 7" stroke="#E4E8EF" stroke-width="1"/>
+  <path d="M 984 286 v 4" stroke="#E4E8EF" stroke-width="1"/>
+  <path d="M 1004 286 v 4" stroke="#E4E8EF" stroke-width="1"/>
+  <path d="M 1024 286 v 4" stroke="#E4E8EF" stroke-width="1"/>
+  <path d="M 1044 286 v 4" stroke="#E4E8EF" stroke-width="1"/>
+  <path d="M 1064 286 v 7" stroke="#E4E8EF" stroke-width="1"/>
+  <path d="M 1084 286 v 4" stroke="#E4E8EF" stroke-width="1"/>
+  <path d="M 1104 286 v 4" stroke="#E4E8EF" stroke-width="1"/>
+  <path d="M 1124 286 v 4" stroke="#E4E8EF" stroke-width="1"/>
 </svg>
