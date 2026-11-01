@@ -181,6 +181,16 @@
       "kicker": "",
       "tag": ""
     },
+    "app-thermals": {
+      "description": "Homoeopathic remedies by thermal reaction — what each classical source actually says, quoted in its own words with the source named, and where the sources do not say the same thing. Offline, no accounts.",
+      "category": "health",
+      "featured": false,
+      "demo": true,
+      "release": false,
+      "kicker": "",
+      "tag": "",
+      "auto": true
+    },
     "app-weft-puzzles": {
       "description": "Weft Puzzles — small programming puzzles you solve in Weft-8 assembly, on the machine from Jacquard.",
       "category": "weft",
@@ -387,6 +397,16 @@
       "release": false,
       "kicker": "",
       "tag": ""
+    },
+    "eon-commando": {
+      "description": "EON COMMANDO — a retro run-and-gun platformer in one self-contained HTML file: three eras, five weapons, three bosses, chiptune audio. No dependencies, works offline.",
+      "category": "games",
+      "featured": false,
+      "demo": true,
+      "release": false,
+      "kicker": "",
+      "tag": "",
+      "auto": true
     },
     "export-kit": {
       "description": "Save text, JSON, CSV and binary to the user's device, and bundle files into a store-only ZIP.",
