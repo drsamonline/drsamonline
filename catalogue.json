@@ -163,6 +163,16 @@
       "kicker": "",
       "tag": ""
     },
+    "app-organon-reader": {
+      "description": "An offline reader for the Organon of Medicine, sixth edition, in the 1922 Boericke translation — full-text search, bookmarks and notes, no network.",
+      "category": "mind",
+      "featured": false,
+      "demo": true,
+      "release": false,
+      "kicker": "",
+      "tag": "",
+      "auto": true
+    },
     "app-panchang": {
       "description": "A daily Indian almanac — tithi, nakshatra, yoga, karana, rahu-kaal and muhurat, computed offline.",
       "category": "learning",
@@ -371,6 +381,16 @@
       "kicker": "",
       "tag": ""
     },
+    "corefit-md": {
+      "description": "CoreFit MD — a five-minute video-guided morning core routine. Clip-accurate playback (every set opens at 0:30), six-week progression, streaks, trilingual UI. Static, offline-first, no backend.",
+      "category": "other",
+      "featured": false,
+      "demo": true,
+      "release": false,
+      "kicker": "",
+      "tag": "",
+      "auto": true
+    },
     "crypto-kit": {
       "description": "The shared crypto core: AES-256-GCM, PBKDF2 passphrase keys, sealed envelopes and one-time view, on Web Crypto.",
       "category": "kits",
@@ -499,7 +519,7 @@
       "tag": ""
     },
     "kent-repertory-explorer": {
-      "description": "Offline single-file explorer for Kent's Repertory (1897) — 74,667 rubrics, 735,500 graded remedy links, a case builder and grade-weighted repertorisation.",
+      "description": "Repertorium Publicum (2008), an open Kent-derived repertory, as a searchable ledger — 74,480 rubrics, 735,460 graded remedy links, a case builder and grade-weighted repertorisation. Offline in one HTML file: no server, no account.",
       "category": "health",
       "featured": false,
       "demo": true,
@@ -533,6 +553,16 @@
       "release": true,
       "kicker": "",
       "tag": ""
+    },
+    "lumen": {
+      "description": "Lumen — a fast, fully offline photo library in the spirit of Google Picasa. Windows, Linux, macOS and Android from one Flutter codebase.",
+      "category": "other",
+      "featured": false,
+      "demo": false,
+      "release": false,
+      "kicker": "",
+      "tag": "",
+      "auto": true
     },
     "MATERIA-MEDICA-BUILDER": {
       "description": "Build your own materia medica and repertory — offline, private and yours to export.",
@@ -686,6 +716,16 @@
       "release": false,
       "kicker": "",
       "tag": ""
+    },
+    "repertory-reader": {
+      "description": "A quiet reading room for seventeen classical homoeopathic repertories — 271,421 rubrics and 744,394 graded remedy links, read straight from the open JSON library. No account, no server, no tracking, no build step.",
+      "category": "health",
+      "featured": false,
+      "demo": true,
+      "release": false,
+      "kicker": "",
+      "tag": "",
+      "auto": true
     },
     "retro-strike": {
       "description": "A complete retro third-person shooter in a single HTML file — a custom software 3D renderer and chiptune audio, no dependencies.",
