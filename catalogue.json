@@ -437,6 +437,16 @@
       "kicker": "",
       "tag": ""
     },
+    "feather": {
+      "description": "A read-only document viewer that opens before you blink — small, portable, cross-platform, summoned by a keystroke.",
+      "category": "other",
+      "featured": false,
+      "demo": false,
+      "release": false,
+      "kicker": "",
+      "tag": "",
+      "auto": true
+    },
     "frame-kit": {
       "description": "The shared transfer-frame core: a self-describing frame, a rateless collector and byte/checksum utilities.",
       "category": "kits",
@@ -555,7 +565,7 @@
       "tag": ""
     },
     "lumen": {
-      "description": "Lumen — a fast, fully offline photo library in the spirit of Google Picasa. Windows, Linux, macOS and Android from one Flutter codebase.",
+      "description": "Lumen — a fast, fully offline photo library in the spirit of Google Picasa. Windows, Linux and Android from one Flutter codebase.",
       "category": "other",
       "featured": false,
       "demo": false,

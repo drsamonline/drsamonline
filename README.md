@@ -210,9 +210,10 @@ shape it does.
 - <a href="https://drsamonline.github.io/profile-kit/"><img src="assets/pills/profile-kit.svg" height="24" alt="profile-kit"></a> — A small reusable kit for a theme-aware, self-updating GitHub profile — hero banner, metrics card and README generator.
 - <a href="https://drsamonline.github.io/skills/"><img src="assets/pills/skills.svg" height="24" alt="skills"></a> — Reusable, machine-consumable skills extracted from every drsamonline project — a categorised, self-updating catalogue.
 
-### <img src="assets/icons/other.svg" width="20" height="20" alt=""> Other / New <img src="assets/pills/count-other.svg" height="22" alt="2 projects">
+### <img src="assets/icons/other.svg" width="20" height="20" alt=""> Other / New <img src="assets/pills/count-other.svg" height="22" alt="3 projects">
 - <a href="https://drsamonline.github.io/corefit-md/"><img src="assets/pills/corefit-md.svg" height="24" alt="corefit-md"></a> — CoreFit MD — a five-minute video-guided morning core routine. Clip-accurate playback (every set opens at 0:30), six-week progression, streaks, trilingual UI. Static, offline-first, no backend.
-- <a href="https://github.com/drsamonline/lumen"><img src="assets/pills/lumen.svg" height="24" alt="lumen"></a> — Lumen — a fast, fully offline photo library in the spirit of Google Picasa. Windows, Linux, macOS and Android from one Flutter codebase.
+- <a href="https://github.com/drsamonline/feather"><img src="assets/pills/feather.svg" height="24" alt="feather"></a> — A read-only document viewer that opens before you blink — small, portable, cross-platform, summoned by a keystroke.
+- <a href="https://drsamonline.github.io/lumen/"><img src="assets/pills/lumen.svg" height="24" alt="lumen"></a> — Lumen — a fast, fully offline photo library in the spirit of Google Picasa. Windows, Linux and Android from one Flutter codebase.
 
 <!-- PROJECTS:END -->
 
