@@ -55,6 +55,16 @@
     }
   ],
   "repos": {
+    "accent-oracle": {
+      "description": "An offline, single-file app.",
+      "category": "other",
+      "featured": false,
+      "demo": false,
+      "release": false,
+      "kicker": "",
+      "tag": "",
+      "auto": true
+    },
     "aethelgard-games": {
       "description": "Two free Aethelgard browser games — a visual novel (The Books) and a role-playing game (Chronicles of Fate).",
       "category": "games",
@@ -717,6 +727,16 @@
       "release": false,
       "kicker": "Homeopathy",
       "tag": "686 remedies · 7,786 links"
+    },
+    "Repertorium-Publicum": {
+      "description": "Repertorium Publicum (2008), an open Kent-derived repertory, as a searchable ledger — 74,480 rubrics, 735,460 graded remedy links, a case builder and grade-weighted repertorisation. Offline in one HTML file: no server, no account.",
+      "category": "health",
+      "featured": false,
+      "demo": true,
+      "release": false,
+      "kicker": "",
+      "tag": "",
+      "auto": true
     },
     "repertory-kit": {
       "description": "The homeopathic repertorisation core: rubric grading and grade-weighted remedy scoring.",
