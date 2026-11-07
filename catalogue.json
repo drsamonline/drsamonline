@@ -56,7 +56,7 @@
   ],
   "repos": {
     "accent-oracle": {
-      "description": "An offline, single-file app.",
+      "description": "It listens to four seconds of speech and guesses which accent it heard — on device, with a band on how sure it is.",
       "category": "other",
       "featured": false,
       "demo": false,
@@ -900,6 +900,16 @@
       "release": true,
       "kicker": "Windows 10/11",
       "tag": "Debloat & tune"
+    },
+    "UniRep": {
+      "description": "Universal Index Repertory",
+      "category": "health",
+      "featured": false,
+      "demo": false,
+      "release": false,
+      "kicker": "",
+      "tag": "",
+      "auto": true
     },
     "unstoppable-mind-companion": {
       "description": "An offline companion to The Unstoppable Mind — the book's key points, exercises, a 7-day challenge and flashcards.",
