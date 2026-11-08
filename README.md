@@ -40,24 +40,7 @@
 
 <!-- ACHIEVEMENTS:START -->
 
-## Achievements
 
-<p align="center">
-  <a href="https://github.com/drsamonline?tab=achievements"><img src="assets/achievements/quickdraw.svg" height="78" alt="Quickdraw"></a>&nbsp;
-  <a href="https://github.com/drsamonline?tab=achievements"><img src="assets/achievements/pull-shark.svg" height="78" alt="Pull Shark, Silver, earned 3 times"></a>&nbsp;
-  <a href="https://github.com/drsamonline?tab=achievements"><img src="assets/achievements/yolo.svg" height="78" alt="YOLO"></a>&nbsp;
-  <a href="https://github.com/drsamonline?tab=achievements"><img src="assets/achievements/pair-extraordinaire.svg" height="78" alt="Pair Extraordinaire"></a>&nbsp;
-</p>
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/progress-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="assets/progress-light.svg">
-    <img src="assets/progress-light.svg" width="100%" alt="Distance to the next tier of each tiered achievement">
-  </picture>
-</p>
-
-<p align="center"><sub>Counted from the API on every build. A number marked + is a floor, not a count — GitHub publishes no counter for those two.</sub></p>
 
 <!-- ACHIEVEMENTS:END -->
 
