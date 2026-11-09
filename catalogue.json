@@ -547,6 +547,16 @@
       "kicker": "",
       "tag": ""
     },
+    "kitbox": {
+      "description": "Kitbox — every tool, one offline app. 280 tools across 21 categories in a single HTML file: no build step, no dependencies, no network, no account.",
+      "category": "business",
+      "featured": false,
+      "demo": true,
+      "release": false,
+      "kicker": "",
+      "tag": "",
+      "auto": true
+    },
     "lan-kit": {
       "description": "The shared LAN core: a local room with a real-time channel over Server-Sent Events and POST.",
       "category": "kits",

@@ -40,7 +40,24 @@
 
 <!-- ACHIEVEMENTS:START -->
 
+## Achievements
 
+<p align="center">
+  <a href="https://github.com/drsamonline?tab=achievements"><img src="assets/achievements/quickdraw.svg" height="78" alt="Quickdraw"></a>&nbsp;
+  <a href="https://github.com/drsamonline?tab=achievements"><img src="assets/achievements/pull-shark.svg" height="78" alt="Pull Shark, Silver, earned 3 times"></a>&nbsp;
+  <a href="https://github.com/drsamonline?tab=achievements"><img src="assets/achievements/yolo.svg" height="78" alt="YOLO"></a>&nbsp;
+  <a href="https://github.com/drsamonline?tab=achievements"><img src="assets/achievements/pair-extraordinaire.svg" height="78" alt="Pair Extraordinaire"></a>&nbsp;
+</p>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/progress-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="assets/progress-light.svg">
+    <img src="assets/progress-light.svg" width="100%" alt="Distance to the next tier of each tiered achievement">
+  </picture>
+</p>
+
+<p align="center"><sub>Counted from the API on every build. A number marked + is a floor, not a count — GitHub publishes no counter for those two.</sub></p>
 
 <!-- ACHIEVEMENTS:END -->
 
@@ -122,7 +139,7 @@ shape it does.
 - <a href="https://drsamonline.github.io/Repertorium-Publicum/"><img src="assets/pills/repertorium-publicum.svg" height="24" alt="Repertorium-Publicum"></a> — Repertorium Publicum (2008), an open Kent-derived repertory, as a searchable ledger — 74,480 rubrics, 735,460 graded remedy links, a case builder and grade-weighted repertorisation. Offline in one HTML file: no server, no account.
 - <a href="https://drsamonline.github.io/repertory-reader/"><img src="assets/pills/repertory-reader.svg" height="24" alt="repertory-reader"></a> — A quiet reading room for seventeen classical homoeopathic repertories — 271,421 rubrics and 744,394 graded remedy links, read straight from the open JSON library. No account, no server, no tracking, no build step.
 - <a href="https://drsamonline.github.io/skin-case-tracker/"><img src="assets/pills/skin-case-tracker.svg" height="24" alt="skin-case-tracker"></a> — A private, offline skin-case tracker built on the HHMS dashboard — history, habits, mapping and symptoms — with a 90-day pattern engine, from the book The Skin Is a Liar.
-- <a href="https://github.com/drsamonline/UniRep"><img src="assets/pills/unirep.svg" height="24" alt="UniRep"></a> — Universal Index Repertory
+- <a href="https://replit.com/@sohilmomin2000/Homeopathic-Digital-Repe"><img src="assets/pills/unirep.svg" height="24" alt="UniRep"></a> — Universal Index Repertory
 - <a href="https://drsamonline.github.io/whispering-body-first-aid/"><img src="assets/pills/whispering-body-first-aid.svg" height="24" alt="whispering-body-first-aid"></a> — A home homeopathic first-aid companion of 30 remedies with a symptom finder, dosing guidance and emergency signs, in English, Hindi and Gujarati.
 
 ### <img src="assets/icons/mind.svg" width="20" height="20" alt=""> Mind, Memory & Wellbeing <img src="assets/pills/count-mind.svg" height="22" alt="8 projects">
@@ -139,17 +156,18 @@ shape it does.
 - <a href="https://drsamonline.github.io/ambient-sound-studio/"><img src="assets/pills/ambient-sound-studio.svg" height="24" alt="ambient-sound-studio"></a> — A private, offline ambient sound mixer in a single HTML file — 25 synthesised layers, 36 presets and WAV/Opus export.
 - <a href="https://drsamonline.github.io/musicgen/"><img src="assets/pills/musicgen.svg" height="24" alt="musicgen"></a> — A pocket generative composer — an offline-first PWA that writes, synthesises, masters and exports music in the browser, with no server and no samples.
 
-### <img src="assets/icons/business.svg" width="20" height="20" alt=""> Business & Productivity <img src="assets/pills/count-business.svg" height="22" alt="5 projects">
+### <img src="assets/icons/business.svg" width="20" height="20" alt=""> Business & Productivity <img src="assets/pills/count-business.svg" height="22" alt="6 projects">
 - <a href="https://drsamonline.github.io/app-clip-loom/"><img src="assets/pills/app-clip-loom.svg" height="24" alt="app-clip-loom"></a> — Clip Loom — clipboard programs you can read: strip tracking, tidy text, keep what matters. Weft-8 on the Loom.
 - <a href="https://drsamonline.github.io/canteen-lan/"><img src="assets/pills/canteen-lan.svg" height="24" alt="canteen-lan"></a> — Order from your table over the room's own Wi-Fi — a LAN canteen board built with Forge.
 - <a href="https://drsamonline.github.io/chalk-lan/"><img src="assets/pills/chalk-lan.svg" height="24" alt="chalk-lan"></a> — A shared whiteboard for the room: everyone on the same Wi-Fi draws on the same board, live.
+- <a href="https://drsamonline.github.io/kitbox/"><img src="assets/pills/kitbox.svg" height="24" alt="kitbox"></a> — Kitbox — every tool, one offline app. 280 tools across 21 categories in a single HTML file: no build step, no dependencies, no network, no account.
 - <a href="https://drsamonline.github.io/Matneo/"><img src="assets/pills/matneo.svg" height="24" alt="Matneo"></a> — An AI-powered digital products and automation platform — practical planners, templates, AI resources and offline browser tools.
 - <a href="https://drsamonline.github.io/smartbill-app/"><img src="assets/pills/smartbill-app.svg" height="24" alt="smartbill-app"></a> — A fast, serverless single-page GST billing and invoicing app for Indian businesses, with local IndexedDB storage.
 
 ### <img src="assets/icons/learning.svg" width="20" height="20" alt=""> Learning & Reference <img src="assets/pills/count-learning.svg" height="22" alt="3 projects">
 - <a href="https://drsamonline.github.io/app-panchang/"><img src="assets/pills/app-panchang.svg" height="24" alt="app-panchang"></a> — A daily Indian almanac — tithi, nakshatra, yoga, karana, rahu-kaal and muhurat, computed offline.
 - <a href="https://drsamonline.github.io/app-poets-studio/"><img src="assets/pills/app-poets-studio.svg" height="24" alt="app-poets-studio"></a> — Rhyme, metre and fixed forms, fully offline — a poetry workshop that measures what you wrote, with 124,085 words bundled.
-- <a href="https://drsamonline.github.io/base-bench/"><img src="assets/pills/base-bench.svg" height="24" alt="base-bench"></a> — Every number base, unit and timezone on one page, with the working shown — offline, no accounts.
+- <a href="https://drsamonline.github.io/base-bench/play/"><img src="assets/pills/base-bench.svg" height="24" alt="base-bench"></a> — Every number base, unit and timezone on one page, with the working shown — offline, no accounts.
 
 ### <img src="assets/icons/weft.svg" width="20" height="20" alt=""> Weft-8 & Retrocomputing <img src="assets/pills/count-weft.svg" height="22" alt="5 projects">
 - <a href="https://drsamonline.github.io/app-jacquard/"><img src="assets/pills/app-jacquard.svg" height="24" alt="app-jacquard"></a> — Jacquard — the loom you program: a Weft-8 8-bit assembler and VM with the device's sensors as memory-mapped peripherals.
@@ -192,7 +210,7 @@ shape it does.
 - <a href="https://drsamonline.github.io/audit/"><img src="assets/pills/audit.svg" height="24" alt="audit"></a> — The change log for the drsamonline fleet: what was measured, what was fixed, and the evidence.
 - <a href="https://drsamonline.github.io/backup/"><img src="assets/pills/backup.svg" height="24" alt="backup"></a> — Snapshot a repository before a merge replaces it — a reusable GitHub workflow plus a zero-dependency script, compressed, timestamped and rotated to keep the newest 100.
 - <a href="https://drsamonline.github.io/control-panel/"><img src="assets/pills/control-panel.svg" height="24" alt="control-panel"></a> — Every workflow in every repo: what runs, when, what calls what, and what is connected to nothing.
-- <a href="https://drsamonline.github.io/dashboard/"><img src="assets/pills/dashboard.svg" height="24" alt="dashboard"></a> — Live status of the drsamonline system — the repo fleet, build health, downloads and the store.
+- <a href="https://drsamonline.github.io/dashboard/play/"><img src="assets/pills/dashboard.svg" height="24" alt="dashboard"></a> — Live status of the drsamonline system — the repo fleet, build health, downloads and the store.
 - <a href="https://drsamonline.github.io/profile-kit/"><img src="assets/pills/profile-kit.svg" height="24" alt="profile-kit"></a> — A small reusable kit for a theme-aware, self-updating GitHub profile — hero banner, metrics card and README generator.
 - <a href="https://drsamonline.github.io/skills/"><img src="assets/pills/skills.svg" height="24" alt="skills"></a> — Reusable, machine-consumable skills extracted from every drsamonline project — a categorised, self-updating catalogue.
 
