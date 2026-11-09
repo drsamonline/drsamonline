@@ -839,6 +839,16 @@
       "kicker": "",
       "tag": ""
     },
+    "smartnote-scheduler": {
+      "description": "Notes that schedule themselves — write in plain English and the note is classified, prioritised, dated and reminded. In development.",
+      "category": "mind",
+      "featured": false,
+      "demo": true,
+      "release": false,
+      "kicker": "",
+      "tag": "",
+      "auto": true
+    },
     "SmartNotes": {
       "description": "SmartNote Scheduler — AI-powered notes, reminders and scheduling: write in plain English and it files itself.",
       "category": "mind",
