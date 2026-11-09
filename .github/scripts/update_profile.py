@@ -581,8 +581,15 @@ def build_projects(api_repos, data):
         else:
             desc = (repo.get("description") or "").strip() or "No description yet."
             cat, feat = "other", False
-        landing = ("https://%s.github.io/%s/" % (OWNER, name)
-                   if repo.get("has_pages") else repo["html_url"])
+        # The repository's OWN homepage is where its owner says its page lives; a
+        # Pages root is only the fallback. The dashboard is why: its app is at
+        # /play/ and its root answers 404 by design (PAGES.json: landing is null),
+        # so the old rule - Pages on, therefore github.io/<name>/ - linked a 404
+        # from this README no matter what the repo declared.
+        landing = (repo.get("homepage") or "").strip()
+        if not landing:
+            landing = ("https://%s.github.io/%s/" % (OWNER, name)
+                       if repo.get("has_pages") else repo["html_url"])
         out.append({"name": name, "slug": name.lower(), "desc": desc, "cat": cat,
                     "featured": feat, "landing": landing, "source": repo["html_url"]})
     return out
