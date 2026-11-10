@@ -146,6 +146,16 @@
       "kicker": "",
       "tag": ""
     },
+    "app-endpoints": {
+      "description": "Endpoints — find the right free API for a job: an offline directory of 2,214 public APIs, filterable by auth, CORS and HTTPS. No account, no server, no network at runtime.",
+      "category": "other",
+      "featured": false,
+      "demo": true,
+      "release": false,
+      "kicker": "",
+      "tag": "",
+      "auto": true
+    },
     "app-image-toolkit": {
       "description": "Compress, resize, convert and strip the GPS from photos on your own device — nothing uploaded, no account, works offline.",
       "category": "desktop",
@@ -200,6 +210,16 @@
       "release": false,
       "kicker": "",
       "tag": ""
+    },
+    "app-story-engine": {
+      "description": "A book the reader moves through: choices, carried state, and a trail of where you have been. Offline, no accounts.",
+      "category": "games",
+      "featured": false,
+      "demo": true,
+      "release": false,
+      "kicker": "",
+      "tag": "",
+      "auto": true
     },
     "app-thermals": {
       "description": "Homoeopathic remedies by thermal reaction — what each classical source actually says, quoted in its own words with the source named, and where the sources do not say the same thing. Offline, no accounts.",
@@ -355,6 +375,16 @@
       "kicker": "",
       "tag": ""
     },
+    "code-kit": {
+      "description": "QR encoding (versions 1-40, L/M/Q/H, all eight masks), a small syntax highlighter and copyable snippet blocks — one zero-dependency file.",
+      "category": "kits",
+      "featured": false,
+      "demo": true,
+      "release": false,
+      "kicker": "",
+      "tag": "",
+      "auto": true
+    },
     "compfactory": {
       "description": "The development workspace for the CHCE multi-repository project.",
       "category": "chce",
@@ -457,6 +487,16 @@
       "tag": "",
       "auto": true
     },
+    "form-kit": {
+      "description": "24 form controls for offline apps — inputs, OTP, select, autocomplete, calendar, upload, checkbox, switch, slider, rate, toggles, colour — with one API and one validation pass.",
+      "category": "kits",
+      "featured": false,
+      "demo": true,
+      "release": false,
+      "kicker": "",
+      "tag": "",
+      "auto": true
+    },
     "frame-kit": {
       "description": "The shared transfer-frame core: a self-describing frame, a rateless collector and byte/checksum utilities.",
       "category": "kits",
@@ -548,7 +588,7 @@
       "tag": ""
     },
     "kitbox": {
-      "description": "Kitbox — every tool, one offline app. 280 tools across 21 categories in a single HTML file: no build step, no dependencies, no network, no account.",
+      "description": "493 tools across 27 categories in one HTML file",
       "category": "business",
       "featured": false,
       "demo": true,
@@ -594,6 +634,16 @@
       "tag": "",
       "auto": true
     },
+    "markdown-kit": {
+      "description": "Markdown to HTML with a streaming reveal: render what is finished and hold back what could still change, so model output never flashes a broken parse.",
+      "category": "kits",
+      "featured": false,
+      "demo": true,
+      "release": false,
+      "kicker": "",
+      "tag": "",
+      "auto": true
+    },
     "MATERIA-MEDICA-BUILDER": {
       "description": "Build your own materia medica and repertory — offline, private and yours to export.",
       "category": "health",
@@ -629,6 +679,16 @@
       "release": false,
       "kicker": "",
       "tag": ""
+    },
+    "motion-kit": {
+      "description": "The shared motion core: springs, easings and transition presets as numbers — the Lobe UI motion vocabulary in one zero-dependency file.",
+      "category": "kits",
+      "featured": false,
+      "demo": true,
+      "release": false,
+      "kicker": "",
+      "tag": "",
+      "auto": true
     },
     "musicgen": {
       "description": "A pocket generative composer — an offline-first PWA that writes, synthesises, masters and exports music in the browser, with no server and no samples.",
@@ -719,6 +779,16 @@
       "release": false,
       "kicker": "",
       "tag": ""
+    },
+    "raylib-starter": {
+      "description": "One C file on raylib: fixed timestep, scenes, CRC-checked save and an ECS — the C answer to game-kit, built for the 10 MB ceiling.",
+      "category": "games",
+      "featured": false,
+      "demo": true,
+      "release": false,
+      "kicker": "",
+      "tag": "",
+      "auto": true
     },
     "read-live-transform-app": {
       "description": "A companion PWA to Read. Live. Transform.: A Practical Reading of the Qur'an — read the verse, live the practice, keep the change.",
@@ -894,6 +964,16 @@
       "kicker": "",
       "tag": ""
     },
+    "tokens-kit": {
+      "description": "The Lobe UI token set as data: 121 colour names, 187 values per mode, sizes and shadows — generated from lobe-mygo, opt-in only.",
+      "category": "kits",
+      "featured": false,
+      "demo": true,
+      "release": false,
+      "kicker": "",
+      "tag": "",
+      "auto": true
+    },
     "TTB": {
       "description": "TinyToolBox — 591 tiny utilities bundled into one lightweight, offline-first browser extension for Chrome, Edge, Firefox and Safari.",
       "category": "desktop",
@@ -993,6 +1073,16 @@
       "release": false,
       "kicker": "",
       "tag": ""
+    },
+    "widgets-kit": {
+      "description": "The component layer for offline apps: buttons, tags, avatars, alerts, progress, modals, drawers, toasts, menus, tabs, accordion, pagination, steps and layout. No CSS ships.",
+      "category": "kits",
+      "featured": false,
+      "demo": true,
+      "release": false,
+      "kicker": "",
+      "tag": "",
+      "auto": true
     },
     "ziptastic": {
       "description": "The CHCE native engine — a single binary with the codecs embedded.",
