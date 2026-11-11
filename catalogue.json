@@ -560,6 +560,16 @@
       "kicker": "",
       "tag": ""
     },
+    "holistic": {
+      "description": "Eight traditions, one quiet app — numerology, sun-sign astrology, lunar phase and biorhythm. Offline, private, 92 KB, zero network requests.",
+      "category": "other",
+      "featured": false,
+      "demo": true,
+      "release": false,
+      "kicker": "",
+      "tag": "",
+      "auto": true
+    },
     "homoeopathic-materia-medica-repertory-json": {
       "description": "Open-domain homoeopathic materia medica and repertory texts as app-ready JSON — 13 books (1840–1906), about 108,000 rubrics.",
       "category": "health",
@@ -623,6 +633,16 @@
       "release": true,
       "kicker": "",
       "tag": ""
+    },
+    "lofi-studio-pro": {
+      "description": "A lofi beat machine that runs entirely in the browser. Six tracks, nine ambience layers, live tape chain — offline-first PWA, no samples, no account.",
+      "category": "audio",
+      "featured": false,
+      "demo": true,
+      "release": false,
+      "kicker": "",
+      "tag": "",
+      "auto": true
     },
     "lumen": {
       "description": "Lumen — a fast, fully offline photo library in the spirit of Google Picasa. Windows, Linux and Android from one Flutter codebase.",
@@ -690,6 +710,16 @@
       "tag": "",
       "auto": true
     },
+    "music": {
+      "description": "Album-wise music page for drsamonline.github.io/music — streams from SoundCloud, Suno, Flow Music, Newgrounds and Freesound",
+      "category": "audio",
+      "featured": false,
+      "demo": false,
+      "release": false,
+      "kicker": "",
+      "tag": "",
+      "auto": true
+    },
     "musicgen": {
       "description": "A pocket generative composer — an offline-first PWA that writes, synthesises, masters and exports music in the browser, with no server and no samples.",
       "category": "audio",
@@ -744,6 +774,16 @@
       "kicker": "",
       "tag": ""
     },
+    "neonboom": {
+      "description": "A beat workstation that lives in a browser tab. 27 procedurally synthesised loops, hardware-style pad grid, canvas arrangement, mixer, master FX and WAV export. Offline-first PWA with a 190 KB single-file build. Zero dependencies.",
+      "category": "audio",
+      "featured": false,
+      "demo": true,
+      "release": false,
+      "kicker": "",
+      "tag": "",
+      "auto": true
+    },
     "offline-pdf-toolkit": {
       "description": "Merge, split, rotate, reorder, watermark, number and compress PDFs entirely in the browser — no upload, no account, no server, works offline.",
       "category": "desktop",
@@ -770,6 +810,16 @@
       "release": false,
       "kicker": "",
       "tag": ""
+    },
+    "planner-pro": {
+      "description": "An offline-first planner for day, week, month and year. Multi-profile, PIN locked, no accounts, no servers. ~120 KB of vanilla JS.",
+      "category": "mind",
+      "featured": false,
+      "demo": true,
+      "release": false,
+      "kicker": "",
+      "tag": "",
+      "auto": true
     },
     "profile-kit": {
       "description": "A small reusable kit for a theme-aware, self-updating GitHub profile — hero banner, metrics card and README generator.",
@@ -798,6 +848,16 @@
       "release": true,
       "kicker": "",
       "tag": ""
+    },
+    "remedy-finder": {
+      "description": "An offline homeopathic repertory workbench — 178 remedies, 634 symptoms, 30,412 graded links from Repertorium Publicum (2008). Single-file HTML, PWA, no account, no tracking.",
+      "category": "health",
+      "featured": false,
+      "demo": true,
+      "release": false,
+      "kicker": "",
+      "tag": "",
+      "auto": true
     },
     "remedy-relationship-explorer": {
       "description": "An offline single-file explorer for homeopathic remedy relationships, built from public-domain materia medicas (Boericke 1927, Clarke 1900, Hering 1879).",
@@ -1002,7 +1062,7 @@
       "tag": "Debloat & tune"
     },
     "UniRep": {
-      "description": "Universal Index Repertory",
+      "description": "Universal index over the classical homoeopathic repertories — one search surface across several books. Policy documents here; the app runs on Replit.",
       "category": "health",
       "featured": false,
       "demo": false,
