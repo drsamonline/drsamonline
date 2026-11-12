@@ -183,6 +183,16 @@
       "kicker": "",
       "tag": ""
     },
+    "app-opd-register": {
+      "description": "A daily OPD register for multi-location clinics — month register, dashboard, day-wise statistics, print and Excel. Offline, no account, no server.",
+      "category": "health",
+      "featured": false,
+      "demo": true,
+      "release": false,
+      "kicker": "",
+      "tag": "",
+      "auto": true
+    },
     "app-organon-reader": {
       "description": "An offline reader for the Organon of Medicine, sixth edition, in the 1922 Boericke translation — full-text search, bookmarks and notes, no network.",
       "category": "mind",
@@ -607,6 +617,16 @@
       "tag": "",
       "auto": true
     },
+    "kosh": {
+      "description": "The CHCE file workbench — split, squeeze, archive, verify and inspect files. CLI plus a local web UI.",
+      "category": "chce",
+      "featured": false,
+      "demo": true,
+      "release": false,
+      "kicker": "",
+      "tag": "",
+      "auto": true
+    },
     "lan-kit": {
       "description": "The shared LAN core: a local room with a real-time channel over Server-Sent Events and POST.",
       "category": "kits",
@@ -775,7 +795,7 @@
       "tag": ""
     },
     "neonboom": {
-      "description": "A beat workstation that lives in a browser tab. 27 procedurally synthesised loops, hardware-style pad grid, canvas arrangement, mixer, master FX and WAV export. Offline-first PWA with a 190 KB single-file build. Zero dependencies.",
+      "description": "A beat workstation that lives in a browser tab. 27 procedurally synthesised loops, hardware-style pad grid, canvas arrangement, mixer with sends, master FX, automation, scenes and WAV/stem export. Offline-first PWA, 192 KB single file, zero dependencies. Feature-frozen at 2.4.0.",
       "category": "audio",
       "featured": false,
       "demo": true,
@@ -812,7 +832,7 @@
       "tag": ""
     },
     "planner-pro": {
-      "description": "An offline-first planner for day, week, month and year. Multi-profile, PIN locked, no accounts, no servers. ~120 KB of vanilla JS.",
+      "description": "An offline-first planner for day, week, month and year. Multi-profile, PIN locked, no accounts, no servers, no networking code. ~210 KB of vanilla JS.",
       "category": "mind",
       "featured": false,
       "demo": true,
