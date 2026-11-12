@@ -8,7 +8,6 @@
 
 </div>
 
-![The catalogue, rendered](docs/shot.png)
 
 [![License: PolyForm Noncommercial 1.0.0](https://img.shields.io/badge/license-PolyForm%20Noncommercial%201.0.0-blue)](LICENSE)
 
