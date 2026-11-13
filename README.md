@@ -159,8 +159,10 @@ shape it does.
 - <a href="https://drsamonline.github.io/today-card/"><img src="assets/pills/today-card.svg" height="24" alt="today-card"></a> — Today Card — one card for the day: your date, one intention, one task and a streak. Offline, no accounts.
 - <a href="https://drsamonline.github.io/unstoppable-mind-companion/"><img src="assets/pills/unstoppable-mind-companion.svg" height="24" alt="unstoppable-mind-companion"></a> — An offline companion to The Unstoppable Mind — the book's key points, exercises, a 7-day challenge and flashcards.
 
-### <img src="assets/icons/audio.svg" width="20" height="20" alt=""> Audio & Media <img src="assets/pills/count-audio.svg" height="22" alt="5 projects">
+### <img src="assets/icons/audio.svg" width="20" height="20" alt=""> Audio & Media <img src="assets/pills/count-audio.svg" height="22" alt="7 projects">
 - <a href="https://drsamonline.github.io/ambient-sound-studio/"><img src="assets/pills/ambient-sound-studio.svg" height="24" alt="ambient-sound-studio"></a> — A private, offline ambient sound mixer in a single HTML file — 25 synthesised layers, 36 presets and WAV/Opus export.
+- <a href="https://drsamonline.github.io/kinemorph/"><img src="assets/pills/kinemorph.svg" height="24" alt="kinemorph"></a> — A browser animation studio for real video: React + TypeScript + PixiJS editor with a GSAP timeline, a Tone.js generative score and WebCodecs MP4 export. The heavy sibling of Kinemotif.
+- <a href="https://drsamonline.github.io/kinemotif/"><img src="assets/pills/kinemotif.svg" height="24" alt="kinemotif"></a> — A single-file HTML animation studio: turn a paragraph into a moving, scored presentation. Six art styles, real shape morphing, a procedurally synthesised soundtrack, and a one-file offline HTML export.
 - <a href="https://drsamonline.github.io/lofi-studio-pro/"><img src="assets/pills/lofi-studio-pro.svg" height="24" alt="lofi-studio-pro"></a> — A lofi beat machine that runs entirely in the browser. Six tracks, nine ambience layers, live tape chain — offline-first PWA, no samples, no account.
 - <a href="https://drsamonline.github.io/music/"><img src="assets/pills/music.svg" height="24" alt="music"></a> — Album-wise music page for drsamonline.github.io/music — streams from SoundCloud, Suno, Flow Music, Newgrounds and Freesound
 - <a href="https://drsamonline.github.io/musicgen/"><img src="assets/pills/musicgen.svg" height="24" alt="musicgen"></a> — A pocket generative composer — an offline-first PWA that writes, synthesises, masters and exports music in the browser, with no server and no samples.
@@ -231,13 +233,15 @@ shape it does.
 - <a href="https://drsamonline.github.io/profile-kit/"><img src="assets/pills/profile-kit.svg" height="24" alt="profile-kit"></a> — A small reusable kit for a theme-aware, self-updating GitHub profile — hero banner, metrics card and README generator.
 - <a href="https://drsamonline.github.io/skills/"><img src="assets/pills/skills.svg" height="24" alt="skills"></a> — Reusable, machine-consumable skills extracted from every drsamonline project — a categorised, self-updating catalogue.
 
-### <img src="assets/icons/other.svg" width="20" height="20" alt=""> Other / New <img src="assets/pills/count-other.svg" height="22" alt="6 projects">
+### <img src="assets/icons/other.svg" width="20" height="20" alt=""> Other / New <img src="assets/pills/count-other.svg" height="22" alt="8 projects">
 - <a href="https://drsamonline.github.io/accent-oracle/"><img src="assets/pills/accent-oracle.svg" height="24" alt="accent-oracle"></a> — It listens to four seconds of speech and guesses which accent it heard — on device, with a band on how sure it is.
 - <a href="https://drsamonline.github.io/app-endpoints/"><img src="assets/pills/app-endpoints.svg" height="24" alt="app-endpoints"></a> — Endpoints — find the right free API for a job: an offline directory of 2,214 public APIs, filterable by auth, CORS and HTTPS. No account, no server, no network at runtime.
 - <a href="https://drsamonline.github.io/corefit-md/"><img src="assets/pills/corefit-md.svg" height="24" alt="corefit-md"></a> — CoreFit MD — a five-minute video-guided morning core routine. Clip-accurate playback (every set opens at 0:30), six-week progression, streaks, trilingual UI. Static, offline-first, no backend.
 - <a href="https://drsamonline.github.io/feather/"><img src="assets/pills/feather.svg" height="24" alt="feather"></a> — A read-only document viewer that opens before you blink — small, portable, cross-platform, summoned by a keystroke.
 - <a href="https://drsamonline.github.io/holistic/"><img src="assets/pills/holistic.svg" height="24" alt="holistic"></a> — Eight traditions, one quiet app — numerology, sun-sign astrology, lunar phase and biorhythm. Offline, private, 92 KB, zero network requests.
+- <a href="https://drsamonline.github.io/KILN/"><img src="assets/pills/kiln.svg" height="24" alt="KILN"></a> — Spec in. Finished app out. A deterministic compiler for offline single-file apps — no model, no network, no dependencies.
 - <a href="https://drsamonline.github.io/lumen/"><img src="assets/pills/lumen.svg" height="24" alt="lumen"></a> — Lumen — a fast, fully offline photo library in the spirit of Google Picasa. Windows, Linux and Android from one Flutter codebase.
+- <a href="https://drsamonline.github.io/mood-mixer/"><img src="assets/pills/mood-mixer.svg" height="24" alt="mood-mixer"></a> — A private, offline-ready color playground: three mood sliders in, a four-color palette out. HSL/RGB/HSV, six harmony schemes, WCAG contrast, CSS/JSON/Tailwind/PNG export, PWA. No tracking.
 
 <!-- PROJECTS:END -->
 

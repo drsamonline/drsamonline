@@ -607,6 +607,36 @@
       "kicker": "",
       "tag": ""
     },
+    "KILN": {
+      "description": "Spec in. Finished app out. A deterministic compiler for offline single-file apps — no model, no network, no dependencies.",
+      "category": "other",
+      "featured": false,
+      "demo": true,
+      "release": false,
+      "kicker": "",
+      "tag": "",
+      "auto": true
+    },
+    "kinemorph": {
+      "description": "A browser animation studio for real video: React + TypeScript + PixiJS editor with a GSAP timeline, a Tone.js generative score and WebCodecs MP4 export. The heavy sibling of Kinemotif.",
+      "category": "audio",
+      "featured": false,
+      "demo": true,
+      "release": false,
+      "kicker": "",
+      "tag": "",
+      "auto": true
+    },
+    "kinemotif": {
+      "description": "A single-file HTML animation studio: turn a paragraph into a moving, scored presentation. Six art styles, real shape morphing, a procedurally synthesised soundtrack, and a one-file offline HTML export.",
+      "category": "audio",
+      "featured": false,
+      "demo": true,
+      "release": false,
+      "kicker": "",
+      "tag": "",
+      "auto": true
+    },
     "kitbox": {
       "description": "493 tools across 27 categories in one HTML file",
       "category": "business",
@@ -719,6 +749,16 @@
       "release": false,
       "kicker": "",
       "tag": ""
+    },
+    "mood-mixer": {
+      "description": "A private, offline-ready color playground: three mood sliders in, a four-color palette out. HSL/RGB/HSV, six harmony schemes, WCAG contrast, CSS/JSON/Tailwind/PNG export, PWA. No tracking.",
+      "category": "other",
+      "featured": false,
+      "demo": true,
+      "release": false,
+      "kicker": "",
+      "tag": "",
+      "auto": true
     },
     "motion-kit": {
       "description": "The shared motion core: springs, easings and transition presets as numbers — the Lobe UI motion vocabulary in one zero-dependency file.",
