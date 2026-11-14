@@ -57,13 +57,12 @@
   "repos": {
     "accent-oracle": {
       "description": "It listens to four seconds of speech and guesses which accent it heard — on device, with a band on how sure it is.",
-      "category": "other",
+      "category": "audio",
       "featured": false,
       "demo": false,
       "release": false,
       "kicker": "",
-      "tag": "",
-      "auto": true
+      "tag": ""
     },
     "aethelgard-games": {
       "description": "Two free Aethelgard browser games — a visual novel (The Books) and a role-playing game (Chronicles of Fate).",
@@ -121,7 +120,7 @@
     },
     "app-clip-loom": {
       "description": "Clip Loom — clipboard programs you can read: strip tracking, tidy text, keep what matters. Weft-8 on the Loom.",
-      "category": "business",
+      "category": "weft",
       "featured": false,
       "demo": true,
       "release": false,
@@ -148,13 +147,12 @@
     },
     "app-endpoints": {
       "description": "Endpoints — find the right free API for a job: an offline directory of 2,214 public APIs, filterable by auth, CORS and HTTPS. No account, no server, no network at runtime.",
-      "category": "other",
+      "category": "learning",
       "featured": false,
       "demo": true,
       "release": false,
       "kicker": "",
-      "tag": "",
-      "auto": true
+      "tag": ""
     },
     "app-image-toolkit": {
       "description": "Compress, resize, convert and strip the GPS from photos on your own device — nothing uploaded, no account, works offline.",
@@ -195,13 +193,12 @@
     },
     "app-organon-reader": {
       "description": "An offline reader for the Organon of Medicine, sixth edition, in the 1922 Boericke translation — full-text search, bookmarks and notes, no network.",
-      "category": "mind",
+      "category": "health",
       "featured": false,
       "demo": true,
       "release": false,
       "kicker": "",
-      "tag": "",
-      "auto": true
+      "tag": ""
     },
     "app-panchang": {
       "description": "A daily Indian almanac — tithi, nakshatra, yoga, karana, rahu-kaal and muhurat, computed offline.",
@@ -433,13 +430,12 @@
     },
     "corefit-md": {
       "description": "CoreFit MD — a five-minute video-guided morning core routine. Clip-accurate playback (every set opens at 0:30), six-week progression, streaks, trilingual UI. Static, offline-first, no backend.",
-      "category": "other",
+      "category": "health",
       "featured": false,
       "demo": true,
       "release": false,
       "kicker": "",
-      "tag": "",
-      "auto": true
+      "tag": ""
     },
     "crypto-kit": {
       "description": "The shared crypto core: AES-256-GCM, PBKDF2 passphrase keys, sealed envelopes and one-time view, on Web Crypto.",
@@ -489,13 +485,12 @@
     },
     "feather": {
       "description": "A read-only document viewer that opens before you blink — small, portable, cross-platform, summoned by a keystroke.",
-      "category": "other",
+      "category": "desktop",
       "featured": false,
       "demo": false,
       "release": false,
       "kicker": "",
-      "tag": "",
-      "auto": true
+      "tag": ""
     },
     "form-kit": {
       "description": "24 form controls for offline apps — inputs, OTP, select, autocomplete, calendar, upload, checkbox, switch, slider, rate, toggles, colour — with one API and one validation pass.",
@@ -572,13 +567,12 @@
     },
     "holistic": {
       "description": "Eight traditions, one quiet app — numerology, sun-sign astrology, lunar phase and biorhythm. Offline, private, 92 KB, zero network requests.",
-      "category": "other",
+      "category": "mind",
       "featured": false,
       "demo": true,
       "release": false,
       "kicker": "",
-      "tag": "",
-      "auto": true
+      "tag": ""
     },
     "homoeopathic-materia-medica-repertory-json": {
       "description": "Open-domain homoeopathic materia medica and repertory texts as app-ready JSON — 13 books (1840–1906), about 108,000 rubrics.",
@@ -598,24 +592,14 @@
       "kicker": "",
       "tag": ""
     },
-    "kent-repertory-explorer": {
-      "description": "Repertorium Publicum (2008), an open Kent-derived repertory, as a searchable ledger — 74,480 rubrics, 735,460 graded remedy links, a case builder and grade-weighted repertorisation. Offline in one HTML file: no server, no account.",
-      "category": "health",
+    "KILN": {
+      "description": "Spec in. Finished app out. A deterministic compiler for offline single-file apps — no model, no network, no dependencies.",
+      "category": "infra",
       "featured": false,
       "demo": true,
       "release": false,
       "kicker": "",
       "tag": ""
-    },
-    "KILN": {
-      "description": "Spec in. Finished app out. A deterministic compiler for offline single-file apps — no model, no network, no dependencies.",
-      "category": "other",
-      "featured": false,
-      "demo": true,
-      "release": false,
-      "kicker": "",
-      "tag": "",
-      "auto": true
     },
     "kinemorph": {
       "description": "A browser animation studio for real video: React + TypeScript + PixiJS editor with a GSAP timeline, a Tone.js generative score and WebCodecs MP4 export. The heavy sibling of Kinemotif.",
@@ -639,13 +623,12 @@
     },
     "kitbox": {
       "description": "493 tools across 27 categories in one HTML file",
-      "category": "business",
+      "category": "desktop",
       "featured": false,
       "demo": true,
       "release": false,
       "kicker": "",
-      "tag": "",
-      "auto": true
+      "tag": ""
     },
     "kosh": {
       "description": "The CHCE file workbench — split, squeeze, archive, verify and inspect files. CLI plus a local web UI.",
@@ -696,13 +679,12 @@
     },
     "lumen": {
       "description": "Lumen — a fast, fully offline photo library in the spirit of Google Picasa. Windows, Linux and Android from one Flutter codebase.",
-      "category": "other",
+      "category": "desktop",
       "featured": false,
       "demo": false,
       "release": false,
       "kicker": "",
-      "tag": "",
-      "auto": true
+      "tag": ""
     },
     "markdown-kit": {
       "description": "Markdown to HTML with a streaming reveal: render what is finished and hold back what could still change, so model output never flashes a broken parse.",
@@ -752,13 +734,12 @@
     },
     "mood-mixer": {
       "description": "A private, offline-ready color playground: three mood sliders in, a four-color palette out. HSL/RGB/HSV, six harmony schemes, WCAG contrast, CSS/JSON/Tailwind/PNG export, PWA. No tracking.",
-      "category": "other",
+      "category": "desktop",
       "featured": false,
       "demo": true,
       "release": false,
       "kicker": "",
-      "tag": "",
-      "auto": true
+      "tag": ""
     },
     "motion-kit": {
       "description": "The shared motion core: springs, easings and transition presets as numbers — the Lobe UI motion vocabulary in one zero-dependency file.",
@@ -1053,6 +1034,24 @@
       "category": "kits",
       "featured": false,
       "demo": false,
+      "release": false,
+      "kicker": "",
+      "tag": ""
+    },
+    "sui": {
+      "description": "Sui — verification-first, privacy-aware free-tier AI gateway. Free tiers, verified before use.",
+      "category": "desktop",
+      "featured": false,
+      "demo": true,
+      "release": false,
+      "kicker": "",
+      "tag": ""
+    },
+    "tessera": {
+      "description": "TESSERA - the mosaic layer above every CRM. Federation mesh, universal ledger, seat-based workforce. A specification, audited: 43 defects found, 43 closed.",
+      "category": "business",
+      "featured": false,
+      "demo": true,
       "release": false,
       "kicker": "",
       "tag": ""
