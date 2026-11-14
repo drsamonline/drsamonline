@@ -852,6 +852,16 @@
       "kicker": "",
       "tag": ""
     },
+    "pico": {
+      "description": "A personal automation engine on the Python standard library alone: 66 rules, four risk tiers, universal undo, and an optional model that may only propose a command — never run one.",
+      "category": "games",
+      "featured": false,
+      "demo": true,
+      "release": false,
+      "kicker": "",
+      "tag": "",
+      "auto": true
+    },
     "planner-pro": {
       "description": "An offline-first planner for day, week, month and year. Multi-profile, PIN locked, no accounts, no servers, no networking code. ~210 KB of vanilla JS.",
       "category": "mind",
@@ -1048,13 +1058,23 @@
       "tag": ""
     },
     "tessera": {
-      "description": "TESSERA - the mosaic layer above every CRM. Federation mesh, universal ledger, seat-based workforce. A specification, audited: 43 defects found, 43 closed.",
+      "description": "The mosaic layer above every CRM: federation mesh, hash-chained ledger, seat-based workforce. Specification, audited: 43 defects found, 43 closed. 709 tests.",
       "category": "business",
       "featured": false,
       "demo": true,
       "release": false,
       "kicker": "",
       "tag": ""
+    },
+    "tessera-app": {
+      "description": "One customer view across every system, with a record you can prove. Offline, installable console for the TESSERA reference core: field-level merge, conflict resolution, hash-chained ledger, seat-based routing.",
+      "category": "learning",
+      "featured": false,
+      "demo": true,
+      "release": false,
+      "kicker": "",
+      "tag": "",
+      "auto": true
     },
     "the-symphony-companion": {
       "description": "A pocket PWA companion to The Symphony of the Present — the book's ideas as cards, its practices as a checklist, a breathing timer and a gratitude journal.",
