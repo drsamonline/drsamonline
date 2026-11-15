@@ -1113,6 +1113,16 @@
       "tag": "",
       "auto": true
     },
+    "TOOLWORKS": {
+      "description": "969 tools from TTB and All4ONE in one searchable index. Both stay their own projects.",
+      "category": "business",
+      "featured": false,
+      "demo": true,
+      "release": false,
+      "kicker": "",
+      "tag": "",
+      "auto": true
+    },
     "TTB": {
       "description": "TinyToolBox — 591 tiny utilities bundled into one lightweight, offline-first browser extension for Chrome, Edge, Firefox and Safari.",
       "category": "desktop",

@@ -177,12 +177,13 @@ shape it does.
 - <a href="https://drsamonline.github.io/musicgen/"><img src="assets/pills/musicgen.svg" height="24" alt="musicgen"></a> — A pocket generative composer — an offline-first PWA that writes, synthesises, masters and exports music in the browser, with no server and no samples.
 - <a href="https://drsamonline.github.io/neonboom/"><img src="assets/pills/neonboom.svg" height="24" alt="neonboom"></a> — A beat workstation that lives in a browser tab. 27 procedurally synthesised loops, hardware-style pad grid, canvas arrangement, mixer with sends, master FX, automation, scenes and WAV/stem export. Offline-first PWA, 192 KB single file, zero dependencies. Feature-frozen at 2.4.0.
 
-### <img src="assets/icons/business.svg" width="20" height="20" alt=""> Business & Productivity <img src="assets/pills/count-business.svg" height="22" alt="5 projects">
+### <img src="assets/icons/business.svg" width="20" height="20" alt=""> Business & Productivity <img src="assets/pills/count-business.svg" height="22" alt="6 projects">
 - <a href="https://drsamonline.github.io/canteen-lan/"><img src="assets/pills/canteen-lan.svg" height="24" alt="canteen-lan"></a> — Order from your table over the room's own Wi-Fi — a LAN canteen board built with Forge.
 - <a href="https://drsamonline.github.io/chalk-lan/"><img src="assets/pills/chalk-lan.svg" height="24" alt="chalk-lan"></a> — A shared whiteboard for the room: everyone on the same Wi-Fi draws on the same board, live.
 - <a href="https://drsamonline.github.io/Matneo/"><img src="assets/pills/matneo.svg" height="24" alt="Matneo"></a> — An AI-powered digital products and automation platform — practical planners, templates, AI resources and offline browser tools.
 - <a href="https://drsamonline.github.io/smartbill-app/"><img src="assets/pills/smartbill-app.svg" height="24" alt="smartbill-app"></a> — A fast, serverless single-page GST billing and invoicing app for Indian businesses, with local IndexedDB storage.
 - <a href="https://drsamonline.github.io/tessera/"><img src="assets/pills/tessera.svg" height="24" alt="tessera"></a> — The mosaic layer above every CRM: federation mesh, hash-chained ledger, seat-based workforce. Specification, audited: 43 defects found, 43 closed. 709 tests.
+- <a href="https://drsamonline.github.io/TOOLWORKS/"><img src="assets/pills/toolworks.svg" height="24" alt="TOOLWORKS"></a> — 969 tools from TTB and All4ONE in one searchable index. Both stay their own projects.
 
 ### <img src="assets/icons/learning.svg" width="20" height="20" alt=""> Learning & Reference <img src="assets/pills/count-learning.svg" height="22" alt="5 projects">
 - <a href="https://drsamonline.github.io/app-endpoints/"><img src="assets/pills/app-endpoints.svg" height="24" alt="app-endpoints"></a> — Endpoints — find the right free API for a job: an offline directory of 2,214 public APIs, filterable by auth, CORS and HTTPS. No account, no server, no network at runtime.
