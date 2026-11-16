@@ -437,6 +437,26 @@
       "kicker": "",
       "tag": ""
     },
+    "corpus-extendum": {
+      "description": "The public domain, properly shelved — a free library of out-of-copyright books, readable in the page as PDF, EPUB or text. No accounts, no tracking, no paywall.",
+      "category": "mind",
+      "featured": false,
+      "demo": true,
+      "release": false,
+      "kicker": "",
+      "tag": "",
+      "auto": true
+    },
+    "corpus-extendum-vault-01": {
+      "description": "Book storage for Corpus Extendum — the public-domain library. Ten books, PDF + EPUB + text + records. No website here on purpose: Pages caps a site at 1 GB, and this vault is built to reach 2.5 GB.",
+      "category": "other",
+      "featured": false,
+      "demo": false,
+      "release": false,
+      "kicker": "",
+      "tag": "",
+      "auto": true
+    },
     "crypto-kit": {
       "description": "The shared crypto core: AES-256-GCM, PBKDF2 passphrase keys, sealed envelopes and one-time view, on Web Crypto.",
       "category": "kits",
@@ -825,6 +845,16 @@
       "tag": "",
       "auto": true
     },
+    "nodus": {
+      "description": "One browser core, many faces. Fork of NetSurf rebuilt as a library with framebuffer, GTK, headless and text frontends. Tier 1 of the Aetheris browser family.",
+      "category": "games",
+      "featured": false,
+      "demo": false,
+      "release": false,
+      "kicker": "",
+      "tag": "",
+      "auto": true
+    },
     "offline-pdf-toolkit": {
       "description": "Merge, split, rotate, reorder, watermark, number and compress PDFs entirely in the browser — no upload, no account, no server, works offline.",
       "category": "desktop",
@@ -1039,6 +1069,16 @@
       "kicker": "",
       "tag": ""
     },
+    "sorex": {
+      "description": "A featherweight FLTK browser for machines the modern web forgot. Fork of Dillo, hardened for speed, scriptable from the shell. Tier 2 of the Aetheris browser family.",
+      "category": "other",
+      "featured": false,
+      "demo": false,
+      "release": false,
+      "kicker": "",
+      "tag": "",
+      "auto": true
+    },
     "srs-kit": {
       "description": "Spaced repetition (SM-2) for flashcards — scheduling, lapses, due cards and stats.",
       "category": "kits",
@@ -1058,7 +1098,7 @@
       "tag": ""
     },
     "tessera": {
-      "description": "The mosaic layer above every CRM: federation mesh, hash-chained ledger, seat-based workforce. Specification, audited: 43 defects found, 43 closed. 709 tests.",
+      "description": "UNDER DEVELOPMENT — not finished, not released. Federation mesh + CRM core with a hash-chained ledger. 748 tests, 53 documents, 4 claims unverified.",
       "category": "business",
       "featured": false,
       "demo": true,
@@ -1067,7 +1107,7 @@
       "tag": ""
     },
     "tessera-app": {
-      "description": "One customer view across every system, with a record you can prove. Offline, installable console for the TESSERA reference core: field-level merge, conflict resolution, hash-chained ledger, seat-based routing.",
+      "description": "UNDER DEVELOPMENT — not finished, not released. Single-file CRM console: provenance per field, hash-chained ledger, works offline and as an installable app.",
       "category": "learning",
       "featured": false,
       "demo": true,
@@ -1168,6 +1208,16 @@
       "release": false,
       "kicker": "",
       "tag": ""
+    },
+    "volumen": {
+      "description": "The web as text, at the speed of reading. Fork of Lynx with deterministic markdown and JSON dumps for automation. Tier 3 of the Aetheris browser family.",
+      "category": "mind",
+      "featured": false,
+      "demo": false,
+      "release": false,
+      "kicker": "",
+      "tag": "",
+      "auto": true
     },
     "web-kit": {
       "description": "The shared offline-first runtime for drsamonline apps: storage, i18n (EN/HI/GU), CSV, PWA, theme, SEO and accessibility.",
