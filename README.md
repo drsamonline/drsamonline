@@ -188,11 +188,12 @@ shape it does.
 - <a href="https://drsamonline.github.io/tessera/"><img src="assets/pills/tessera.svg" height="24" alt="tessera"></a> — UNDER DEVELOPMENT — not finished, not released. Federation mesh + CRM core with a hash-chained ledger. 748 tests, 53 documents, 4 claims unverified.
 - <a href="https://drsamonline.github.io/TOOLWORKS/"><img src="assets/pills/toolworks.svg" height="24" alt="TOOLWORKS"></a> — 969 tools from TTB and All4ONE in one searchable index. Both stay their own projects.
 
-### <img src="assets/icons/learning.svg" width="20" height="20" alt=""> Learning & Reference <img src="assets/pills/count-learning.svg" height="22" alt="5 projects">
+### <img src="assets/icons/learning.svg" width="20" height="20" alt=""> Learning & Reference <img src="assets/pills/count-learning.svg" height="22" alt="6 projects">
 - <a href="https://drsamonline.github.io/app-endpoints/"><img src="assets/pills/app-endpoints.svg" height="24" alt="app-endpoints"></a> — Endpoints — find the right free API for a job: an offline directory of 2,214 public APIs, filterable by auth, CORS and HTTPS. No account, no server, no network at runtime.
 - <a href="https://drsamonline.github.io/app-panchang/"><img src="assets/pills/app-panchang.svg" height="24" alt="app-panchang"></a> — A daily Indian almanac — tithi, nakshatra, yoga, karana, rahu-kaal and muhurat, computed offline.
 - <a href="https://drsamonline.github.io/app-poets-studio/"><img src="assets/pills/app-poets-studio.svg" height="24" alt="app-poets-studio"></a> — Rhyme, metre and fixed forms, fully offline — a poetry workshop that measures what you wrote, with 124,085 words bundled.
 - <a href="https://drsamonline.github.io/base-bench/play/"><img src="assets/pills/base-bench.svg" height="24" alt="base-bench"></a> — Every number base, unit and timezone on one page, with the working shown — offline, no accounts.
+- <a href="https://drsamonline.github.io/LARGE_GLOBE/"><img src="assets/pills/large_globe.svg" height="24" alt="LARGE_GLOBE"></a> — A sourced reference library of hidden-world claims — the larger globe, the flat disc, the hollow shell, the ice wall, the inner sun, the sea beneath the sea — plus the giants, dragons, cryptids, aliens and secret societies that are said to live in them.
 - <a href="https://drsamonline.github.io/tessera-app/"><img src="assets/pills/tessera-app.svg" height="24" alt="tessera-app"></a> — UNDER DEVELOPMENT — not finished, not released. Single-file CRM console: provenance per field, hash-chained ledger, works offline and as an installable app.
 
 ### <img src="assets/icons/weft.svg" width="20" height="20" alt=""> Weft-8 & Retrocomputing <img src="assets/pills/count-weft.svg" height="22" alt="6 projects">
@@ -249,8 +250,11 @@ shape it does.
 - <a href="https://drsamonline.github.io/profile-kit/"><img src="assets/pills/profile-kit.svg" height="24" alt="profile-kit"></a> — A small reusable kit for a theme-aware, self-updating GitHub profile — hero banner, metrics card and README generator.
 - <a href="https://drsamonline.github.io/skills/"><img src="assets/pills/skills.svg" height="24" alt="skills"></a> — Reusable, machine-consumable skills extracted from every drsamonline project — a categorised, self-updating catalogue.
 
-### <img src="assets/icons/other.svg" width="20" height="20" alt=""> Other / New <img src="assets/pills/count-other.svg" height="22" alt="2 projects">
+### <img src="assets/icons/other.svg" width="20" height="20" alt=""> Other / New <img src="assets/pills/count-other.svg" height="22" alt="5 projects">
+- <a href="https://drsamonline.github.io/Cobble/"><img src="assets/pills/cobble.svg" height="24" alt="Cobble"></a> — To cobble is to make a thing from whatever is at hand; a cobble is the stone underfoot on a street laid one stone at a time. Both halves are the app — a city assembled from scraps of noticing, built by accumulation. A city made of small things, with "your life, taking shape"
 - <a href="https://github.com/drsamonline/corpus-extendum-vault-01"><img src="assets/pills/corpus-extendum-vault-01.svg" height="24" alt="corpus-extendum-vault-01"></a> — Book storage for Corpus Extendum — the public-domain library. Ten books, PDF + EPUB + text + records. No website here on purpose: Pages caps a site at 1 GB, and this vault is built to reach 2.5 GB.
+- <a href="https://drsamonline.github.io/faztest-fast-file-forge/"><img src="assets/pills/faztest-fast-file-forge.svg" height="24" alt="faztest-fast-file-forge"></a> — A Brotli front end for files you would rather not upload: compress and decompress in the browse
+- <a href="https://drsamonline.github.io/Hellgate/"><img src="assets/pills/hellgate.svg" height="24" alt="Hellgate"></a> — Description A Doom-style 2.5D arena FPS in the browser — procedural sector maps, three weapons, zero external assets. Built with Three.js.
 - <a href="https://github.com/drsamonline/sorex"><img src="assets/pills/sorex.svg" height="24" alt="sorex"></a> — A featherweight FLTK browser for machines the modern web forgot. Fork of Dillo, hardened for speed, scriptable from the shell. Tier 2 of the Aetheris browser family.
 
 <!-- PROJECTS:END -->

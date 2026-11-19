@@ -382,6 +382,16 @@
       "kicker": "",
       "tag": ""
     },
+    "Cobble": {
+      "description": "To cobble is to make a thing from whatever is at hand; a cobble is the stone underfoot on a street laid one stone at a time. Both halves are the app — a city assembled from scraps of noticing, built by accumulation. A city made of small things, with \"your life, taking shape\"",
+      "category": "other",
+      "featured": false,
+      "demo": true,
+      "release": false,
+      "kicker": "",
+      "tag": "",
+      "auto": true
+    },
     "code-kit": {
       "description": "QR encoding (versions 1-40, L/M/Q/H, all eight masks), a small syntax highlighter and copyable snippet blocks — one zero-dependency file.",
       "category": "kits",
@@ -503,6 +513,16 @@
       "kicker": "",
       "tag": ""
     },
+    "faztest-fast-file-forge": {
+      "description": "A Brotli front end for files you would rather not upload: compress and decompress in the browse",
+      "category": "other",
+      "featured": false,
+      "demo": true,
+      "release": false,
+      "kicker": "",
+      "tag": "",
+      "auto": true
+    },
     "feather": {
       "description": "A read-only document viewer that opens before you blink — small, portable, cross-platform, summoned by a keystroke.",
       "category": "desktop",
@@ -575,6 +595,16 @@
       "release": false,
       "kicker": "",
       "tag": ""
+    },
+    "Hellgate": {
+      "description": "Description A Doom-style 2.5D arena FPS in the browser — procedural sector maps, three weapons, zero external assets. Built with Three.js.",
+      "category": "other",
+      "featured": false,
+      "demo": true,
+      "release": false,
+      "kicker": "",
+      "tag": "",
+      "auto": true
     },
     "HMS": {
       "description": "HHMS — a LAN-based hospital management system purpose-built for homeopathic hospitals and clinics, with a server-owned database and no cloud lock-in.",
@@ -668,6 +698,16 @@
       "release": false,
       "kicker": "",
       "tag": ""
+    },
+    "LARGE_GLOBE": {
+      "description": "A sourced reference library of hidden-world claims — the larger globe, the flat disc, the hollow shell, the ice wall, the inner sun, the sea beneath the sea — plus the giants, dragons, cryptids, aliens and secret societies that are said to live in them.",
+      "category": "learning",
+      "featured": false,
+      "demo": true,
+      "release": false,
+      "kicker": "",
+      "tag": "",
+      "auto": true
     },
     "lexora": {
       "description": "LEXORA — Layered EXact-text Repository and Adaptive compression architecture: canonicalise text, then compress it with guaranteed byte-exact recovery.",
