@@ -204,7 +204,7 @@ shape it does.
 - <a href="https://drsamonline.github.io/weft8-compare/"><img src="assets/pills/weft8-compare.svg" height="24" alt="weft8-compare"></a> — Weft-8 beside x86 and ARM — the same algorithm in three machines, so you can see which part is the computer.
 - <a href="https://drsamonline.github.io/weft8-hardware/"><img src="assets/pills/weft8-hardware.svg" height="24" alt="weft8-hardware"></a> — Weft-8 on real silicon — a C port of the Loom's 8-bit machine, an Arduino/ESP32 sketch and a parity harness.
 
-### <img src="assets/icons/kits.svg" width="20" height="20" alt=""> Libraries & Kits <img src="assets/pills/count-kits.svg" height="22" alt="25 projects">
+### <img src="assets/icons/kits.svg" width="20" height="20" alt=""> Libraries & Kits <img src="assets/pills/count-kits.svg" height="22" alt="26 projects">
 - <a href="https://drsamonline.github.io/art-kit/"><img src="assets/pills/art-kit.svg" height="24" alt="art-kit"></a> — The art primitives Forge was missing: an indexed palette, a pixel canvas, draw ops, a delta undo stack, dithering, median-cut quantisation and sprite sheets.
 - <a href="https://drsamonline.github.io/astro-kit/"><img src="assets/pills/astro-kit.svg" height="24" alt="astro-kit"></a> — The shared astronomy core: sun and moon longitude (Meeus), ayanamsa, sunrise/sunset, and tithi, nakshatra, yoga and karana.
 - <a href="https://drsamonline.github.io/audio-kit/"><img src="assets/pills/audio-kit.svg" height="24" alt="audio-kit"></a> — Synthesis, theory, patterns and notation for offline apps: ADSR envelopes, oscillator voices, filters, scales, chords, a pattern sequencer and staff layout.
@@ -218,6 +218,7 @@ shape it does.
 - <a href="https://drsamonline.github.io/frame-kit/"><img src="assets/pills/frame-kit.svg" height="24" alt="frame-kit"></a> — The shared transfer-frame core: a self-describing frame, a rateless collector and byte/checksum utilities.
 - <a href="https://drsamonline.github.io/game-kit/"><img src="assets/pills/game-kit.svg" height="24" alt="game-kit"></a> — The shared game core: a fixed-timestep loop, input, scenes, save/load and maths.
 - <a href="https://drsamonline.github.io/lan-kit/"><img src="assets/pills/lan-kit.svg" height="24" alt="lan-kit"></a> — The shared LAN core: a local room with a real-time channel over Server-Sent Events and POST.
+- <a href="https://github.com/drsamonline/lm-kit"><img src="assets/pills/lm-kit.svg" height="24" alt="lm-kit"></a> — No description yet.
 - <a href="https://drsamonline.github.io/markdown-kit/"><img src="assets/pills/markdown-kit.svg" height="24" alt="markdown-kit"></a> — Markdown to HTML with a streaming reveal: render what is finished and hold back what could still change, so model output never flashes a broken parse.
 - <a href="https://drsamonline.github.io/ml-kit/"><img src="assets/pills/ml-kit.svg" height="24" alt="ml-kit"></a> — The classic algorithms from scratch for offline features: tf-idf, Naive Bayes, k-NN, k-means, PCA, ID3, linear regression and Markov chains — no model, no API key, no network.
 - <a href="https://drsamonline.github.io/motion-kit/"><img src="assets/pills/motion-kit.svg" height="24" alt="motion-kit"></a> — The shared motion core: springs, easings and transition presets as numbers — the Lobe UI motion vocabulary in one zero-dependency file.
@@ -250,12 +251,14 @@ shape it does.
 - <a href="https://drsamonline.github.io/profile-kit/"><img src="assets/pills/profile-kit.svg" height="24" alt="profile-kit"></a> — A small reusable kit for a theme-aware, self-updating GitHub profile — hero banner, metrics card and README generator.
 - <a href="https://drsamonline.github.io/skills/"><img src="assets/pills/skills.svg" height="24" alt="skills"></a> — Reusable, machine-consumable skills extracted from every drsamonline project — a categorised, self-updating catalogue.
 
-### <img src="assets/icons/other.svg" width="20" height="20" alt=""> Other / New <img src="assets/pills/count-other.svg" height="22" alt="5 projects">
+### <img src="assets/icons/other.svg" width="20" height="20" alt=""> Other / New <img src="assets/pills/count-other.svg" height="22" alt="7 projects">
 - <a href="https://drsamonline.github.io/Cobble/"><img src="assets/pills/cobble.svg" height="24" alt="Cobble"></a> — To cobble is to make a thing from whatever is at hand; a cobble is the stone underfoot on a street laid one stone at a time. Both halves are the app — a city assembled from scraps of noticing, built by accumulation. A city made of small things, with "your life, taking shape"
 - <a href="https://github.com/drsamonline/corpus-extendum-vault-01"><img src="assets/pills/corpus-extendum-vault-01.svg" height="24" alt="corpus-extendum-vault-01"></a> — Book storage for Corpus Extendum — the public-domain library. Ten books, PDF + EPUB + text + records. No website here on purpose: Pages caps a site at 1 GB, and this vault is built to reach 2.5 GB.
+- <a href="https://github.com/drsamonline/DayDoc"><img src="assets/pills/daydoc.svg" height="24" alt="DayDoc"></a> — No description yet.
 - <a href="https://drsamonline.github.io/faztest-fast-file-forge/"><img src="assets/pills/faztest-fast-file-forge.svg" height="24" alt="faztest-fast-file-forge"></a> — A Brotli front end for files you would rather not upload: compress and decompress in the browse
 - <a href="https://drsamonline.github.io/Hellgate/"><img src="assets/pills/hellgate.svg" height="24" alt="Hellgate"></a> — Description A Doom-style 2.5D arena FPS in the browser — procedural sector maps, three weapons, zero external assets. Built with Three.js.
 - <a href="https://github.com/drsamonline/sorex"><img src="assets/pills/sorex.svg" height="24" alt="sorex"></a> — A featherweight FLTK browser for machines the modern web forgot. Fork of Dillo, hardened for speed, scriptable from the shell. Tier 2 of the Aetheris browser family.
+- <a href="https://github.com/drsamonline/Sorta"><img src="assets/pills/sorta.svg" height="24" alt="Sorta"></a> — No description yet.
 
 <!-- PROJECTS:END -->
 

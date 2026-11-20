@@ -494,6 +494,16 @@
       "kicker": "",
       "tag": ""
     },
+    "DayDoc": {
+      "description": "No description yet.",
+      "category": "other",
+      "featured": false,
+      "demo": false,
+      "release": false,
+      "kicker": "",
+      "tag": "",
+      "auto": true
+    },
     "eon-commando": {
       "description": "EON COMMANDO — a retro run-and-gun platformer in one self-contained HTML file: three eras, five weapons, three bosses, chiptune audio. No dependencies, works offline.",
       "category": "games",
@@ -717,6 +727,16 @@
       "release": false,
       "kicker": "",
       "tag": ""
+    },
+    "lm-kit": {
+      "description": "No description yet.",
+      "category": "kits",
+      "featured": false,
+      "demo": false,
+      "release": false,
+      "kicker": "",
+      "tag": "",
+      "auto": true
     },
     "lockhtml": {
       "description": "PIN-protect or one-time-view any HTML file with AES-256-GCM — a cross-platform CLI plus a browser GUI that runs on any OS.",
@@ -1111,6 +1131,16 @@
     },
     "sorex": {
       "description": "A featherweight FLTK browser for machines the modern web forgot. Fork of Dillo, hardened for speed, scriptable from the shell. Tier 2 of the Aetheris browser family.",
+      "category": "other",
+      "featured": false,
+      "demo": false,
+      "release": false,
+      "kicker": "",
+      "tag": "",
+      "auto": true
+    },
+    "Sorta": {
+      "description": "No description yet.",
       "category": "other",
       "featured": false,
       "demo": false,
