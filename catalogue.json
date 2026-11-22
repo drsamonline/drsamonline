@@ -652,6 +652,16 @@
       "kicker": "",
       "tag": ""
     },
+    "INDIA": {
+      "description": "No description yet.",
+      "category": "other",
+      "featured": false,
+      "demo": true,
+      "release": false,
+      "kicker": "",
+      "tag": "",
+      "auto": true
+    },
     "KILN": {
       "description": "Spec in. Finished app out. A deterministic compiler for offline single-file apps — no model, no network, no dependencies.",
       "category": "infra",
