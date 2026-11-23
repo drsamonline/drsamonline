@@ -653,7 +653,7 @@
       "tag": ""
     },
     "INDIA": {
-      "description": "No description yet.",
+      "description": "Twenty-four Indian monuments rebuilt as live 3D miniatures in the browser — every dome and lattice screen generated in code with three.js. No photographs, no downloaded meshes, no build step.",
       "category": "other",
       "featured": false,
       "demo": true,
@@ -1065,6 +1065,16 @@
       "release": false,
       "kicker": "",
       "tag": ""
+    },
+    "savehorse": {
+      "description": "savehorse is a single Rust workspace that replaces a portfolio of twenty-two small Windows utilities with thirteen modules behind one command line — and, next, one desktop application. Each module keeps the name it had on its own.",
+      "category": "other",
+      "featured": false,
+      "demo": true,
+      "release": false,
+      "kicker": "",
+      "tag": "",
+      "auto": true
     },
     "Scrap-and-Gun": {
       "description": "SCRAP & GUN — a retro pixel-art arena-defence shooter with tactical construction, escalating waves, persistent upgrades, roguelite drafts, bosses and local co-op.",
