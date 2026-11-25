@@ -109,6 +109,46 @@
       "kicker": "",
       "tag": ""
     },
+    "app-argue": {
+      "description": "Forge app — offline, single-file, no account, no telemetry.",
+      "category": "other",
+      "featured": false,
+      "demo": true,
+      "release": false,
+      "kicker": "",
+      "tag": "",
+      "auto": true
+    },
+    "app-attention": {
+      "description": "Forge app — offline, single-file, no account, no telemetry.",
+      "category": "other",
+      "featured": false,
+      "demo": true,
+      "release": false,
+      "kicker": "",
+      "tag": "",
+      "auto": true
+    },
+    "app-babel": {
+      "description": "Forge app — offline, single-file, no account, no telemetry.",
+      "category": "other",
+      "featured": false,
+      "demo": true,
+      "release": false,
+      "kicker": "",
+      "tag": "",
+      "auto": true
+    },
+    "app-belief": {
+      "description": "Forge app — offline, single-file, no account, no telemetry.",
+      "category": "other",
+      "featured": false,
+      "demo": true,
+      "release": false,
+      "kicker": "",
+      "tag": "",
+      "auto": true
+    },
     "app-builder": {
       "description": "A shared build kit that compiles a static web app into a single-file portable Windows EXE and an Android WebView APK.",
       "category": "infra",
@@ -117,6 +157,36 @@
       "release": false,
       "kicker": "",
       "tag": ""
+    },
+    "app-calm-room": {
+      "description": "Forge app — offline, single-file, no account, no telemetry.",
+      "category": "other",
+      "featured": false,
+      "demo": true,
+      "release": false,
+      "kicker": "",
+      "tag": "",
+      "auto": true
+    },
+    "app-carrier": {
+      "description": "Forge app — offline, single-file, no account, no telemetry.",
+      "category": "other",
+      "featured": false,
+      "demo": true,
+      "release": false,
+      "kicker": "",
+      "tag": "",
+      "auto": true
+    },
+    "app-claim": {
+      "description": "Forge app — offline, single-file, no account, no telemetry.",
+      "category": "other",
+      "featured": false,
+      "demo": true,
+      "release": false,
+      "kicker": "",
+      "tag": "",
+      "auto": true
     },
     "app-clip-loom": {
       "description": "Clip Loom — clipboard programs you can read: strip tracking, tidy text, keep what matters. Weft-8 on the Loom.",
@@ -136,6 +206,36 @@
       "kicker": "",
       "tag": ""
     },
+    "app-daily-doodle": {
+      "description": "Forge app — offline, single-file, no account, no telemetry.",
+      "category": "other",
+      "featured": false,
+      "demo": true,
+      "release": false,
+      "kicker": "",
+      "tag": "",
+      "auto": true
+    },
+    "app-decay": {
+      "description": "Forge app — offline, single-file, no account, no telemetry.",
+      "category": "other",
+      "featured": false,
+      "demo": true,
+      "release": false,
+      "kicker": "",
+      "tag": "",
+      "auto": true
+    },
+    "app-doc-diff": {
+      "description": "Forge app — offline, single-file, no account, no telemetry.",
+      "category": "other",
+      "featured": false,
+      "demo": true,
+      "release": false,
+      "kicker": "",
+      "tag": "",
+      "auto": true
+    },
     "app-encrypted-case-log": {
       "description": "Per-patient clinical notes encrypted on the device with AES-256-GCM — offline, no account, no server.",
       "category": "health",
@@ -153,6 +253,36 @@
       "release": false,
       "kicker": "",
       "tag": ""
+    },
+    "app-esoteric": {
+      "description": "Forge app — offline, single-file, no account, no telemetry.",
+      "category": "other",
+      "featured": false,
+      "demo": true,
+      "release": false,
+      "kicker": "",
+      "tag": "",
+      "auto": true
+    },
+    "app-field-kit": {
+      "description": "Forge app — offline, single-file, no account, no telemetry.",
+      "category": "kits",
+      "featured": false,
+      "demo": true,
+      "release": false,
+      "kicker": "",
+      "tag": "",
+      "auto": true
+    },
+    "app-hearth": {
+      "description": "Forge app — offline, single-file, no account, no telemetry.",
+      "category": "other",
+      "featured": false,
+      "demo": true,
+      "release": false,
+      "kicker": "",
+      "tag": "",
+      "auto": true
     },
     "app-image-toolkit": {
       "description": "Compress, resize, convert and strip the GPS from photos on your own device — nothing uploaded, no account, works offline.",
@@ -181,9 +311,119 @@
       "kicker": "",
       "tag": ""
     },
+    "app-ledger": {
+      "description": "Forge app — offline, single-file, no account, no telemetry.",
+      "category": "other",
+      "featured": false,
+      "demo": true,
+      "release": false,
+      "kicker": "",
+      "tag": "",
+      "auto": true
+    },
+    "app-mail-merge": {
+      "description": "Forge app — offline, single-file, no account, no telemetry.",
+      "category": "other",
+      "featured": false,
+      "demo": true,
+      "release": false,
+      "kicker": "",
+      "tag": "",
+      "auto": true
+    },
+    "app-memory": {
+      "description": "Forge app — offline, single-file, no account, no telemetry.",
+      "category": "other",
+      "featured": false,
+      "demo": true,
+      "release": false,
+      "kicker": "",
+      "tag": "",
+      "auto": true
+    },
+    "app-memory-palace": {
+      "description": "Forge app — offline, single-file, no account, no telemetry.",
+      "category": "other",
+      "featured": false,
+      "demo": true,
+      "release": false,
+      "kicker": "",
+      "tag": "",
+      "auto": true
+    },
+    "app-mind-kit": {
+      "description": "Forge app — offline, single-file, no account, no telemetry.",
+      "category": "kits",
+      "featured": false,
+      "demo": true,
+      "release": false,
+      "kicker": "",
+      "tag": "",
+      "auto": true
+    },
+    "app-minutes": {
+      "description": "Forge app — offline, single-file, no account, no telemetry.",
+      "category": "other",
+      "featured": false,
+      "demo": true,
+      "release": false,
+      "kicker": "",
+      "tag": "",
+      "auto": true
+    },
+    "app-monitor": {
+      "description": "Forge app — offline, single-file, no account, no telemetry.",
+      "category": "other",
+      "featured": false,
+      "demo": true,
+      "release": false,
+      "kicker": "",
+      "tag": "",
+      "auto": true
+    },
+    "app-nearby": {
+      "description": "Forge app — offline, single-file, no account, no telemetry.",
+      "category": "other",
+      "featured": false,
+      "demo": true,
+      "release": false,
+      "kicker": "",
+      "tag": "",
+      "auto": true
+    },
+    "app-nest": {
+      "description": "Forge app — offline, single-file, no account, no telemetry.",
+      "category": "other",
+      "featured": false,
+      "demo": true,
+      "release": false,
+      "kicker": "",
+      "tag": "",
+      "auto": true
+    },
     "app-opd-register": {
       "description": "A daily OPD register for multi-location clinics — month register, dashboard, day-wise statistics, print and Excel. Offline, no account, no server.",
       "category": "health",
+      "featured": false,
+      "demo": true,
+      "release": false,
+      "kicker": "",
+      "tag": "",
+      "auto": true
+    },
+    "app-open-when-bad": {
+      "description": "Forge app — offline, single-file, no account, no telemetry.",
+      "category": "other",
+      "featured": false,
+      "demo": true,
+      "release": false,
+      "kicker": "",
+      "tag": "",
+      "auto": true
+    },
+    "app-oracle": {
+      "description": "Forge app — offline, single-file, no account, no telemetry.",
+      "category": "other",
       "featured": false,
       "demo": true,
       "release": false,
@@ -200,6 +440,16 @@
       "kicker": "",
       "tag": ""
     },
+    "app-palimpsest": {
+      "description": "Forge app — offline, single-file, no account, no telemetry.",
+      "category": "other",
+      "featured": false,
+      "demo": true,
+      "release": false,
+      "kicker": "",
+      "tag": "",
+      "auto": true
+    },
     "app-panchang": {
       "description": "A daily Indian almanac — tithi, nakshatra, yoga, karana, rahu-kaal and muhurat, computed offline.",
       "category": "learning",
@@ -209,6 +459,26 @@
       "kicker": "",
       "tag": ""
     },
+    "app-pantry": {
+      "description": "Forge app — offline, single-file, no account, no telemetry.",
+      "category": "other",
+      "featured": false,
+      "demo": true,
+      "release": false,
+      "kicker": "",
+      "tag": "",
+      "auto": true
+    },
+    "app-paperwork": {
+      "description": "Forge app — offline, single-file, no account, no telemetry.",
+      "category": "other",
+      "featured": false,
+      "demo": true,
+      "release": false,
+      "kicker": "",
+      "tag": "",
+      "auto": true
+    },
     "app-poets-studio": {
       "description": "Rhyme, metre and fixed forms, fully offline — a poetry workshop that measures what you wrote, with 124,085 words bundled.",
       "category": "learning",
@@ -217,6 +487,66 @@
       "release": false,
       "kicker": "",
       "tag": ""
+    },
+    "app-quorum": {
+      "description": "Forge app — offline, single-file, no account, no telemetry.",
+      "category": "other",
+      "featured": false,
+      "demo": true,
+      "release": false,
+      "kicker": "",
+      "tag": "",
+      "auto": true
+    },
+    "app-rally": {
+      "description": "Forge app — offline, single-file, no account, no telemetry.",
+      "category": "other",
+      "featured": false,
+      "demo": true,
+      "release": false,
+      "kicker": "",
+      "tag": "",
+      "auto": true
+    },
+    "app-repair": {
+      "description": "Forge app — offline, single-file, no account, no telemetry.",
+      "category": "other",
+      "featured": false,
+      "demo": true,
+      "release": false,
+      "kicker": "",
+      "tag": "",
+      "auto": true
+    },
+    "app-rota": {
+      "description": "Forge app — offline, single-file, no account, no telemetry.",
+      "category": "other",
+      "featured": false,
+      "demo": true,
+      "release": false,
+      "kicker": "",
+      "tag": "",
+      "auto": true
+    },
+    "app-semaphore": {
+      "description": "Forge app — offline, single-file, no account, no telemetry.",
+      "category": "other",
+      "featured": false,
+      "demo": true,
+      "release": false,
+      "kicker": "",
+      "tag": "",
+      "auto": true
+    },
+    "app-stethoscope": {
+      "description": "Forge app — offline, single-file, no account, no telemetry.",
+      "category": "other",
+      "featured": false,
+      "demo": true,
+      "release": false,
+      "kicker": "",
+      "tag": "",
+      "auto": true
     },
     "app-story-engine": {
       "description": "A book the reader moves through: choices, carried state, and a trail of where you have been. Offline, no accounts.",
@@ -228,9 +558,49 @@
       "tag": "",
       "auto": true
     },
+    "app-study": {
+      "description": "Forge app — offline, single-file, no account, no telemetry.",
+      "category": "learning",
+      "featured": false,
+      "demo": true,
+      "release": false,
+      "kicker": "",
+      "tag": "",
+      "auto": true
+    },
+    "app-sundial": {
+      "description": "Forge app — offline, single-file, no account, no telemetry.",
+      "category": "other",
+      "featured": false,
+      "demo": true,
+      "release": false,
+      "kicker": "",
+      "tag": "",
+      "auto": true
+    },
+    "app-symbiote": {
+      "description": "Forge app — offline, single-file, no account, no telemetry.",
+      "category": "other",
+      "featured": false,
+      "demo": true,
+      "release": false,
+      "kicker": "",
+      "tag": "",
+      "auto": true
+    },
     "app-thermals": {
       "description": "Homoeopathic remedies by thermal reaction — what each classical source actually says, quoted in its own words with the source named, and where the sources do not say the same thing. Offline, no accounts.",
       "category": "health",
+      "featured": false,
+      "demo": true,
+      "release": false,
+      "kicker": "",
+      "tag": "",
+      "auto": true
+    },
+    "app-voice": {
+      "description": "Forge app — offline, single-file, no account, no telemetry.",
+      "category": "other",
       "featured": false,
       "demo": true,
       "release": false,

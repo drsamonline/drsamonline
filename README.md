@@ -188,10 +188,11 @@ shape it does.
 - <a href="https://drsamonline.github.io/tessera/"><img src="assets/pills/tessera.svg" height="24" alt="tessera"></a> — UNDER DEVELOPMENT — not finished, not released. Federation mesh + CRM core with a hash-chained ledger. 748 tests, 53 documents, 4 claims unverified.
 - <a href="https://drsamonline.github.io/TOOLWORKS/"><img src="assets/pills/toolworks.svg" height="24" alt="TOOLWORKS"></a> — 969 tools from TTB and All4ONE in one searchable index. Both stay their own projects.
 
-### <img src="assets/icons/learning.svg" width="20" height="20" alt=""> Learning & Reference <img src="assets/pills/count-learning.svg" height="22" alt="6 projects">
+### <img src="assets/icons/learning.svg" width="20" height="20" alt=""> Learning & Reference <img src="assets/pills/count-learning.svg" height="22" alt="7 projects">
 - <a href="https://drsamonline.github.io/app-endpoints/"><img src="assets/pills/app-endpoints.svg" height="24" alt="app-endpoints"></a> — Endpoints — find the right free API for a job: an offline directory of 2,214 public APIs, filterable by auth, CORS and HTTPS. No account, no server, no network at runtime.
 - <a href="https://drsamonline.github.io/app-panchang/"><img src="assets/pills/app-panchang.svg" height="24" alt="app-panchang"></a> — A daily Indian almanac — tithi, nakshatra, yoga, karana, rahu-kaal and muhurat, computed offline.
 - <a href="https://drsamonline.github.io/app-poets-studio/"><img src="assets/pills/app-poets-studio.svg" height="24" alt="app-poets-studio"></a> — Rhyme, metre and fixed forms, fully offline — a poetry workshop that measures what you wrote, with 124,085 words bundled.
+- <a href="https://drsamonline.github.io/app-study/"><img src="assets/pills/app-study.svg" height="24" alt="app-study"></a> — Forge app — offline, single-file, no account, no telemetry.
 - <a href="https://drsamonline.github.io/base-bench/play/"><img src="assets/pills/base-bench.svg" height="24" alt="base-bench"></a> — Every number base, unit and timezone on one page, with the working shown — offline, no accounts.
 - <a href="https://drsamonline.github.io/LARGE_GLOBE/"><img src="assets/pills/large_globe.svg" height="24" alt="LARGE_GLOBE"></a> — A sourced reference library of hidden-world claims — the larger globe, the flat disc, the hollow shell, the ice wall, the inner sun, the sea beneath the sea — plus the giants, dragons, cryptids, aliens and secret societies that are said to live in them.
 - <a href="https://drsamonline.github.io/tessera-app/"><img src="assets/pills/tessera-app.svg" height="24" alt="tessera-app"></a> — UNDER DEVELOPMENT — not finished, not released. Single-file CRM console: provenance per field, hash-chained ledger, works offline and as an installable app.
@@ -204,7 +205,9 @@ shape it does.
 - <a href="https://drsamonline.github.io/weft8-compare/"><img src="assets/pills/weft8-compare.svg" height="24" alt="weft8-compare"></a> — Weft-8 beside x86 and ARM — the same algorithm in three machines, so you can see which part is the computer.
 - <a href="https://drsamonline.github.io/weft8-hardware/"><img src="assets/pills/weft8-hardware.svg" height="24" alt="weft8-hardware"></a> — Weft-8 on real silicon — a C port of the Loom's 8-bit machine, an Arduino/ESP32 sketch and a parity harness.
 
-### <img src="assets/icons/kits.svg" width="20" height="20" alt=""> Libraries & Kits <img src="assets/pills/count-kits.svg" height="22" alt="26 projects">
+### <img src="assets/icons/kits.svg" width="20" height="20" alt=""> Libraries & Kits <img src="assets/pills/count-kits.svg" height="22" alt="28 projects">
+- <a href="https://drsamonline.github.io/app-field-kit/"><img src="assets/pills/app-field-kit.svg" height="24" alt="app-field-kit"></a> — Forge app — offline, single-file, no account, no telemetry.
+- <a href="https://drsamonline.github.io/app-mind-kit/"><img src="assets/pills/app-mind-kit.svg" height="24" alt="app-mind-kit"></a> — Forge app — offline, single-file, no account, no telemetry.
 - <a href="https://drsamonline.github.io/art-kit/"><img src="assets/pills/art-kit.svg" height="24" alt="art-kit"></a> — The art primitives Forge was missing: an indexed palette, a pixel canvas, draw ops, a delta undo stack, dithering, median-cut quantisation and sprite sheets.
 - <a href="https://drsamonline.github.io/astro-kit/"><img src="assets/pills/astro-kit.svg" height="24" alt="astro-kit"></a> — The shared astronomy core: sun and moon longitude (Meeus), ayanamsa, sunrise/sunset, and tithi, nakshatra, yoga and karana.
 - <a href="https://drsamonline.github.io/audio-kit/"><img src="assets/pills/audio-kit.svg" height="24" alt="audio-kit"></a> — Synthesis, theory, patterns and notation for offline apps: ADSR envelopes, oscillator voices, filters, scales, chords, a pattern sequencer and staff layout.
@@ -251,7 +254,41 @@ shape it does.
 - <a href="https://drsamonline.github.io/profile-kit/"><img src="assets/pills/profile-kit.svg" height="24" alt="profile-kit"></a> — A small reusable kit for a theme-aware, self-updating GitHub profile — hero banner, metrics card and README generator.
 - <a href="https://drsamonline.github.io/skills/"><img src="assets/pills/skills.svg" height="24" alt="skills"></a> — Reusable, machine-consumable skills extracted from every drsamonline project — a categorised, self-updating catalogue.
 
-### <img src="assets/icons/other.svg" width="20" height="20" alt=""> Other / New <img src="assets/pills/count-other.svg" height="22" alt="9 projects">
+### <img src="assets/icons/other.svg" width="20" height="20" alt=""> Other / New <img src="assets/pills/count-other.svg" height="22" alt="43 projects">
+- <a href="https://drsamonline.github.io/app-argue/"><img src="assets/pills/app-argue.svg" height="24" alt="app-argue"></a> — Forge app — offline, single-file, no account, no telemetry.
+- <a href="https://drsamonline.github.io/app-attention/"><img src="assets/pills/app-attention.svg" height="24" alt="app-attention"></a> — Forge app — offline, single-file, no account, no telemetry.
+- <a href="https://drsamonline.github.io/app-babel/"><img src="assets/pills/app-babel.svg" height="24" alt="app-babel"></a> — Forge app — offline, single-file, no account, no telemetry.
+- <a href="https://drsamonline.github.io/app-belief/"><img src="assets/pills/app-belief.svg" height="24" alt="app-belief"></a> — Forge app — offline, single-file, no account, no telemetry.
+- <a href="https://drsamonline.github.io/app-calm-room/"><img src="assets/pills/app-calm-room.svg" height="24" alt="app-calm-room"></a> — Forge app — offline, single-file, no account, no telemetry.
+- <a href="https://drsamonline.github.io/app-carrier/"><img src="assets/pills/app-carrier.svg" height="24" alt="app-carrier"></a> — Forge app — offline, single-file, no account, no telemetry.
+- <a href="https://drsamonline.github.io/app-claim/"><img src="assets/pills/app-claim.svg" height="24" alt="app-claim"></a> — Forge app — offline, single-file, no account, no telemetry.
+- <a href="https://drsamonline.github.io/app-daily-doodle/"><img src="assets/pills/app-daily-doodle.svg" height="24" alt="app-daily-doodle"></a> — Forge app — offline, single-file, no account, no telemetry.
+- <a href="https://drsamonline.github.io/app-decay/"><img src="assets/pills/app-decay.svg" height="24" alt="app-decay"></a> — Forge app — offline, single-file, no account, no telemetry.
+- <a href="https://drsamonline.github.io/app-doc-diff/"><img src="assets/pills/app-doc-diff.svg" height="24" alt="app-doc-diff"></a> — Forge app — offline, single-file, no account, no telemetry.
+- <a href="https://drsamonline.github.io/app-esoteric/"><img src="assets/pills/app-esoteric.svg" height="24" alt="app-esoteric"></a> — Forge app — offline, single-file, no account, no telemetry.
+- <a href="https://drsamonline.github.io/app-hearth/"><img src="assets/pills/app-hearth.svg" height="24" alt="app-hearth"></a> — Forge app — offline, single-file, no account, no telemetry.
+- <a href="https://drsamonline.github.io/app-ledger/"><img src="assets/pills/app-ledger.svg" height="24" alt="app-ledger"></a> — Forge app — offline, single-file, no account, no telemetry.
+- <a href="https://drsamonline.github.io/app-mail-merge/"><img src="assets/pills/app-mail-merge.svg" height="24" alt="app-mail-merge"></a> — Forge app — offline, single-file, no account, no telemetry.
+- <a href="https://drsamonline.github.io/app-memory/"><img src="assets/pills/app-memory.svg" height="24" alt="app-memory"></a> — Forge app — offline, single-file, no account, no telemetry.
+- <a href="https://drsamonline.github.io/app-memory-palace/"><img src="assets/pills/app-memory-palace.svg" height="24" alt="app-memory-palace"></a> — Forge app — offline, single-file, no account, no telemetry.
+- <a href="https://drsamonline.github.io/app-minutes/"><img src="assets/pills/app-minutes.svg" height="24" alt="app-minutes"></a> — Forge app — offline, single-file, no account, no telemetry.
+- <a href="https://drsamonline.github.io/app-monitor/"><img src="assets/pills/app-monitor.svg" height="24" alt="app-monitor"></a> — Forge app — offline, single-file, no account, no telemetry.
+- <a href="https://drsamonline.github.io/app-nearby/"><img src="assets/pills/app-nearby.svg" height="24" alt="app-nearby"></a> — Forge app — offline, single-file, no account, no telemetry.
+- <a href="https://drsamonline.github.io/app-nest/"><img src="assets/pills/app-nest.svg" height="24" alt="app-nest"></a> — Forge app — offline, single-file, no account, no telemetry.
+- <a href="https://drsamonline.github.io/app-open-when-bad/"><img src="assets/pills/app-open-when-bad.svg" height="24" alt="app-open-when-bad"></a> — Forge app — offline, single-file, no account, no telemetry.
+- <a href="https://drsamonline.github.io/app-oracle/"><img src="assets/pills/app-oracle.svg" height="24" alt="app-oracle"></a> — Forge app — offline, single-file, no account, no telemetry.
+- <a href="https://drsamonline.github.io/app-palimpsest/"><img src="assets/pills/app-palimpsest.svg" height="24" alt="app-palimpsest"></a> — Forge app — offline, single-file, no account, no telemetry.
+- <a href="https://drsamonline.github.io/app-pantry/"><img src="assets/pills/app-pantry.svg" height="24" alt="app-pantry"></a> — Forge app — offline, single-file, no account, no telemetry.
+- <a href="https://drsamonline.github.io/app-paperwork/"><img src="assets/pills/app-paperwork.svg" height="24" alt="app-paperwork"></a> — Forge app — offline, single-file, no account, no telemetry.
+- <a href="https://drsamonline.github.io/app-quorum/"><img src="assets/pills/app-quorum.svg" height="24" alt="app-quorum"></a> — Forge app — offline, single-file, no account, no telemetry.
+- <a href="https://drsamonline.github.io/app-rally/"><img src="assets/pills/app-rally.svg" height="24" alt="app-rally"></a> — Forge app — offline, single-file, no account, no telemetry.
+- <a href="https://drsamonline.github.io/app-repair/"><img src="assets/pills/app-repair.svg" height="24" alt="app-repair"></a> — Forge app — offline, single-file, no account, no telemetry.
+- <a href="https://drsamonline.github.io/app-rota/"><img src="assets/pills/app-rota.svg" height="24" alt="app-rota"></a> — Forge app — offline, single-file, no account, no telemetry.
+- <a href="https://drsamonline.github.io/app-semaphore/"><img src="assets/pills/app-semaphore.svg" height="24" alt="app-semaphore"></a> — Forge app — offline, single-file, no account, no telemetry.
+- <a href="https://drsamonline.github.io/app-stethoscope/"><img src="assets/pills/app-stethoscope.svg" height="24" alt="app-stethoscope"></a> — Forge app — offline, single-file, no account, no telemetry.
+- <a href="https://drsamonline.github.io/app-sundial/"><img src="assets/pills/app-sundial.svg" height="24" alt="app-sundial"></a> — Forge app — offline, single-file, no account, no telemetry.
+- <a href="https://drsamonline.github.io/app-symbiote/"><img src="assets/pills/app-symbiote.svg" height="24" alt="app-symbiote"></a> — Forge app — offline, single-file, no account, no telemetry.
+- <a href="https://drsamonline.github.io/app-voice/"><img src="assets/pills/app-voice.svg" height="24" alt="app-voice"></a> — Forge app — offline, single-file, no account, no telemetry.
 - <a href="https://drsamonline.github.io/Cobble/"><img src="assets/pills/cobble.svg" height="24" alt="Cobble"></a> — To cobble is to make a thing from whatever is at hand; a cobble is the stone underfoot on a street laid one stone at a time. Both halves are the app — a city assembled from scraps of noticing, built by accumulation. A city made of small things, with "your life, taking shape"
 - <a href="https://github.com/drsamonline/corpus-extendum-vault-01"><img src="assets/pills/corpus-extendum-vault-01.svg" height="24" alt="corpus-extendum-vault-01"></a> — Book storage for Corpus Extendum — the public-domain library. Ten books, PDF + EPUB + text + records. No website here on purpose: Pages caps a site at 1 GB, and this vault is built to reach 2.5 GB.
 - <a href="https://github.com/drsamonline/DayDoc"><img src="assets/pills/daydoc.svg" height="24" alt="DayDoc"></a> — No description yet.
