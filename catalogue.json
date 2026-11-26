@@ -110,44 +110,40 @@
       "tag": ""
     },
     "app-argue": {
-      "description": "Forge app — offline, single-file, no account, no telemetry.",
-      "category": "other",
+      "description": "Practise being pushed back on — a counterparty with a hidden goal and a script, plus the strongest honest case against your own position.",
+      "category": "mind",
       "featured": false,
       "demo": true,
       "release": false,
       "kicker": "",
-      "tag": "",
-      "auto": true
+      "tag": ""
     },
     "app-attention": {
-      "description": "Forge app — offline, single-file, no account, no telemetry.",
-      "category": "other",
+      "description": "Run a focus session, log every interruption in one tap, and see where the drift actually happens — by hour and by label.",
+      "category": "mind",
       "featured": false,
       "demo": true,
       "release": false,
       "kicker": "",
-      "tag": "",
-      "auto": true
+      "tag": ""
     },
     "app-babel": {
-      "description": "Forge app — offline, single-file, no account, no telemetry.",
-      "category": "other",
+      "description": "A real-time bridge for sign language, on device.",
+      "category": "health",
       "featured": false,
       "demo": true,
       "release": false,
       "kicker": "",
-      "tag": "",
-      "auto": true
+      "tag": ""
     },
     "app-belief": {
-      "description": "Forge app — offline, single-file, no account, no telemetry.",
-      "category": "other",
+      "description": "Six mechanisms, six interactive demonstrations, and a map of how a story mutated as it was retold.",
+      "category": "mind",
       "featured": false,
       "demo": true,
       "release": false,
       "kicker": "",
-      "tag": "",
-      "auto": true
+      "tag": ""
     },
     "app-builder": {
       "description": "A shared build kit that compiles a static web app into a single-file portable Windows EXE and an Android WebView APK.",
@@ -159,34 +155,31 @@
       "tag": ""
     },
     "app-calm-room": {
-      "description": "Forge app — offline, single-file, no account, no telemetry.",
-      "category": "other",
+      "description": "A fire that burns down on its own, a place you can return to, and sand you can rake — nothing here asks anything of you.",
+      "category": "mind",
       "featured": false,
       "demo": true,
       "release": false,
       "kicker": "",
-      "tag": "",
-      "auto": true
+      "tag": ""
     },
     "app-carrier": {
-      "description": "Forge app — offline, single-file, no account, no telemetry.",
-      "category": "other",
+      "description": "Carry a message to someone who has no network.",
+      "category": "business",
       "featured": false,
       "demo": true,
       "release": false,
       "kicker": "",
-      "tag": "",
-      "auto": true
+      "tag": ""
     },
     "app-claim": {
-      "description": "Forge app — offline, single-file, no account, no telemetry.",
-      "category": "other",
+      "description": "Where a claim came from and how it travelled — it does not say whether the claim is true.",
+      "category": "learning",
       "featured": false,
       "demo": true,
       "release": false,
       "kicker": "",
-      "tag": "",
-      "auto": true
+      "tag": ""
     },
     "app-clip-loom": {
       "description": "Clip Loom — clipboard programs you can read: strip tracking, tidy text, keep what matters. Weft-8 on the Loom.",
@@ -207,34 +200,31 @@
       "tag": ""
     },
     "app-daily-doodle": {
-      "description": "Forge app — offline, single-file, no account, no telemetry.",
-      "category": "other",
+      "description": "A prompt a day, a drawing a day, no skill required.",
+      "category": "mind",
       "featured": false,
       "demo": true,
       "release": false,
       "kicker": "",
-      "tag": "",
-      "auto": true
+      "tag": ""
     },
     "app-decay": {
-      "description": "Forge app — offline, single-file, no account, no telemetry.",
-      "category": "other",
+      "description": "Notes with a life — they fire for a set number of days before you can act on them, grow with attention, and compost into a soil you can still search.",
+      "category": "business",
       "featured": false,
       "demo": true,
       "release": false,
       "kicker": "",
-      "tag": "",
-      "auto": true
+      "tag": ""
     },
     "app-doc-diff": {
-      "description": "Forge app — offline, single-file, no account, no telemetry.",
-      "category": "other",
+      "description": "Compare two documents and see exactly what changed, clause by clause.",
+      "category": "business",
       "featured": false,
       "demo": true,
       "release": false,
       "kicker": "",
-      "tag": "",
-      "auto": true
+      "tag": ""
     },
     "app-encrypted-case-log": {
       "description": "Per-patient clinical notes encrypted on the device with AES-256-GCM — offline, no account, no server.",
@@ -255,14 +245,13 @@
       "tag": ""
     },
     "app-esoteric": {
-      "description": "Forge app — offline, single-file, no account, no telemetry.",
-      "category": "other",
+      "description": "Look up a symbol, its traditions and its sources.",
+      "category": "learning",
       "featured": false,
       "demo": true,
       "release": false,
       "kicker": "",
-      "tag": "",
-      "auto": true
+      "tag": ""
     },
     "app-field-kit": {
       "description": "Forge app — offline, single-file, no account, no telemetry.",
@@ -275,14 +264,13 @@
       "auto": true
     },
     "app-hearth": {
-      "description": "Forge app — offline, single-file, no account, no telemetry.",
-      "category": "other",
+      "description": "A smart home that never phones home.",
+      "category": "desktop",
       "featured": false,
       "demo": true,
       "release": false,
       "kicker": "",
-      "tag": "",
-      "auto": true
+      "tag": ""
     },
     "app-image-toolkit": {
       "description": "Compress, resize, convert and strip the GPS from photos on your own device — nothing uploaded, no account, works offline.",
@@ -312,44 +300,40 @@
       "tag": ""
     },
     "app-ledger": {
-      "description": "Forge app — offline, single-file, no account, no telemetry.",
-      "category": "other",
+      "description": "Real double-entry bookkeeping on this device — a transaction that does not balance cannot be saved.",
+      "category": "business",
       "featured": false,
       "demo": true,
       "release": false,
       "kicker": "",
-      "tag": "",
-      "auto": true
+      "tag": ""
     },
     "app-mail-merge": {
-      "description": "Forge app — offline, single-file, no account, no telemetry.",
-      "category": "other",
+      "description": "One sheet, one template — a personalised message prepared for every row and handed to you to send.",
+      "category": "business",
       "featured": false,
       "demo": true,
       "release": false,
       "kicker": "",
-      "tag": "",
-      "auto": true
+      "tag": ""
     },
     "app-memory": {
-      "description": "Forge app — offline, single-file, no account, no telemetry.",
-      "category": "other",
+      "description": "Keep the day, privately — encrypted at rest with a key only you hold, and the export is the only way out.",
+      "category": "mind",
       "featured": false,
       "demo": true,
       "release": false,
       "kicker": "",
-      "tag": "",
-      "auto": true
+      "tag": ""
     },
     "app-memory-palace": {
-      "description": "Forge app — offline, single-file, no account, no telemetry.",
-      "category": "other",
+      "description": "Teaches a memory technique by making you use it, not by explaining it.",
+      "category": "mind",
       "featured": false,
       "demo": true,
       "release": false,
       "kicker": "",
-      "tag": "",
-      "auto": true
+      "tag": ""
     },
     "app-mind-kit": {
       "description": "Forge app — offline, single-file, no account, no telemetry.",
@@ -362,44 +346,40 @@
       "auto": true
     },
     "app-minutes": {
-      "description": "Forge app — offline, single-file, no account, no telemetry.",
-      "category": "other",
+      "description": "Decisions and actions separated as you type, so the follow-up list exists before the meeting ends.",
+      "category": "business",
       "featured": false,
       "demo": true,
       "release": false,
       "kicker": "",
-      "tag": "",
-      "auto": true
+      "tag": ""
     },
     "app-monitor": {
-      "description": "Forge app — offline, single-file, no account, no telemetry.",
-      "category": "other",
+      "description": "Collect pages into a searchable local archive.",
+      "category": "desktop",
       "featured": false,
       "demo": true,
       "release": false,
       "kicker": "",
-      "tag": "",
-      "auto": true
+      "tag": ""
     },
     "app-nearby": {
-      "description": "Forge app — offline, single-file, no account, no telemetry.",
-      "category": "other",
+      "description": "Find the people you came with, inside a venue.",
+      "category": "business",
       "featured": false,
       "demo": true,
       "release": false,
       "kicker": "",
-      "tag": "",
-      "auto": true
+      "tag": ""
     },
     "app-nest": {
-      "description": "Forge app — offline, single-file, no account, no telemetry.",
-      "category": "other",
+      "description": "Run a household over the LAN — shopping, chores, who is home.",
+      "category": "business",
       "featured": false,
       "demo": true,
       "release": false,
       "kicker": "",
-      "tag": "",
-      "auto": true
+      "tag": ""
     },
     "app-opd-register": {
       "description": "A daily OPD register for multi-location clinics — month register, dashboard, day-wise statistics, print and Excel. Offline, no account, no server.",
@@ -412,24 +392,22 @@
       "auto": true
     },
     "app-open-when-bad": {
-      "description": "Forge app — offline, single-file, no account, no telemetry.",
-      "category": "other",
+      "description": "One grounding step at a time, and the plan you wrote in a calm moment — one action away, offline.",
+      "category": "mind",
       "featured": false,
       "demo": true,
       "release": false,
       "kicker": "",
-      "tag": "",
-      "auto": true
+      "tag": ""
     },
     "app-oracle": {
-      "description": "Forge app — offline, single-file, no account, no telemetry.",
-      "category": "other",
+      "description": "A compliment built from one real detail you supply, and a myth invented from what a photograph actually shows.",
+      "category": "mind",
       "featured": false,
       "demo": true,
       "release": false,
       "kicker": "",
-      "tag": "",
-      "auto": true
+      "tag": ""
     },
     "app-organon-reader": {
       "description": "An offline reader for the Organon of Medicine, sixth edition, in the 1922 Boericke translation — full-text search, bookmarks and notes, no network.",
@@ -441,14 +419,13 @@
       "tag": ""
     },
     "app-palimpsest": {
-      "description": "Forge app — offline, single-file, no account, no telemetry.",
-      "category": "other",
+      "description": "A journal that overwrites itself.",
+      "category": "mind",
       "featured": false,
       "demo": true,
       "release": false,
       "kicker": "",
-      "tag": "",
-      "auto": true
+      "tag": ""
     },
     "app-panchang": {
       "description": "A daily Indian almanac — tithi, nakshatra, yoga, karana, rahu-kaal and muhurat, computed offline.",
@@ -460,24 +437,22 @@
       "tag": ""
     },
     "app-pantry": {
-      "description": "Forge app — offline, single-file, no account, no telemetry.",
-      "category": "other",
+      "description": "What you have, what goes first, what to buy — expiry is the order the shelf is in, not a column.",
+      "category": "business",
       "featured": false,
       "demo": true,
       "release": false,
       "kicker": "",
-      "tag": "",
-      "auto": true
+      "tag": ""
     },
     "app-paperwork": {
-      "description": "Forge app — offline, single-file, no account, no telemetry.",
-      "category": "other",
+      "description": "Read the notice, see what it asks for, check whether you likely qualify, then fill the form from your own answers.",
+      "category": "business",
       "featured": false,
       "demo": true,
       "release": false,
       "kicker": "",
-      "tag": "",
-      "auto": true
+      "tag": ""
     },
     "app-poets-studio": {
       "description": "Rhyme, metre and fixed forms, fully offline — a poetry workshop that measures what you wrote, with 124,085 words bundled.",
@@ -489,64 +464,58 @@
       "tag": ""
     },
     "app-quorum": {
-      "description": "Forge app — offline, single-file, no account, no telemetry.",
-      "category": "other",
+      "description": "Group decisions you can prove, with no server.",
+      "category": "business",
       "featured": false,
       "demo": true,
       "release": false,
       "kicker": "",
-      "tag": "",
-      "auto": true
+      "tag": ""
     },
     "app-rally": {
-      "description": "Forge app — offline, single-file, no account, no telemetry.",
-      "category": "other",
+      "description": "Party games for everyone in the room.",
+      "category": "games",
       "featured": false,
       "demo": true,
       "release": false,
       "kicker": "",
-      "tag": "",
-      "auto": true
+      "tag": ""
     },
     "app-repair": {
-      "description": "Forge app — offline, single-file, no account, no telemetry.",
-      "category": "other",
+      "description": "From the model number on the appliance to its repair guide and its parts, and whether this is a repair to attempt.",
+      "category": "learning",
       "featured": false,
       "demo": true,
       "release": false,
       "kicker": "",
-      "tag": "",
-      "auto": true
+      "tag": ""
     },
     "app-rota": {
-      "description": "Forge app — offline, single-file, no account, no telemetry.",
-      "category": "other",
+      "description": "Build the rota, catch the clashes, see the load, print it — no pay is calculated.",
+      "category": "business",
       "featured": false,
       "demo": true,
       "release": false,
       "kicker": "",
-      "tag": "",
-      "auto": true
+      "tag": ""
     },
     "app-semaphore": {
-      "description": "Forge app — offline, single-file, no account, no telemetry.",
-      "category": "other",
+      "description": "Messaging that works when the internet is down.",
+      "category": "business",
       "featured": false,
       "demo": true,
       "release": false,
       "kicker": "",
-      "tag": "",
-      "auto": true
+      "tag": ""
     },
     "app-stethoscope": {
-      "description": "Forge app — offline, single-file, no account, no telemetry.",
-      "category": "other",
+      "description": "Diagnose machines by their sound.",
+      "category": "desktop",
       "featured": false,
       "demo": true,
       "release": false,
       "kicker": "",
-      "tag": "",
-      "auto": true
+      "tag": ""
     },
     "app-story-engine": {
       "description": "A book the reader moves through: choices, carried state, and a trail of where you have been. Offline, no accounts.",
@@ -569,24 +538,22 @@
       "auto": true
     },
     "app-sundial": {
-      "description": "Forge app — offline, single-file, no account, no telemetry.",
-      "category": "other",
+      "description": "A calendar you schedule by drawing shadows.",
+      "category": "business",
       "featured": false,
       "demo": true,
       "release": false,
       "kicker": "",
-      "tag": "",
-      "auto": true
+      "tag": ""
     },
     "app-symbiote": {
-      "description": "Forge app — offline, single-file, no account, no telemetry.",
-      "category": "other",
+      "description": "An AI companion you owe something to, on device.",
+      "category": "mind",
       "featured": false,
       "demo": true,
       "release": false,
       "kicker": "",
-      "tag": "",
-      "auto": true
+      "tag": ""
     },
     "app-thermals": {
       "description": "Homoeopathic remedies by thermal reaction — what each classical source actually says, quoted in its own words with the source named, and where the sources do not say the same thing. Offline, no accounts.",
@@ -599,14 +566,13 @@
       "auto": true
     },
     "app-voice": {
-      "description": "Forge app — offline, single-file, no account, no telemetry.",
-      "category": "other",
+      "description": "An elder's own words, kept and printed as they were given — and your written voice, measured so a draft stays inside it.",
+      "category": "health",
       "featured": false,
       "demo": true,
       "release": false,
       "kicker": "",
-      "tag": "",
-      "auto": true
+      "tag": ""
     },
     "app-weft-puzzles": {
       "description": "Weft Puzzles — small programming puzzles you solve in Weft-8 assembly, on the machine from Jacquard.",
@@ -753,14 +719,13 @@
       "tag": ""
     },
     "Cobble": {
-      "description": "To cobble is to make a thing from whatever is at hand; a cobble is the stone underfoot on a street laid one stone at a time. Both halves are the app — a city assembled from scraps of noticing, built by accumulation. A city made of small things, with \"your life, taking shape\"",
-      "category": "other",
+      "description": "A city made of small things — save a moment you noticed and a building appears; colour is the kind of moment, height is how much it mattered.",
+      "category": "mind",
       "featured": false,
       "demo": true,
       "release": false,
       "kicker": "",
-      "tag": "",
-      "auto": true
+      "tag": ""
     },
     "code-kit": {
       "description": "QR encoding (versions 1-40, L/M/Q/H, all eight masks), a small syntax highlighter and copyable snippet blocks — one zero-dependency file.",
@@ -828,14 +793,13 @@
       "auto": true
     },
     "corpus-extendum-vault-01": {
-      "description": "Book storage for Corpus Extendum — the public-domain library. Ten books, PDF + EPUB + text + records. No website here on purpose: Pages caps a site at 1 GB, and this vault is built to reach 2.5 GB.",
-      "category": "other",
+      "description": "Book storage for Corpus Extendum — public-domain books as PDF, EPUB, text and records, built to reach 2.5 GB where a Pages site cannot.",
+      "category": "learning",
       "featured": false,
       "demo": false,
       "release": false,
       "kicker": "",
-      "tag": "",
-      "auto": true
+      "tag": ""
     },
     "crypto-kit": {
       "description": "The shared crypto core: AES-256-GCM, PBKDF2 passphrase keys, sealed envelopes and one-time view, on Web Crypto.",
@@ -865,14 +829,13 @@
       "tag": ""
     },
     "DayDoc": {
-      "description": "No description yet.",
-      "category": "other",
+      "description": "Decision-first office notes — it stores decisions and treats notes as the evidence for them.",
+      "category": "business",
       "featured": false,
       "demo": false,
       "release": false,
       "kicker": "",
-      "tag": "",
-      "auto": true
+      "tag": ""
     },
     "eon-commando": {
       "description": "EON COMMANDO — a retro run-and-gun platformer in one self-contained HTML file: three eras, five weapons, three bosses, chiptune audio. No dependencies, works offline.",
@@ -894,14 +857,13 @@
       "tag": ""
     },
     "faztest-fast-file-forge": {
-      "description": "A Brotli front end for files you would rather not upload: compress and decompress in the browse",
-      "category": "other",
+      "description": "A Brotli front end for files you would rather not upload — compress and decompress in the browser.",
+      "category": "desktop",
       "featured": false,
       "demo": true,
       "release": false,
       "kicker": "",
-      "tag": "",
-      "auto": true
+      "tag": ""
     },
     "feather": {
       "description": "A read-only document viewer that opens before you blink — small, portable, cross-platform, summoned by a keystroke.",
@@ -977,14 +939,13 @@
       "tag": ""
     },
     "Hellgate": {
-      "description": "Description A Doom-style 2.5D arena FPS in the browser — procedural sector maps, three weapons, zero external assets. Built with Three.js.",
-      "category": "other",
+      "description": "A Doom-style 2.5D arena shooter in a browser tab — procedural sector maps, three weapons, zero external assets.",
+      "category": "games",
       "featured": false,
       "demo": true,
       "release": false,
       "kicker": "",
-      "tag": "",
-      "auto": true
+      "tag": ""
     },
     "HMS": {
       "description": "HHMS — a LAN-based hospital management system purpose-built for homeopathic hospitals and clinics, with a server-owned database and no cloud lock-in.",
@@ -1023,14 +984,13 @@
       "tag": ""
     },
     "INDIA": {
-      "description": "Twenty-four Indian monuments rebuilt as live 3D miniatures in the browser — every dome and lattice screen generated in code with three.js. No photographs, no downloaded meshes, no build step.",
-      "category": "other",
+      "description": "Twenty-four Indian monuments rebuilt as live 3D miniatures in the browser — every dome and lattice screen generated in code, no photographs, no downloaded meshes.",
+      "category": "learning",
       "featured": false,
       "demo": true,
       "release": false,
       "kicker": "",
-      "tag": "",
-      "auto": true
+      "tag": ""
     },
     "KILN": {
       "description": "Spec in. Finished app out. A deterministic compiler for offline single-file apps — no model, no network, no dependencies.",
@@ -1437,14 +1397,13 @@
       "tag": ""
     },
     "savehorse": {
-      "description": "savehorse is a single Rust workspace that replaces a portfolio of twenty-two small Windows utilities with thirteen modules behind one command line — and, next, one desktop application. Each module keeps the name it had on its own.",
-      "category": "other",
+      "description": "Twenty-two small Windows utilities replaced by thirteen modules behind one command line, with one desktop application to follow.",
+      "category": "desktop",
       "featured": false,
       "demo": true,
       "release": false,
       "kicker": "",
-      "tag": "",
-      "auto": true
+      "tag": ""
     },
     "Scrap-and-Gun": {
       "description": "SCRAP & GUN — a retro pixel-art arena-defence shooter with tactical construction, escalating waves, persistent upgrades, roguelite drafts, bosses and local co-op.",
@@ -1520,24 +1479,22 @@
       "tag": ""
     },
     "sorex": {
-      "description": "A featherweight FLTK browser for machines the modern web forgot. Fork of Dillo, hardened for speed, scriptable from the shell. Tier 2 of the Aetheris browser family.",
-      "category": "other",
+      "description": "A featherweight FLTK browser for machines the modern web forgot — a hardened, shell-scriptable fork of Dillo.",
+      "category": "desktop",
       "featured": false,
       "demo": false,
       "release": false,
       "kicker": "",
-      "tag": "",
-      "auto": true
+      "tag": ""
     },
     "Sorta": {
-      "description": "No description yet.",
-      "category": "other",
+      "description": "An ultra-light, offline-first semantic document sorter — one binary, no service, no telemetry, no cloud; drop a file and it lands where you can predict.",
+      "category": "desktop",
       "featured": false,
       "demo": false,
       "release": false,
       "kicker": "",
-      "tag": "",
-      "auto": true
+      "tag": ""
     },
     "srs-kit": {
       "description": "Spaced repetition (SM-2) for flashcards — scheduling, lapses, due cards and stats.",
