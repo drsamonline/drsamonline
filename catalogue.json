@@ -1230,6 +1230,16 @@
       "kicker": "",
       "tag": ""
     },
+    "MyChrome": {
+      "description": "Portable browser launcher for Windows. Downloads a browser, unpacks it beside the executable and runs it with its own profile. No installer, no registry, no admin rights — delete the folder to uninstall.",
+      "category": "other",
+      "featured": false,
+      "demo": true,
+      "release": false,
+      "kicker": "",
+      "tag": "",
+      "auto": true
+    },
     "NEO": {
       "description": "NOVA — a statically typed, compiled systems programming language whose compiler lowers to C, JavaScript, Rust and WebAssembly.",
       "category": "desktop",

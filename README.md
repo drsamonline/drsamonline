@@ -297,6 +297,9 @@ shape it does.
 - <a href="https://drsamonline.github.io/profile-kit/"><img src="assets/pills/profile-kit.svg" height="24" alt="profile-kit"></a> — A small reusable kit for a theme-aware, self-updating GitHub profile — hero banner, metrics card and README generator.
 - <a href="https://drsamonline.github.io/skills/"><img src="assets/pills/skills.svg" height="24" alt="skills"></a> — Reusable, machine-consumable skills extracted from every drsamonline project — a categorised, self-updating catalogue.
 
+### <img src="assets/icons/other.svg" width="20" height="20" alt=""> Other / New <img src="assets/pills/count-other.svg" height="22" alt="1 projects">
+- <a href="https://drsamonline.github.io/MyChrome/"><img src="assets/pills/mychrome.svg" height="24" alt="MyChrome"></a> — Portable browser launcher for Windows. Downloads a browser, unpacks it beside the executable and runs it with its own profile. No installer, no registry, no admin rights — delete the folder to uninstall.
+
 <!-- PROJECTS:END -->
 
 <img src="assets/divider.svg" width="100%" alt="">
