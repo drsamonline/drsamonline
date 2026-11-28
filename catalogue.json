@@ -1295,6 +1295,16 @@
       "tag": "",
       "auto": true
     },
+    "NIDHI": {
+      "description": "A private record vault. Records, folders, tags and [[links]] between them — offline, no account, no server, no telemetry. Everything stays on the device you opened it on.",
+      "category": "mind",
+      "featured": false,
+      "demo": true,
+      "release": false,
+      "kicker": "",
+      "tag": "",
+      "auto": true
+    },
     "nodus": {
       "description": "One browser core, many faces. Fork of NetSurf rebuilt as a library with framebuffer, GTK, headless and text frontends. Tier 1 of the Aetheris browser family.",
       "category": "games",
